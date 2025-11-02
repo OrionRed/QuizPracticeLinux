@@ -1,0 +1,774 @@
+[
+  {
+    "Text": "What data formats can IntegrationHub parse ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Only XML responses",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Both XML and JSON responses",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Only JSON responses",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Using Integration Hub, you can parse XML and JSON responses from API calls without writing code."
+  },
+  {
+    "Text": "Task table is a \u0022___\u0022\u00A0 table. Fill in the blank with the right option.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Base",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Extended",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Custom",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Child",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Task [task] is one of the core tables provided with the base system. It provides a series of standard fields used on each of the tables that extend it, such as the Incident [incident] and Problem [problem] tables."
+  },
+  {
+    "Text": "What is the purpose of a formatter in ServiceNow instance ? Select one of the following.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Formatter allows you to populate fields automatically",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Formatter is a form element used to display information that is not a field in the record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A formatter allows you to configure applications on your instance",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Formatter is a set of conditions applied to a table to help find and work with data",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A formatter is a form element used to display information that is not a field in the record. Add formatters to a form by configuring the form.\nDocumentation -\u00A0https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/form-administration/concept/c_Formatters.html"
+  },
+  {
+    "Text": "On the ServiceNow instance. where does the global text search appear ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Content Area",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Left Navigation Pane",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Banner",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Global text search is the search box in the top right corner of ServiceNow instance(s). Global Text Search uses text indexes to search multiple ServiceNow tables in a single search."
+  },
+  {
+    "Text": "Which of the below is not a list interface element ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Title bar",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Column headings",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Gauge",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Gauges is not a list interface element\u00A0 but container for holding graphical content on dashboards and homepages in ServiceNow, but gauges are no longer supported."
+  },
+  {
+    "Text": "Which of the following is a best example of Contextual Security in ServiceNow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Contextual security is securing your data and record using create, read, write, delete functionality using Access Control List. Contextual security gives you controlling access on every level."
+  },
+  {
+    "Text": "Which protocol is used to send outbound emails from Service-now ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "IMAP",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "SMTP",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The ServiceNow application uses the ServiceNow SMTP server to process outbound email messages to users ([email\u0026#160;protected]). These messages are sent from the ServiceNow datacenter, routed as standard SMTP traffic to your primary mail exchanger (MX) server, and processed internally within the organization.\nDocumentation -\u00A0https://docs.servicenow.com/bundle/orlando-servicenow-platform/page/administer/reference-pages/concept/c_EmailConfiguration.html"
+  },
+  {
+    "Text": "A variable Set is a modular unit of variables that \u0022CAN BE\u0022 shared between catalog items. True or False ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Variable sets allow you to create a collection of structured variables that can be reused across multiple catalog items and order guides. Using variable sets saves time because you do not have to create the same variables individually for many catalog items."
+  },
+  {
+    "Text": "Which one of the statement below describes the relationship between the incident table and task table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The incident table is the parent of the task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The incident table extends the task table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The task table extends the incident table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The task table is the child of the incident table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which module in service catalog application is responsible for creating items ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Maintain items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Maintain dynamic categories",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Maintain category",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Items",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Maintain items is an application module that list few types of request items like catalog item, record producer, standard change templates, software catalog, hardware catalog etc. All of these are extended from the base sc_cat_item table and used for request fulfillment from your service catalog."
+  },
+  {
+    "Text": "Which of the following represent \u0022One-to-Many\u0022 relationship fields ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Relationship used to build SLA conditions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reference Fields. Glide List, and Document ID Fields",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Add users to groups that have been assigned the desired role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "SLA Definition, Task SLA, SLA Workflow, SLA Automation",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Two tables can have a bi-directional relationship, so that the related records are visible from both tables in a related list.\nReference fields, glide list and document_id are one to many relationship.\nRef - https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/managing-data/concept/c_DataManagement.html"
+  },
+  {
+    "Text": "Which technique is used to get information from a series of referenced fields from different tables ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record-Hopping",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dot-Walking",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Table-Walking",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Refer to\u00A0https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/navigation/reference/dot-walking-examples.html"
+  },
+  {
+    "Text": "Which of the below components runs on server side on ServiceNow instance ? Select all that apply.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "UI",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Script Include",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Here's a breakdown of which ServiceNow components run server-side:"
+  },
+  {
+    "Text": "Which OOB support will help you to avoid creating duplicates while importing data ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Transform Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Coalesce Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Transform Field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_id",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The coalesce option allows you to update existing target table records when transforming import data.\nIf an existing record with a matching value in the target table is found, that record is updated. If no matching record is found, then a new record is created in the target table."
+  },
+  {
+    "Text": "Which table stores information about CI relationship existing on a ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "cmdb_ci_item_rel",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmdb_rel_ci",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "cmdb_rel",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmdb_ci_rel",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The CI Relationship table in a ServiceNow instance is \"cmdb_rel_ci\""
+  },
+  {
+    "Text": "From the below options, please choose the correct definition of \u0022inactivity monitor\u0022 in ServiceNow instance.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It is used to enhance the system logs. It provides more information on the duration of transactions between the client and the server.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It triggers an event for a task record if the task is inactive for a certain period of time. If the task remains inactive, the monitor repeats at regular intervals.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct definition of an \"inactivity monitor\" in a ServiceNow instance is:"
+  },
+  {
+    "Text": "Can we coalesce multiple fields in a table for given transform map ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "No. Only 1 field per table can be coalesced",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Yes",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow allows you to coalesce against multiple fields, and use multiple transform maps against a single data source.\nIf multiple fields are set to coalesce, all coalesce values are used to match an existing record. If two fields are set for coalescing and a matching value is found on one of the coalescing fields but not on the other, a new record is inserted."
+  },
+  {
+    "Text": "Does ServiceNow support table rotation ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "No",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Yes",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Table rotation preserves instance performance and averts risk associated with querying growing data sets by using the External Communication Channel (ECC) Queue and the sys_created_on field to separate data sets into multiple tables based on date."
+  },
+  {
+    "Text": "Which of the following statements holds true for Service Catalog categories ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Users with the admin or catalog_admin roles can view categories only if there is an active item in the category and Availability is set to either Desktop or Both.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Users with the admin or cat_admin roles can view categories only if there is an active item in the category and Availability is set to either Desktop or Both.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/orlando-it-service-management/page/product/service-catalog-management/concept/c_ServiceCatalogCategories.html"
+  },
+  {
+    "Text": "What purpose does Client Transaction Time plugin serve in ServiceNow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It enables to log a message in ServiceNow.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It enhances the system logs by providing additional information about the durations of transactions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It delete client transactions details.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Documentation -\u00A0https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/time/reference/r_ClientTransactionTimings.html"
+  },
+  {
+    "Text": "Which of the following statement is true about Service-Now LDAP ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "ServiceNow LDAP has only read access to customers AD",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "ServiceNow LDAP has read and write access to customers AD",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Referance documentation -\u00A0https://docs.servicenow.com/bundle/orlando-platform-administration/page/integrate/ldap/concept/c_LDAPIntegration.html\nIt hereby states that integration uses a read-only connection that never writes to the LDAP directory. The integration only queries for information, and then updates its internal database accordingly."
+  },
+  {
+    "Text": "Which is the parent table for incident, problem, change in an ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sla",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "task",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "cmdb_ci",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmdb",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Tables Incident, Problem, Change are extended from Task table in ServiceNow. Task is the parent table in ServiceNow, so most of the fields on this forms are derived from the parent Task table itself."
+  },
+  {
+    "Text": "Which of the following is not an example of a UI action ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Form buttons",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List buttons",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Search",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Related links",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI actions include the buttons, links, and context menu items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities.\nAdministrators and users with the ui_action_admin role can define UI actions."
+  },
+  {
+    "Text": "What is the master table that contains a record for each table in the database?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_master_db table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_master_object table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_db_object table",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Table [sys_db_object] table contains a record for each table in the database.\nReferance -\u00A0https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/managing-data/concept/c_DataDictionaryTables.html"
+  },
+  {
+    "Text": "How are users related to roles or groups in an ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "One to One relationship",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Many to many relationship",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "One to Many relationship",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Many to one relationship",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Users can have multiple roles or be part of different groups so it is many to many relationship."
+  },
+  {
+    "Text": "Where are customizations done on ServiceNow instance stored ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_update_xml",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_update_set",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Update sets store both new and updated choice options as separate records in the Update Version\u00A0[sys_update_version]\u00A0and Customer Update\u00A0[sys_update_xml]\u00A0tables."
+  },
+  {
+    "Text": "_______ is used to join two tables. Fill in the blank with the correct option.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Database Views",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "GlideRecord",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Link Tables",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A database view defines table joins for reporting purposes.\nA number of useful database views are installed with the Database View plugin and the Database Views for Service Management plugin. These database views cover most metric reporting needs and greatly reduce the need to define new ones.\nFor example, a database view can join the Incident table to the Metric Definition and Metric Instance tables."
+  },
+  {
+    "Text": "Is it true that a variable set can be used in multiple catalog Items ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Yes. You can create a set of variables and add them to multiple catalog items and order guides for reuse. Roles required are either of catalog_admin, admin, catalog_editor, or catalog_manager.\nRef document - https://docs.servicenow.com/bundle/orlando-it-service-management/page/product/service-catalog-management/task/t_CreateAVariableSet.html"
+  },
+  {
+    "Text": "What defines conditions that are evaluated against users to determine which users can access Service Catalog items ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Palette Tabs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Criteria",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Tables and forms",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can apply several user criteria records to a single catalog item or category. In this situation, users match only one of these criteria records to have access."
+  },
+  {
+    "Text": "Use _____ to create reports by modify an existing report, or create a new report from scratch. Choose the right option from below.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Dependency Views",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Report_operator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Report Designer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Report Designer is ServiceNow\u2019s user interface for creating and editing reports. Users with a report role or the admin role can edit and save reports. The report roles are:\nreport_admin: manage reports\nreport_global: create global reports\nreport_group: create reports that belong to a group of which the user is a member\nreport_publisher: make reports available on a public page\nreport_scheduler: schedule a report to be delivered by email\nIn addition to the report roles, developers must have the right permissions to access the data for their reports."
+  },
+  {
+    "Text": "What is the sequence of conditions in a ServiceNow SLA definition ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Start, Hold, Halt",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Start, In Progress, Stop",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Begin, Hold, Halt",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Start, Pause, Stop",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "SLA conditions SLA conditions determine when a task SLA record is attached, paused, resumed, reset, canceled, and completed. On the SLA definition, you specify up to six conditions that are evaluated each time a task record is created or updated"
+  },
+  {
+    "Text": "Which one of the following statements is correct when referring to UI Actions ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Actions on the Task Table are not available to its extended tables.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Actions are only executed on the server.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditions can be specified to determine when a UI Action appears",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Actions cannot use scripts or be scripted.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can can Manage access to UI actions with conditions, roles, and views. You\u00A0can\u00A0include scripts in the\u00A0Condition\u00A0field of the\u00A0UI Action\u00A0form. The\u00A0condition\u00A0must evaluate to true for the action to\u00A0appear."
+  },
+  {
+    "Text": "For UI policy to be applied on all views, which among the following should be checked ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Condition",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Run Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On Load",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Global",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A UI policy needs to be global to be applied on all views."
+  },
+  {
+    "Text": "Which of the below role is required to manage UI policies ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Impersonator role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Specialized Administrator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "\u0022service_user\u0022 role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "\u0022itil\u0022",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "\u0022ui_policy_admin\u0022 role",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "With role \"ui_policy_admin\", you can use UI policies to make the number field on a form read-only, make the short description field mandatory, and hide other fields. Basic UI policies do not require any scripting, however for more advanced actions, use the Run scripts option.\nYou can also use client scripts to perform all of these actions, but for faster load times use UI policies when possible."
+  },
+  {
+    "Text": "Which role will a user require to initiate the setup of Agent Intelligence ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "security_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Admin or ml_admin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "agent_admin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Implement initial setup and configuration steps for Agent Intelligence to train a machine-learning (ML) algorithm to make predictions based on your past record data. Required roles are admin or ml_admin"
+  },
+  {
+    "Text": "Name the interface for building and enabling rich process automation capabilities known as flows",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Flow Designer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "ServiceNow Studio",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Formatters",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field Values",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Flow Designer is a Now Platform\u00AE feature for automating processes in a single design environment. Flow Designer lets process owners use natural language to automate approvals, tasks, notifications, and record operations without coding.\nYou can expand Flow Designer to communicate with external instances and third-party systems by requesting a separate subscription to\u00A0IntegrationHub."
+  }
+]

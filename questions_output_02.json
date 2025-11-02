@@ -1,0 +1,1062 @@
+[
+  {
+    "Text": "What CMDB table stores the basic attributes of all the configuration items?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Configuration File [cmdb_ci_config_file]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configuration Item [cmdb_ci]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CI Relationship [cmdb_rel_ci]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base Configuration Item [cmdb]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Configuration Item\u00A0[cmdb_ci]\u00A0table stores the basic attributes of all the configuration items.\nBase Configuration Item\u00A0[cmdb]\u00A0is the base CMDB table for non-IT CIs.\nCI Relationship\u00A0[cmdb_rel_ci]\u00A0contains CI relationship data.\nConfiguration File\u00A0[cmdb_ci_config_file]\u00A0is one of the CI types."
+  },
+  {
+    "Text": "What information does the System Dictionary contain?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The human-readable labels and language settings",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The definition for each table and column",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The language dictionary used for spell checking",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The information on how tables relate to each other",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The system dictionary is a table, called Dictionary Entry [sys_dictionary], that contains details for each table and the definition for every column on each table in an instance.Each row in the system dictionary represents either a table or a column in one of the tables. The system dictionary provides options for administrators to modify tables and fields, which in turn define lists and forms.Reference:\u00A0System Dictionary"
+  },
+  {
+    "Text": "Is it true that any user can have multiple roles but can only be part of single assignment group on ServiceNow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Any user profile created on a ServiceNow instance can have many roles and be part of multiple groups."
+  },
+  {
+    "Text": "An IT manager is responsible for the network and hardware assignment groups, each group contains 5 team members. These team members are working on many tasks, but the manager cannot see any tasks on the Service Desk \u003E My Groups Work List. What could explain this?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The manager is not a member of the network and hardware groups",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The manager is not a member of the service desk group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The assignment group manager field is empty",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The manager does not have the ITIL role",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "This situation is likely because the IT manager is not a member of the network and hardware assignment groups.The \"My Group Work List\" in ServiceNow displays tasks assigned to the current user\u0026#8216;s groups. If the IT manager is not a member of the network and hardware groups, they will not see any tasks assigned to those groups.To resolve this, the IT manager should be added as a member of the network and hardware assignment groups. This can be done by a user with administrative privileges in ServiceNow. Once the IT manager is added to the groups, they should be able to see tasks assigned to those groups in the \"My Group Work List\"."
+  },
+  {
+    "Text": "Which of the following is true of Service Catalog Items in relation to the Service Catalog?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "They provide options.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They run behind the scenes.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They are optional",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They are the building blocks.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Service Catalog Items are the building blocks to the Service Catalog.Reference:\u00A0Service Catalog"
+  },
+  {
+    "Text": "The MID Server enables communication and the movement of data between ServiceNow instance and external applications, data sources, and services.\nWhich table stores all related communication records in this regard ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "ECC Queue (cmdb_ci_queue) table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ECC Queue (ecc_queue) table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "ECC Queue (cmdb_ecc_queue) table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The External Communication Channel (ECC) Queue is a connection point between an instance and the MID Server. Jobs that the MID Server needs to perform are saved in this queue until the MID Server is ready to handle them.\nDocumentation - https://docs.servicenow.com/bundle/orlando-servicenow-platform/page/product/mid-server/concept/ecc-queue-mid-server.html#ecc-queue-mid-server"
+  },
+  {
+    "Text": "What is the path an Administrator could take to view the fulfillment stage task list for an order placed by a user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "REQ (Number)\u003ERITM (Number)\u003EPROCUREMENT (Number)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "RITM (Number)\u003EREQ (Number)\u003EPROCUREMENT (Number)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "REQ (Number)\u003ERITM (Number)\u003ETASK (Number)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FULFILLMENT (Number)\u003ERITM (Number)\u003ETASK (Number)",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "When adding a variable to a catalog item, what does an order field determine?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The order field displays the fulfillment priority value in calculating and presenting an expected delivery date",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The order field value is used to display the variable by price. The order is moreexpensive to less expensive",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The order field establishes the display order of the variables. Variables are listed by ascending order values.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The order field sets the availability of the variable item by graying the item if it is not available to, he ordered",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The orders are listed in terms of ascending order."
+  },
+  {
+    "Text": "Any ServiceNow user can impersonate other user on ServiceNow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Only Administator on ServiceNow instance can the ability to impersonate other users."
+  },
+  {
+    "Text": "You can limit Service Now instance access by IP ranges ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can limit Service Now instance access by IP ranges that can be defined in white listed IP fields."
+  },
+  {
+    "Text": "Two departments (HR onboarding and facilities) have come to you, asking for a way for employees to request event room setup services. The requirements are the same for the form and the task routing to the facilities assignment group.1) For HR, the item will be used primarily for the onboarding condition, for employees orientation sessions. 2) for facilities, the item will be used for anyone in the company who needs room setup services.However, both departments have their own service catalogs. what do you do, to support these requirements?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "create one catalog item for HR event room setup and one for facilities even room setup; then publish each to the appropriate catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "create one catalog item for event room setup; then publish to the parent catalogue, which is accessible to both HR and facilities",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "create one catalog item for event room setup; then use ACLs to control access",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "create one catalogue item for event room setup; then publish to both catalogs",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To support the requirements of both departments, you can create a new service catalog item for the event room setup services and make it available in both HR and facilities service catalogs.You can configure the item to have different descriptions, titles, and categories in each service catalog to match the needs of each department.Additionally, you can create different request templates for the HR and facilities service catalogs, which would allow each department to collect specific information relevant to their needs.Once a request is submitted, you can configure the task routing to assign the task to the facilities assignment group for both HR and facilities service catalog requests.Overall, this approach ensures that both departments have access to the event room setup service item while maintaining their own service catalogs with tailored descriptions and templates."
+  },
+  {
+    "Text": "What do you use in CMDB Workspace to verify the existence of actual IT infrastructure and applications that you own, systematically and in bulk?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Multisource Report Builder",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Graph Connectors",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Identification and Reconciliation Engine",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI Attestation",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "IntegrationHub ETL",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "CI Attestation\u00A0in CMDB Workspace is used to verify the existence of actual IT infrastructure and applications that you own, systematically and in bulk. As CIs are continuously ingested into the CMDB from various data sources, to ensure the integrity of the CMDB by removing any stale CIs associated with IT infrastructure or applications that no longer exist.\nWe can use the CMDB Data Manager to create an Attestation policy, specifying CIs that need to be attested and the attestation frequency. You can assign attestation tasks to users familiar with or who manage the CIs and who can attest or reject the IT infrastructure or applications that those CIs represent. Rejected CIs no longer needed can then be retired, archived, or deleted from the CMDB.\nUsers can see their assigned attestation tasks in the Attestation view when they log in to the CMDB Workspace and review and process those attestation tasks."
+  },
+  {
+    "Text": "Which module displays a list of tasks assigned to a user\u2019s group but not yet assigned to an individual user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "My Groups Work",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "My Teams Work",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "My Teams Tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "My Groups Tasks",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Is it true that you cannot revert update set versions ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can revert update set versions."
+  },
+  {
+    "Text": "What can agents do with the Sidebar feature in the Next Experience UI? (Choose 2)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Integrate with other Workspaces to display related records.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create, open and search for discussions about their work",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Communicate with the caller/requester directly",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Have real-time collaboration with others from a Workspace interaction-based record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Broadcast a text message or initiate a conference call with other agents",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Using Sidebar, agents can\u00A0have real-time collaboration with others\u00A0based around a Workspace task-based or interaction-based record. This allows agents to\u00A0create, open, and search for discussions about their work. These Sidebar discussions facilitate the exchange of information and knowledge to help resolve issues faster and with higher-quality outcomes.\nAn agent can initiate a group discussion from a task-based record or interaction-based record. The agent enters preliminary information and context for the discussion and adds subject matter experts to help.\nStarting discussion from interaction record"
+  },
+  {
+    "Text": "Which of the following operation is a record-type access control list that restricts access to reports based on a role?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "report_view",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "report_access",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "report_on",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "report_admin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The\u00A0report_view operation\u00A0is a record-type access control list (ACL) that restricts access to reports. Only users with one of the required roles can view reports containing the restricted resource.\nThere are two kinds of report_view access control lists (ACLs):\n1. report_view table ACLs, and\n2. report_view field ACLs.\nReport_view table ACLs prevent users from viewing report content based on the table specified in the ACL.\nReport_view field ACLs prevent users from viewing reports that use the field specified in the ACL in the group by, row, column or aggregation."
+  },
+  {
+    "Text": "Which one of the following statements is a recommendation from ServiceNow about Update Sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Use the Baseline Update Set to store the contents of items after they are changed the first time",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Before moving customizations from instance to instance with Update Sets, ensure that both instances are different versions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Once an Update Set is closed as \u201CComplete\u201C, change it back to \u201CIn Progress\u201C until it is applied to another instance",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Avoid using the Default Update set as an Update Set for moving customization from instance to instance",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The recommended practice from ServiceNow regarding Update Sets is to Avoid using the Default Update set as an Update Set for moving customization from instance to instance."
+  },
+  {
+    "Text": "What is the master table that contains a record for each table in the database?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "[sys_master_object]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "[sys_master_db]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "[sys object db]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "[sys_db_object]",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Tables [sys_db_object] table contains a record for each table in the database.Access the Tables list by navigating to\u00A0System Definition\u00A0\u003E\u00A0Tables. Administrators can create a custom table, add or modify columns in a searchable and sortable embedded list, and define the auto-number format."
+  },
+  {
+    "Text": "What details can you find in the import set record after running an import? (Choose 3)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Import Maps",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import Set API",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import Log",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Import Set Runs",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Concurrent Import Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import Set Rows",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "There are two ways to run or process an import set:\n1. Robust import set transformers:\u00A0Separate the transform and processing functions, providing a more flexible alternative to transform maps.\n2. Transform maps:\u00A0Legacy method to map data from an import set staging table to a single target table.\nAfter running the import, you can view the import history by navigating to the Import Set record and checking the tabs below the Related Links section:\nThe\u00A0Import Set Runs\u00A0tab provides\u00A0details about individual imports.\nThe\u00A0Import Set Rows\u00A0tab provides\u00A0details about rows included in the import set run.\nThe\u00A0Import Log\u00A0tab displays the logs for the import set. It shows when each log was created, its level, the log message, and the source of the log.\nImport set runs with a import set transformer"
+  },
+  {
+    "Text": "Which of the following statement describes the purpose of an Order Guide?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Order Guide provides a list of guidelines for Administrators on how to set up item variables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guides take the user directly to the checkout without prompting for information",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guide restrict the number of items in an order to only one item per request",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guide provides the ability to order multiple, related items as one request",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Order guide submits a single service catalog request that generates several items.Order guides determine which catalog items to order by evaluating order guide rule conditions. Information the customer enters within the order guide can be passed as cascading variables to the ordered items, allowing common information to be reused across multiple items.Reference: Order Guide"
+  },
+  {
+    "Text": "Which one of the following statements describes the purpose of a Service Catalog workflow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A Service Catalog workflow generates three basic components: item variable types, tasks, and notifications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Service Catalog workflow generates three basic components. item variable types, tasks, and approvals",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Although a Service Catalog workflow cannot send notifications, the workflow drives complex fulfillment processes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Service Catalog workflow is used to drive complex fulfillment processes and sends notifications to defined users or groups",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Use the Graphical Workflow Editor to create service catalog workflows that drive catalog request fulfillment.After creating a workflow, attach it to any catalog item in the\u00A0Workflow reference\u00A0field on the item form.Creating a workflow involves:1. Defining the new workflow fields2. Defining workflow activities3. Publishing the new workflow"
+  },
+  {
+    "Text": "Which technique is used to get information from a series of referenced fields from different tables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Table-Walking",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sys ID Pulling",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dot-Walking",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Record-Hopping",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Dot-walking provides access to fields on related tables from a form, list, or script.If the current table contains a reference to another table, any field on the referenced table can be accessed using dot-walking."
+  },
+  {
+    "Text": "Which knowledge feedback option CANNOT be disabled at the knowledge base level?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Marking as helpful",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Commenting",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of them can be disabled",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Flagging",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Rating",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can submit feedback for knowledge articles in these ways:\nFlag an article as incorrect or inappropriate.\nProvide a rating value for the article.\nMark an article as helpful or not helpful.\nView comments, add a new comment, or reply to existing comments.\nAll of the above knowledge feedback options can be disabled at the knowledge base level.\nIf \u2018Disable Suggesting\u2019 is checked at the Knowledge Base level, the \u2018Flag Article\u2019 button does not appear for any articles belonging to that knowledge base.\nIf the \u2018Disable rating\u2019 is checked at the Knowledge Base level, the star rating option does not appear for any articles belonging to that knowledge base.\nIf the \u2018Disable Mark as helpful\u2019 is checked at the Knowledge Base level, the \u2018Mark as helpful\u2019 option does not appear for any articles belonging to that knowledge base.\nIf the \u2018Disable commenting\u2019 is checked at the Knowledge Base level, writing comments to an article is disabled for all articles belonging to that knowledge base."
+  },
+  {
+    "Text": "Buttons, form links and context menu items are example of what type of functionality?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Action",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client Script",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI actions include the buttons, links, and context menu items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities.Administrators and users with the ui_action_admin role can define UI actions."
+  },
+  {
+    "Text": "What is the name of the conversational bot platform that provides assistance to help users obtain information, make decisions, and perform common tasks?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Virtual Agent",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Live Feed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Answer Agent",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Connect Chat",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow Virtual Agent is a platform for providing user assistance through conversations within a messaging interface. Use ServiceNow Virtual Agent to design and build automated conversations that help your users quickly obtain information, make decisions, and perform common work tasks."
+  },
+  {
+    "Text": "For Administrators creating new Service Catalog items, what is the characteristic they should know about Service Catalog variables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Catalog variables can only be used in Record Producers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog variables cannot affect the order price",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog variables can only be used in Order Guides",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog variables are global by default",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Global\u00A0: An option to show the variable in all catalog tasks within service catalog workflows or execution plans by default. The variable must be attached to individual catalog tasks if this option is not selected.Reference:\u00A0Service Catalog variable"
+  },
+  {
+    "Text": "When using the Load Data and Transform Map process, what is the Mapping Assist used for?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Mapping fields using Transform History",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mapping fields using the Import Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mapping fields using an SLA",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mapping fields using a Field Map",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can map fields in a number of ways depending on the circumstances of the import and whether data must be transformed prior to loading onto a production table.Field maps establish a relationship between a field in an import set table and a field in the target table."
+  },
+  {
+    "Text": "Which of the following can be customized through the Basic Configuration UI 16 module? (Choose three)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Record Number Format",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Date Format",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Banner Image",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Browser Tab Title",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Form Header Size",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The Basic Configuration UI16 module to brand your instance with your company logo and colors and set basic system defaults. This place is the best starting point if you are setting up your instance for the first time or if you have recently enabled UI16.Navigate to\u00A0System Properties\u00A0\u003E\u00A0Basic Configuration UI16.Customization can be made to Banner Image, System Date Format, Browser Tab Title, etc"
+  },
+  {
+    "Text": "Which term best describes something that is created, has worked performed upon it, and is eventually moved to a state of closed?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "workflow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "report",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "event",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "task",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A task is a specific type of record, controlled by the base class task. Within the platform, all ITIL processes are handled through tasks.Tasks are created by users who are requesting the task to be performed, and are then updated as the task moves along the workflow. A task is created, work is performed upon it, and eventually it moves to a resolved state. Tasks allow users to request tasks, and track how they are being fulfilled by the appropriate parties. Tasks can be assigned to specific users or user groups. Many tasks are extended by child classes, such as Incident or Change."
+  },
+  {
+    "Text": "A knowledge article must be which of the following states to display",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Drafted",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Published",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Retired",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reviewed",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "When the state of an article changes to\u00A0Published, the state of any previous published versions of that article changes to\u00A0Outdated.Note:\u00A0After a knowledge article with an ownership group is approved, only the owner of a knowledge base and ownership group members have contribute access to the article."
+  },
+  {
+    "Text": "What will happen if you make the short description field on task table as mandatory at the dictionary level ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Nothing",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Short description will be mandated on incident table only",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Short description will be mandated on all the tables which are extending task table",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Child classes derive fields from parent classes. For example, the Incident table derives fields from the Task table. Hence, short description will be mandated on all the tables which are extending task table.\nRef -\u00A0https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/table-administration/concept/table-extension-and-classes.html"
+  },
+  {
+    "Text": "What allows agents to initiate a group discussion from a Workspace task-based or interaction-based record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Help menu",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sidebar",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Connect Hub",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Virtual Agent",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Chatbot",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Using\u00A0Sidebar, agents can have real-time collaboration with others based around a Workspace task-based or interaction-based record. These Sidebar discussions facilitate the exchange of information and knowledge to help resolve issues faster and with higher-quality outcomes.\nAn agent can initiate a group discussion from a task-based record or interaction-based record. The agent enters preliminary information and context for the discussion and adds subject matter experts to help.\nSidebar is supported in these workspaces:\nCSM Configurable Workspace\nCSM Manager Workspace\nHR Agent Workspace\nITSM Manager Workspace\nVendor Management Workspace"
+  },
+  {
+    "Text": "Which of the following allows a user to edit field values in a list without opening the form?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Data Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Edit Menu",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List Editor",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The list editor allows you to edit field values directly from a list without navigating to a form."
+  },
+  {
+    "Text": "IntegrationHub enables execution of third-party APIs as a part of a flow. These integrations are referred to as:",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A connection",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An action",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An Integration step",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A spoke",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A spoke is a scoped application that includes Flow Designer or IntegrationHub actions or subflows. A spoke is a logical grouping of related actions, subflows, and supporting application files. Developers and Process Designers can reuse spoke logic in their own applications. IntegrationHub includes baseline spokes. Developers can obtain additional spokes from the ServiceNow Store, Share, or create their own."
+  },
+  {
+    "Text": "Which of the following statements is true when a new table is created by extending another table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The new table archives the parent table and assumed its roles in the database",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The new table inherits all of the Business Rules, Client Scripts, and UI Policies of the parent table, but none of the existing fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The new table inherits all of the fields, but does not inherit Access Control rules, Client Scripts, and UI Policies of the parent table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The new table inherits all of the fields of the parent table and can also contain new fields unique to itself",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "When you add new field to parent, that field will automatically be inherited by all child tables."
+  },
+  {
+    "Text": "A REQ number in the Service Catalog represents.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "the order number",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "the task to complete",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "the stage",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "the individual item in the order",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Reference:\u00A0Track a request"
+  },
+  {
+    "Text": "What are the different Schema relationship types that are supported for tables? (Choose 4)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Referenced by",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Referencing",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Depending",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Extending",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Extended by",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Depended by",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The four different Schema relationship types supported for tables are:\n1. Referenced by,\n2. Referencing,\n3. Extended by, and\n4. Extending."
+  },
+  {
+    "Text": "Which term refers to application menus and modules which you may want to access quickly and often?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Breadcrumb",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Bookmark",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tag",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Favorite",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Items you add as favourites appear in the favourites tab of the application navigator, which is represented by a star icon."
+  },
+  {
+    "Text": "How are Workflows moved between instances?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Workflows are moved using Application Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflow cannot be moved between instances",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflows are moved using Update Sets",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Workflows are moved using Transform Maps",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The system tracks workflows in update sets differently than other records because workflow information is stored across multiple tables.Changes made to a workflow version are not added to the update set until the\u00A0workflow is published, at which point the entire workflow is added into the update set."
+  },
+  {
+    "Text": "The baseline Service Catalog homepage contains links to which of the following components?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Order Guides, Catalog Items, and Workflows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guides, Item Variables, and Workflows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record Producers, Order Guides, and Catalog Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Record Producers, Order Guides, and tem Variables",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The homepage for a service catalog provides the primary front end for ordering items within that catalog. It contains links to Record Producers, Order Guides, and Catalog Items"
+  },
+  {
+    "Text": "There is a business requirement to restrict incident reporting to specific roles for better governance. The Development team decided to add a new access control (ACL), so only those roles can view the contents of the reports on the incident table.\nWhat access control operation should they use to allow this access on the incident table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "report_on",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "add_to_list",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "execute",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "report_view",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "read",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can secure access and view the reports in the dashboards using the improved report_view access control lists (ACLs).\nThe report_view operation is a record-type access control list (ACL) that restricts access to reports. Only users with one of the required roles can view reports containing the restricted resource.\nThere are two kinds of report_view access control lists (ACLs): report_view table ACLs and report_view field ACLs. report_view table ACLs prevent users from viewing report content based on the table specified in the ACL. report_view field ACLs prevent users from viewing reports that use the field specified in the ACL in the group by row, column or aggregation."
+  },
+  {
+    "Text": "Which one of the following statement is correct when referring to Ul Actions?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Action on the task table are not available to its extended tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Actions cannot use scripts or be scripted",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Actions are only executed on the server",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditions can be specified to be determined when a UI Action appears",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can include scripts in the Condition field of the UI Action form. The condition must evaluate to\u00A0true\u00A0for the action to appear."
+  },
+  {
+    "Text": "Which feature enables you to add related entries for Identification and Reconciliation Engine (IRE) identification rules?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "IntegrationHub ETL",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CMDB Data Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI Class Manager",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Graph connectors",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can use the\u00A0CI Class Manager\u00A0to add related entries for IRE identification rules.Identification rules are used to uniquely identify CIs in the CMDB as part of the identification and reconciliation process. Each CMDB class can be associated with a single identification rule.Reference:\u00A0Create or edit a CI identification rule"
+  },
+  {
+    "Text": "Which feature enables you to maintain a unified content categorization across different content types, such as catalogue items, knowledge articles, and community posts?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Knowledge Block",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Social Q\u0026A",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Criteria",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record Producer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Taxonomy",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The\u00A0taxonomy feature\u00A0enables you to link an article to one or more topics from multiple taxonomies. It also helps you maintain a unified content categorisation across content types such as catalogue items, knowledge articles, and community posts.\nContent Taxonomy\u00A0is the application that provides the data model or the topic hierarchy and the taxonomy management (content authoring) capabilities for the unified taxonomy. The content types mapped by default are requests, articles, quick links, and employee communications. Once the plugin is downloaded, this mapping will be visible as part of the content taxonomy app in the platform."
+  }
+]

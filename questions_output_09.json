@@ -1,0 +1,1306 @@
+[
+  {
+    "Text": "To access knowledge articles without login, the knowledge article must be?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Set to public",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Set to review",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Set to Private",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Set to retire",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Set to public"
+  },
+  {
+    "Text": "Incident, Problem tables inherit which table",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Problem Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Task Table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incident Table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Task Table"
+  },
+  {
+    "Text": "What can you do with a service catalog item once it's built?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Publish it in the service catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Group in an order guide",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Show users questions and choices",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. All of the above"
+  },
+  {
+    "Text": "What are variables in regards with Service Catalog?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "They define the items in service catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They define the questions to ask to end user while ordering catalog items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "They define the rules of order guide",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. They define the questions to ask to end user while ordering catalog items"
+  },
+  {
+    "Text": "Which of the following is not a field?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Duration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Split",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Suggestion",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Split"
+  },
+  {
+    "Text": "What do requesters see when they go to the service catalog?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Homepage",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-service items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "News",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Self-service items"
+  },
+  {
+    "Text": "Where do you change the banner of the application?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Order it from Service Catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmn_location",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Navigator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Properties and in CSS Properties",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. System Properties and in CSS Properties"
+  },
+  {
+    "Text": "If the Default update set is marked complete:",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The changes are tracked in the user\u0027s current update set.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The system creates another update set named Default1 and uses it as the default update set.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The instance fails.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The default update set cannot be marked completed.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Where would you go to see if an admin impersonated another user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base Class",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Log",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User Administration",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. System Log"
+  },
+  {
+    "Text": "Regarding update sets, Customer updates/payload is stored in _ table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "update_set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_update_xml",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_customer_update",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. sys_update_xml"
+  },
+  {
+    "Text": "ACL is part of which security?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Physical Security",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "General Security",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Compliance Security",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Contextual Security",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Contextual Security"
+  },
+  {
+    "Text": "_ can be used to join two tables.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Link Tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Database Views",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Views",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Which of the following gets automatically captured in an update set?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Table, forms, data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table, schedules, forms",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tables, forms, views",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Tables, lists, data",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Tables, forms, views"
+  },
+  {
+    "Text": "Which of the following modules are available to ITIL users by default?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Incident, Problem, Change",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-Service, Knowledge, Change",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Time Cards, Reports, Knowledge",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident, Problem, Change, Service Catalog",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Incident, Problem, Change, Service Catalog"
+  },
+  {
+    "Text": "How do you get to the categories on an incident and other table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Go to system definition \u003E choice list",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "In the task SLA form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base Class",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Go to social it \u003E feed administration \u003E messages",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Go to system definition \u0026gt; choice list"
+  },
+  {
+    "Text": "A new group has been created to access service catalog requests however the group members are not able to access it. What is the BEST practice that should be followed to make sure the group members are able to access the requests?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Assign catalog role to the group and then add users to the group",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Assign catalog role to individual users and then add them to the group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assign catalog role to individual users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assign catalog role to individual users and to the group",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Assign catalog role to the group and then add users to the group"
+  },
+  {
+    "Text": "Which feature helps you in testing what another user sees in the instance without logging in with the user credentials?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Elevate Role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Impersonate",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Escalate",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Impersonate"
+  },
+  {
+    "Text": "What is a piece of JavaScript configured to run when a record is displayed, inserted, updated, deleted, or when a table is queried?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Notifications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Access Controls Lists",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Business Rule"
+  },
+  {
+    "Text": "UI Policy runs on",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Client Side",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Server Side",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Server and Client Side",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "What is SLM",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Line Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Server Limit Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Level Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Service Level Management"
+  },
+  {
+    "Text": "In Knowledge Base, articles are grouped by",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Contents",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Categories",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Catalogs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Categories"
+  },
+  {
+    "Text": "Each record in a table corresponds to:",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Column",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Row",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Row"
+  },
+  {
+    "Text": "The base table of \u0022Change\u0022 table is:",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Problem Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Task Table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Core Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident Table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Task Table"
+  },
+  {
+    "Text": "A Schema Map Displays which of the following: (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Incidents",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Extended Tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Task Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Extending Tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Workflows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reference Table",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Answer: B. Extended Tables, D. Extending Tables, F. Reference Table"
+  },
+  {
+    "Text": "Where can we create SLAs, OLAs and Underpinning Contracts?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Incident",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Level Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Configuration Management",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Service Level Management"
+  },
+  {
+    "Text": "How can we avoid creating duplicates while importing data",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_id",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Transform Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Coalesce Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Transform Field",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "An ACL is _ type of security",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Contextual",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Barrier",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Compliance",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Physical",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Contextual"
+  },
+  {
+    "Text": "Users cannot read, write, create, or delete data unless access controls are in place to explicitly allow those actions.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE"
+  },
+  {
+    "Text": "Which among the following is correct regarding access control list",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Rule which have more roles will get the precedence",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The row level and field level rule both should be active before required operation should takes place",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "For more than one rule, older one runs first",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. The row level and field level rule both should be active before required operation should takes place"
+  },
+  {
+    "Text": "Which of the following is an example of custom table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Project",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Custom",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "u_incident",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: D. u_incident"
+  },
+  {
+    "Text": "Which application menu is used in capturing and moving changes from one instance to other?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Update Set",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Import Set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Change",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. Update Set"
+  },
+  {
+    "Text": "What does the banner frame contain?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Logo and global navigation control",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Task [task] and configuration item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-service items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It is one set of table fields",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. Logo and global navigation control"
+  },
+  {
+    "Text": "All workflows absolutely must have a beginning and an end.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE"
+  },
+  {
+    "Text": "Where can you find the response time indicator?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Any form that has the know icon: Ess self-service; itil users can get it through self-service and service desk; admins and knowledge managers have additional ability with other modules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "In the right hand corner of forms and lists",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It\u0027s the filter views (i.e., when you run a report); the more you add the longer it gets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "What is being secured (row or table) and the rights to it",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: B. In the right-hand corner of forms and lists"
+  },
+  {
+    "Text": "What provides a guide for moving data from import sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Transform Maps",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Coalesce Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Source",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business Rules",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Transform Maps"
+  },
+  {
+    "Text": "Which of the following are captured in update set: (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Group Creation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident Creation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field Creation",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Table Creation",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Correct Options:"
+  },
+  {
+    "Text": "Only _ update sets can be exported",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "In Progress",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Full",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Ignore",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Completed",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Completed"
+  },
+  {
+    "Text": "Basic Knowledge publishing workflow stages are?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Start \u003E Process \u003E End",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Created \u003E Reviewed \u003EDeployed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Draft \u003E Review \u003E Published \u003E Retire",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: C. Draft \u0026gt; Review \u0026gt; Published \u0026gt; Retire"
+  },
+  {
+    "Text": "What tables can't be deleted?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Semaphores control the number of user transactions that can be run in parallel. It makes sure there aren\u0027t too many things running at once",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approvals, conditions, notifications, tasks, timers, utilities",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "To automate a sequence of activities",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base tables, e.g., task, cmdb_ci",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: D. Base tables, e.g., task, cmdb_ci"
+  },
+  {
+    "Text": "What is an order Guide",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A type of catalog Item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An order guide provides the ability to order multiple related items as one request",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A documentation guide which helps in ordering items",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. An order guide provides the ability to order multiple related items as one request"
+  },
+  {
+    "Text": "Select Correct statements: (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Metric is used to measure and evaluate the effectiveness of ITSM process",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Metric can gather data as the data is updated",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Metric measures data over time to show past history",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Metric definition provides a declarative way of defining metrics and once defined, the data for the metric is gathered and occurences of the metric are calculated and stored",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Metric is used to measure and evaluate the effectiveness of ITSM process\nThis option is\u00A0correct. Metrics in ServiceNow are indeed used to measure and evaluate the effectiveness of IT Service Management (ITSM) processes. They provide insights into performance, allowing organizations to assess how well their IT services are functioning and where improvements can be made."
+  },
+  {
+    "Text": "What is the sequence of conditions in an SLA definition?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Start, Hold, Halt",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Start, In Progress, Stop",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Begin, Hold, Halt",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Start, Pause, Stop",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Start, Pause, Stop"
+  },
+  {
+    "Text": "How to manage record numbering (like INC0000001)",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Definition \u003E Number maintenance",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Number field \u003E Number",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Numbers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A. System Definition \u0026gt; Number maintenance\nThis option is\u00A0correct. The \"Number Maintenance\" feature in ServiceNow allows administrators to manage and configure the number series for various records, including incidents. Through this interface, you can define how numbers are generated, set prefixes, and manage the incrementing of numbers, ensuring that each new record receives a unique identifier in the specified format."
+  },
+  {
+    "Text": "A role cannot contain any other role?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "FALSE"
+  },
+  {
+    "Text": "What is related to High Security Plugin in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Impersonation feature",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "security_admin role for elevated privilege",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: B. security_admin role for elevated privilege"
+  },
+  {
+    "Text": "Banner Color can be personalized from?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Not Possible",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Themes section",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Navigation Pane",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Developer Section",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: B. Themes section"
+  },
+  {
+    "Text": "What is the search engine used while doing the global search in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Zing",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Zenn",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Google Search",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "TRX",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. Zing"
+  },
+  {
+    "Text": "ServiceNow automatically provides numbers for which tables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Incident, Problem",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident, Change, Knowledge",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident, Problem, Request",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: D. All of the above"
+  },
+  {
+    "Text": "task table is a _ table",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Custom",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Child",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Extended",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Base"
+  },
+  {
+    "Text": "What is a Workflow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Can manage all form and list Changes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It\u0027s a virtual representation of activities consisting of connected steps planned out in a sequential manner",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Its a static representation of activities of connected steps planned out in a chronological manner, which cannot be change or modified",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. It's a virtual representation of activities consisting of connected steps planned out in a sequential manner"
+  },
+  {
+    "Text": "What's an example of a CI?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Computer, Software Contract, Business Service (tangible and intangible)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog records (an alternative to lists and forms)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "an automation block such as approvals, conditions, notifications, tasks, timers and utilities",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A role with special permissions during the logon session.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Computer, Software Contract, Business Service (tangible and intangible)"
+  },
+  {
+    "Text": "How do you change the sort sequence of fields or tasks?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Modify the order field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Arrange in Alphabetical Order",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Modify Field Types",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Variable Set",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Modify the order field"
+  },
+  {
+    "Text": "How are referenced fields identified in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "From Base Class",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "From Blue Book",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "From Reference lookup Icon",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. From Reference lookup Icon"
+  },
+  {
+    "Text": "What is a Workflow primarily used for?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "To order catalog items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "To schedule reports",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "To automate a sequence of activities",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "To send email notifications",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. To automate a sequence of activities"
+  },
+  {
+    "Text": "Which of the following belongs to Service Catalog? (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Catalog Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Record Producers",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Variables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Change tasks",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Answer: A. Catalog Items, B. Record Producers, C. Variables"
+  },
+  {
+    "Text": "What is a schema map?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It\u0027s JavaScript configured to run when a record is displayed, inserted, updated, deleted, or when a table is queried",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It\u0027s a gear icon located in top left hand side every list. It allows you to add columns (via slush bucket) to the current list you are on",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Graphical representation that shows the referenced, referencing, extended, and extending tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Graphical representation that shows the referenced, referencing, extended, and extending tables"
+  }
+]

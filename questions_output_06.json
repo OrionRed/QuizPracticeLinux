@@ -1,0 +1,1182 @@
+[
+  {
+    "Text": "Which of the following is a set of tables containing assets and business services controlled by a company?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Servers List",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI List",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assets List",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CMDB",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most accurate answer for a set of tables containing assets and business services controlled by a company in ServiceNow is:"
+  },
+  {
+    "Text": "Which of the following are valid options in the \"When\" field in the business rule form? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Sync",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Before",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Display",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "After",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "In Parallel",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Async",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "All the valid options for the \"When\" field in the business rule form in ServiceNow:"
+  },
+  {
+    "Text": "Which of the following statements best describes the Dependency View?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Dependency Views display all the configuration items that can be impacted by a change",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dependency Views display all the incidents that are linked to a change",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dependency views display a list of all configuration items in a CMDB",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dependency Views display the configuration items and the business services that it is part of and that it supports",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most accurate description of a Dependency View in ServiceNow:"
+  },
+  {
+    "Text": "The disadvantage of enabling the virtual agent is that some users would prefer to speak to a human agent",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The user can always switch to speak to a human agent (when available) even when the virtual agent is enabled"
+  },
+  {
+    "Text": "How to make a notification subscribable?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Select the checkbox \"Allow personalization\" in the notification form.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Select the \"Subscribable\" checkbox in the notification form",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "All members of groups that is specified in the \"Who will receive\" can subscribe to the notifications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Change the notification privacy type to \"Public\"",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "There is nothing that you need to do. All notifications are subscribable by default.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, you can make a notification subscribable by selecting the \"Subscribable\" checkbox in the notification form ."
+  },
+  {
+    "Text": "Which of the following contains Flow Designer triggers and actions dedicated to a particular application?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Trigger Package",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Flow Triggers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Automated Triggers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Spoke",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Integration Hub",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable option for containing Flow Designer triggers and actions dedicated to a particular application is:"
+  },
+  {
+    "Text": "Which table is used to store Roles?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_user_role",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_access_role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_acl",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Roles control access to features and capabilities in applications and modules. The admin role provides access to all features and capabilities. Roles control access to features and capabilities in applications and modules. The admin role provides access to all features and capabilities. Check this article for more details: https://docs.servicenow.com/bundle/utah-platform-administration/page/administer/roles/concept/c_Roles.html"
+  },
+  {
+    "Text": "Which of the following statements best describes predictive intelligence?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Predictive Intelligence uses predefined configurations to set fields values",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Predictive Intelligence uses machine learning algorithms to set the \"assignment group\" and the \"assigned to\" fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Predictive Intelligence uses machine learning algorithms to set field values during record creation",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Predictive Intelligence uses assignment rules to set the \"Assigned to\" field",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most accurate description of Predictive Intelligence in ServiceNow:"
+  },
+  {
+    "Text": "You need to create a new field in a table. What is the field type that you should use if your field needs to display records from another table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Reference",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Choice",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Query",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A reference field stores a reference to a field on another table. For example, the Caller field on the Incident table is a reference to the User [sys_user] table. Check this article for more details: https://docs.servicenow.com/bundle/vancouver-platform-administration/page/administer/field-administration/concept/c_ReferenceField.html"
+  },
+  {
+    "Text": "You are trying to import some data and you would like to map the fields in the source with the fields in the target table. Which of the following features provides visually intuitive environment for specifying mapping between Import Set fields and Target table fields?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Automatic Mapping Utility",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mapping Assist Utility",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Visual Mapping Utility",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Transform Map",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "While Transform Maps play a role in the import process, for visual field mapping within ServiceNow:"
+  },
+  {
+    "Text": "Every task can be assigned to an assignment group and to a specific user at the same time.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "There are 2 fields in the Task table: \"Assignment Group\" and \"Assigned to\". The first one can be set to a group while the latter can be set to a specific user."
+  },
+  {
+    "Text": "Which prefix is used for custom tables in the global application?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "\"_\"",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "\"e_\"",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "No prefix is used",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "\"c_\"",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "\"u_\"",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct prefix used for custom tables in the global application of ServiceNow is:"
+  },
+  {
+    "Text": "Which of the following chart types can be created directly by right-clicking a list? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Line chart",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Area chart",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Donut",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Bar chart",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Bubble",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Pie chart",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "When you right-click on a list in ServiceNow, you can directly create several chart types to visualize the data within that list. Here are the ones you can create:"
+  },
+  {
+    "Text": "What does it mean if the \"Match all\" checkbox is checked in the User Criteria form?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "This user criteria includes all the users with any roles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Any users in the users list of the user criteria is granted permission",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All the elements of the user criteria form are mandatory and should be defined by the user criteria creator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The user must meet at least one element of the criteria to be granted permission",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The user must meet all criteria to be granted permission",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow User Criteria forms, the \"Match all\" checkbox indeed signifies a specific requirement for users to be granted permission. Here\u0026#8216;s the correct explanation:"
+  },
+  {
+    "Text": "Which one of the following orders is used by default to sort lists?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "number \u003E order \u003E name",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "number \u003E order",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "order \u003E number \u003E created",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "order \u003E number \u003E name",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "number \u003E created",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The default sort order for lists in ServiceNow depends on the type of fields present, but here\u0026#8216;s the most common order:"
+  },
+  {
+    "Text": "You are importing data from an excel sheet into the Incident table. Which of the following features should be used to map the columns in the excel sheet with the columns in the Incident table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Transform Map",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Matching Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Columns Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Columns Sheets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Transform Matrix",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, you\u0026#8216;ll use a Transform Map  to map the columns in your Excel sheet to the corresponding fields in the Incident table during an import."
+  },
+  {
+    "Text": "Which of the following is used to initiate flows?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record Producers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Actions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Triggers",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Scheduled Jobs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Events",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer to this question is Triggers. Yes, scheduled jobs, events, \u0026#8230;etc can cause flows to initiate, but they only initiate flows via triggers"
+  },
+  {
+    "Text": "Which of the following statements best describes the formatter?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A formatter is used to define the format used to display special fields like date and currency",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A formatter is used to define the theme used in the service portal",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Any field that is added in the form is called a formatter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A formatter is an element used to display information that is not a field in the record",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The formatter provides an easy way to track items not saved with a field in the record, for example, journal fields like comments and work notes. Formatter Examples: Activity formatter, Process flow formatter, Parent breadcrumbs formatter, Approver summarizer formatter, and CI relations formatter"
+  },
+  {
+    "Text": "Which of the following elements is used to store data in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Sheets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Lists",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Forms",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tables",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, the primary element used to store data is:"
+  },
+  {
+    "Text": "Which of the following is most suitable to apply governance rules to decide who can access certain fields in certain tables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Client Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable option for applying governance rules to control access to specific fields in certain tables within ServiceNow is:"
+  },
+  {
+    "Text": "Incident and Problem tables extend the Task table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "The Activity Stream is an example of a formatter",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "Data policies can be applied to a table and can be enforced on both the form and the list",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "The purpose of data policies is to enforce security in the system",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement \"The purpose of data policies is to enforce security in the system\" is False."
+  },
+  {
+    "Text": "The Run button in the report designer does NOT save the report.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Yes, in ServiceNow Report Designer, that statement is true \u2705"
+  },
+  {
+    "Text": "What defines which fields appear in a list and order of fields?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "View",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List Schema",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List Definition",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Column Set",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A view defines the elements that appear when a user opens a form or a list, and you can switch the view from the default for lists and forms. Check this article for more details: https://docs.servicenow.com/bundle/tokyo-platform-user-interface/page/administer/navigation-and-ui/concept/view-management-overview.html"
+  },
+  {
+    "Text": "Every list can have only one view",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Different views can be created for a list"
+  },
+  {
+    "Text": "Which of the following context menus can be used to configure the list?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record Context Menu",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the listed answers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List Context Menu",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Column Context Menu",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In the list view, right-click any column and then select Configure \u003E List Layout"
+  },
+  {
+    "Text": "Which of the following is captured in update sets? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Report Definitions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Homepages",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Published Workflows",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Views",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Scheduled Jobs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tables",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "All the correct elements that can be captured in update sets in ServiceNow:"
+  },
+  {
+    "Text": "How can you filter the types of activities that are displayed in the Activity section?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Navigate to Service Desk \u003E Personalization and update the record with name \"Activity Types\" with the activity types that you would like to display",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It is not possible to filter the activity types in the Activity section",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the listed answers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Navigate to Service Desk \u003E Personalization and add a record to specify which Activity types to display",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Click on the gear icon in the top banner and select which activity types to be displayed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Click on the funnel icon in the task form and select which activity types to show",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "While there isn\u0026#8216;t a dedicated \"Activity Types\" record for personalization, there is a way to filter the activity types displayed in the Activity section. Here\u0026#8216;s the correct approach:"
+  },
+  {
+    "Text": "You need to move your work from development instance to production instance. Which of the following can you use to move your work?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Deployment Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Migration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Update Sets",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Application Scope",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Integration Hub",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable method for moving your work (customizations and configurations) from a development instance to a production instance in ServiceNow is:"
+  },
+  {
+    "Text": "One of the disadvantages of assignment rules is that they can only use configurations but no scripting can be added.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In addition to configuration, assignment rules can be scripted"
+  },
+  {
+    "Text": "You are designing a form for a specific record. Which of the following is useful when you want to show records in the tables that have relationships to the current record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Related list",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Relationship icon",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dot Walking",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reference field",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Related lists appear on forms and show records in tables that have relationships to the current record. Check this article for more details: https://docs.servicenow.com/bundle/vancouver-platform-user-interface/page/use/using-forms/concept/c_RelatedLists.html"
+  },
+  {
+    "Text": "You are designing a record producer. You need to add questions to the form to solicit information from customers. Which of the following should you use?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Attributes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Properties",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Variables",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow record producers, the correct way to define the questions displayed on the form to collect information from customers is by using:"
+  },
+  {
+    "Text": "The _______ provide(s) the Platform Analytics Workspace with a single page for all the dashboards, visualizations, analytics answers, and insights on your instance.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Agent Workspace",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Performance Analytics",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dashboards",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Analytics Center",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Analytics Center provides the Platform Analytics Workspace with a single page for all the dashboards, visualizations, analytics answers, and insights on your instance. You can include an Analytics Center on other workspaces. Please check this article fore more details: https://docs.servicenow.com/bundle/vancouver-now-intelligence/page/use/performance-analytics/concept/analytics-center.html"
+  },
+  {
+    "Text": "Which of the following is used to display a set of records?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Module",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is \"List\" because lists are used to show records from a table. Tables are used to store data. Form is used to represent data for a single record rather than a set of records. A moudle is a container of a group of relevant links"
+  },
+  {
+    "Text": "Which of the following chart types can be used to represent individual values as bars and the cumulative total as line?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Pivot Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Bar chart",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Trend",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Pareto chart",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Heatmap",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable chart type to represent individual values as bars and the cumulative total as a line is:"
+  },
+  {
+    "Text": "Which of the following are the 3 key attributes for a field?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "ID",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Text",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Unique ID",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Label",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Name",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Value",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The three key attributes for a field in ServiceNow are:"
+  },
+  {
+    "Text": "The benefit of the activity stream inline editor is that you can add comments to tasks without opening them",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The activity stream inline editor icon appears at the top in the list page. If you click on it, it will open a popup to the right and you can add comment to any of the tasks without needing to open the task form"
+  },
+  {
+    "Text": "In the context of Flow designer, which of the following are examples of ServiceNow core actions? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Wait for Condition",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Delete Record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Schedule job",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Ask for Approval",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Repeat",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Activate Plugin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Several core actions available within ServiceNow Flow Designer:"
+  },
+  {
+    "Text": "You are designing an email notification that will be sent to the manager of the \"Assigned to\" user once an incident is created. Which of the following features will be useful to specify the recipient field?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Drill down",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field navigator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reference Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dot navigation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dot walking",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Dot-Walking gathers information from a series of tables through reference fields. If the current table contains a reference to another table, any field on the referenced table can be accessed using dot-walking. Dot-walking references a field by building a chain of field names separated by dots (periods). For instance, incident.assigned_to.company references the company of the user assigned to an incident. The recommended limit for chain length is three levels."
+  },
+  {
+    "Text": "You are designing a form for a specific record. Which of the following is useful if you need to allow fields to be populated automatically?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "List View",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form View",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Template",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Form Layout",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Templates allow fields to be populated automatically, simplifying the process of submitting new records"
+  },
+  {
+    "Text": "What is the limit of Templates that can be made for a form?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "1",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "5",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "2",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "3",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the listed answers",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "There is no limit to the number of templates a user can create or access"
+  },
+  {
+    "Text": "_______ is the view that agents use to work on issues. This view includes in-depth record information and suggestions about how to resolve issues and communicate with requesters.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Case view",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List view",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Landing page",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record view",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Check this article for more details: https://docs.servicenow.com/bundle/vancouver-platform-user-interface/page/administer/workspace/concept/learn-about-agent-workspace.html"
+  },
+  {
+    "Text": "The impersonate feature is not recommended because there is no way to know what actions the impersonator took on behalf of the impersonated user",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Impersonations are logged in the system log"
+  },
+  {
+    "Text": "ServiceNow instance is single-tenant",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow instance is single-tenant, which means it is not shared with other ServiceNow customers and your data isn\u0026#8216;t mingled in the same database as another organization\u0026#8216;s data."
+  },
+  {
+    "Text": "A data policy defined for a table will only run when data is inserted through the form, but it will not run when the data is inserted via import set.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The data policies will be enforced to all data entered into the system even when data is inserted by import set"
+  },
+  {
+    "Text": "The field name is a user-friendly term which allows people to identify the field in the user interface",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The field name is a unique name that the system uses to identify the field. The user-friendly term is the field label"
+  },
+  {
+    "Text": "The ServiceNow platform uses a single system of record and a common data model",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow\u0026#8216;s single data model integrates easily with other enterprise systems and supports a wide variety of plug-and-play applications. Choose from three workflows or build any workflow app."
+  },
+  {
+    "Text": "Which one of the following authentication methods is not supported in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "All the listed methods are supported in ServiceNow",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Digest Token",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "OAuth",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "SAML",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "LDAP",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Users are authenticated by various methods, including: Local database, Multi-provider Single Sign-on, Multifactor, LDAP, SAML 2.0, OAuth 2.0, and Digest Token"
+  }
+]

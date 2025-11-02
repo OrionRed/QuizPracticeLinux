@@ -1,0 +1,1442 @@
+[
+  {
+    "Text": "The baseline Service Catalog homepage contains links to which of the following components?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record Producers, Order Guides, and Catalog Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Order Guides, Item Variables, and flows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record Producers, Order Guides, and Item Variables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guides, Catalog Items, and flows",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The basic Service Catalog item types include:Record producers: giving alternative ways of adding information such as Incidents via the service catalog.Order guides: to group multiple catalog items in one request.Content Items: catalog items which provide information instead of goods or services.Catalog Item"
+  },
+  {
+    "Text": "Security rules are defined to restrict the permissions of users from viewing and interacting with data. What are these security rules called?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Role Assignment Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Scripted User Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Access Control Rules",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CRUD Rules",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Rules for access control lists (ACLs) restrict access to data by requiring users to pass a set of requirements before they can interact with it."
+  },
+  {
+    "Text": "Which mobile application is designed to interact with customer support and is not customizable?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Now Mobile",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mobile Onboarding",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Now Support",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Now Onboarding",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "HI Support",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read the blog about Now Support app:\u00A0https://www.servicenow.com/blogs/2020/now-support-mobile-app.html"
+  },
+  {
+    "Text": "The customer has asked that you change the default layout of the Task list. They would like these columns, in this order:\u0095 Number\u0095 Task Type\u0095 Parent\u0095 Short Description\u0095 Assignment Group\u0095 Assigned to\u0095 Updated",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Right click on any column header, Context Menu \u003E Configure \u003E List Layout",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Click List Context Menu \u003E Configure \u003E Columns",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Click List Context Menu \u003E Personalize List",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Right click List Gear icon \u003E Configure \u003E Columns",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Right click on any column header, Context Menu \u003E Configure \u003E List Layout -\u00A0This will make changes to all users"
+  },
+  {
+    "Text": "User records are stored in which table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User [sn_user]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User [sys_user]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User [u_user]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Users [sys_users]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Type sys_user.list in your PDI"
+  },
+  {
+    "Text": "Which component of a table contains a piece of data for one record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Element",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Factor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Datapoint",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The individual pieces of data in a record are called fields. You enter data in fields on the form or by using the list editor. Administrators can create new or modify existing fields.You can enter data in fields by using the list editor or by using a form. In form view, fields appear as fields in the form, and in list view they appear as columns of data in the table. Administrators can create new fields or change the type of existing fields."
+  },
+  {
+    "Text": "What feature do you use to specify which users are able to access a Service Catalog Item?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Catalog User Role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Criteria",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Can Order Tab",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Can Read Role",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The user criteria restriction applies only within Service Catalog for the specific item it is applied for. However, the user criteria restriction is not applied outside the Service Catalog where the user has access to the item via the table."
+  },
+  {
+    "Text": "Table Access Control rules are processed in the following order:",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "any table name (wildcard), parent table name, table name",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "table name, parent table name, any table name (wildcard)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "any table name (wildcard), table name, parent table name",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "parent table name, table name, any table name (wildcard)",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Table ACL rules are processed in the following order:Match the table name. For example, incident.Match the parent table name. For example, task.Match any table name (*). For example, *."
+  },
+  {
+    "Text": "What is the language used for scripting in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "PHP",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "C\u002B\u002B",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Java",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "JavaScript",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow uses industry-standard JavaScript to extend application functionality. ServiceNow APIs (Application Programming Interfaces) provide classes and methods to do things like:Interact with database tables: query, update, create, deleteValidate dataWrite to log filesPrompt users with alerts, confirmations, or messagesLaunch workflows, scheduled jobs, and eventsInteract with 3rd party web servicesAnd more\u0026#8230;"
+  },
+  {
+    "Text": "What is the most common role that has access to almost all platform features, functions, and data?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Base Admin [base_admin]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Administrator [admin]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Admin [sn_admin]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Security Admin [security_admin]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sys Admin [sys_admin]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The administrator role. This role has special access to all system features, functions, and data because administrators can override ACL rules and pass all role checks. Consider these implications when using admin overrides on ACLs.The System administrator(admin) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to your users when more targeted roles are available."
+  },
+  {
+    "Text": "Here is an example of the criteria set for a knowledge base:\u0095 Companies: ACME North America\u0095 Departments: HR\u0095 Groups: ACME Managers\u0095 Match All: YesIn this example, what users would have access to this knowledge base?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Employees of ACME North America, who are members of HR Department or the ACME Managers group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Members of the ACME Manager group, who are also members of HR Department and part of ACME North America",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Members of the ACME Managers group, and HR department, regardless of geography",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Users which are members of either ACME North America, or HR Department, or ACME Managers group",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A check box to determine whether all elements from each populated criteria field must match. If selected, only users who match all criteria are given access. If cleared, the user must meet one or more of the set criteria to be given access.By default, this check box is cleared so that any condition met provides a match.For example, consider a user criteria record for the following:Locations A or BCompany C or DWith\u00A0Match All\u00A0selected, only users meeting all these conditions are matched. For example, a user with a location A and a company C.With\u00A0Match All\u00A0cleared, users meeting any of these conditions are matched. For example, a user with a location B."
+  },
+  {
+    "Text": "Where to click to always return back to Home?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Logo",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Star",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Gear Icon",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Special Arrow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/en-US/bundle/utah-platform-user-interface/page/administer/navigation-and-ui/concept/c_CustomizeTheBannerLogoLink.html"
+  },
+  {
+    "Text": "The Employee On-boarding team has asked for a way for managers to order computers, monitors, business cards, and cell phones for new employees. How would you proceed to meet this requirement?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Create On-boarding Bot",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Record Producer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Requested Item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Order Guide",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Order guide submits a single service catalog request that generates several items.For example, a New Employee Hire order guide can contain several items that new employees commonly need, such as business cards, computer, and cell phone. After selecting this order guide, the customer can then provide information about the new employee, including location and job title. The order guide then submits an order for catalog items like business cards, based on the details provided.Order guides determine which catalog items to order by evaluating order guide rule conditions. Information the customer enters within the order guide can be passed as cascading variables to the ordered items, allowing common information to be reused across multiple items.Administrators and catalog administrators can create order guides for the service catalog."
+  },
+  {
+    "Text": "What types of entities can receive task assignments, in ServiceNow?Select 2 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Users",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Groups",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Teams",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Departments",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "There are 2 reference fields on the task table: assignment_group [sys_user_group], and assigned_to [sys_user]"
+  },
+  {
+    "Text": "What automatically assigns tasks to users or groups?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Assignment Rules",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "On-Call Service",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assignment Handler",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Auto Complete",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Assignment rules module allows you to automatically set a value in the assigned_to and assignment_group fields when a set of conditions occurs.An assignment rule must also meet these additional criteria to run:The task record has been created or updated. Assignment rules do not apply to unsaved changes on a form.The task record must be unassigned. The record cannot have an existing value for either the\u00A0assigned_to\u00A0or\u00A0assignment_group\u00A0fields. Assignment rules cannot overwrite existing assignments (including assignments set by a default value or a previously run assignment rule).The assignment rule is the first rule that matches the table and conditions. If more than one assignment rule matches the conditions, only the rule with the lowest order value runs."
+  },
+  {
+    "Text": "A record is added to which table each time a knowledge article is viewed?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Knowledge Search Log [ts_query_kb]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Use [kb_use]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Knowledge [kb_knowledge]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Feedback [kb_feedback]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read more about kb_use table: https://docs.servicenow.com/bundle/utah-servicenow-platform/page/product/knowledge-management/task/view-knowledge-logs.html"
+  },
+  {
+    "Text": "What setting allows users to view a Knowledge Base article even if they are not logged in?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The Allow All role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The ESS role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The Public setting",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The View All setting",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Here is a detailed scenario:\u00A0https://docs.servicenow.com/bundle/utah-servicenow-platform/page/product/knowledge-management/task/make-knowledge-visible-to-public.html"
+  },
+  {
+    "Text": "You have been asked to create a way for users to order a new iPhone, but only if they get two levels of approval. The approvers and users should be automatically notified at each approval level. What feature would you use to manage the approvals and notifications?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Approval Criteria",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approval Chains",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Parent-Child Approvers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approver Delegates",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Flows",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Flow Designer can create approvals for any record in ServiceNow. Use the\u00A0Ask For Approval\u00A0action to request approvals. The\u00A0Ask for Approval\u00A0action requires:The\u00A0Record\u00A0to approveThe rules to approve and rejectThe due date for approval (optional)"
+  },
+  {
+    "Text": "When importing data, what happens to imported rows, if no coalesce field is specified?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "All rows are rejected from the import, as coalesce field is required.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Duplicate rows are rejected from the import.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All rows are treated as new records. No existing records are updated.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "All rows are treated as new records, but errors will be flagged in the import log.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Coalesce optionsThere are several possible configurations you can use to coalesce data in import sets.No coalesceIf no coalesce is defined, all imported rows are treated as new records. No existing records are updated.Single-field coalesceYou can coalesce on a single field to update an existing record.If a target table record exists with the same value in the coalesce field as the staging table record, the target table record is updated using the import set record values.Multiple-field coalesceYou can coalesce on multiple fields to update an existing record."
+  },
+  {
+    "Text": "What is generated from the Service Catalog once a user places an order for an item or service?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A change request",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A request",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A catalog task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An Order Guide",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "When a user places an order from the service catalog, a request record is created to track the order. Each ordered item becomes a requested item that is listed on the request record. For example, a single request for one laptop, two monitors, and one keyboard creates the following records.Request REQ0000001: 4 itemsRequested Item RITM0000001: 1 laptopRequested Item RITM0000002: 2 monitorsRequested Item RITM0000003: 1 keyboard"
+  },
+  {
+    "Text": "A customer has asked for the following updates to a form:\u0095 Make Resolution code Mandatory, when state is changed to Resolved\u0095 Hide Major Incident check box, unless logged in user has Major Incident Manager roleWhat type of rule(s) would you use to implement this requirement?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Dictionary Design",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form Constraint",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Design",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI policies dynamically change the behavior of information on a form and control custom process flows for tasks.For example, you can use UI policies to make the number field on a form read-only, make the short description field mandatory, and hide other fields. Basic UI policies do not require any scripting, however for more advanced actions, use the\u00A0Run scripts\u00A0option."
+  },
+  {
+    "Text": "Which tool is used to define relationships between fields in an import set table and a target table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Transform Map",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Field Transformer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Schema Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Transform Schema",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A transform map is a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident [incident] or User [sys_user]."
+  },
+  {
+    "Text": "Many actions are included with flow designer, what are some frequently used core actions?Select 4 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Wait for Match",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Look Up Record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Wait for Condition",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Look for Update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Ask for Approval",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Read more here about flow\u0026#8216;s actions: https://docs.servicenow.com/bundle/utah-build-workflows/page/administer/flow-designer/concept/flow-actions.html"
+  },
+  {
+    "Text": "What is the definition of a group?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "An escalation pod",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A department",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A collection of tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A collection of users",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A collection of subject matter experts",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Manage the individuals who can access your instance by defining them as users in the system. Create user groups, and assign users to them. Use roles to specify what different users and user groups can see and do.A group is a set of users\u00A0who share a common purpose. Members of groups perform tasks such as approving change requests, resolving incidents, receiving email notifications, or performing change request tasks. Assign every user to at least one group.A good practice is to assign roles to groups rather than to users. Administrators can assign roles quickly to multiple users by adding the users to the group. If a user moves to another group, the role assigned to the new group is applied automatically."
+  },
+  {
+    "Text": "What Service Catalog feature do you use to organize catalog items into logical groups?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Sections",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Variable Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalog items Group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Categories",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Categories organize service catalog items into logical groups. Administrators and catalog administrators can create and configure categories, defining their characteristics and adding content such as catalog items to them.Categories can have a parent-child relationship, for example,\u00A0IT\u00A0and\u00A0Laptops. A child category is a subcategory of its parent category. Each catalog item, order guide, record producer, content item, and subcategory appears as a single item within the category. A catalog item can exist in multiple categories, giving you the flexibility to offer the same service from multiple places within your catalog."
+  },
+  {
+    "Text": "For Administrators creating new Service Catalog items, what is a characteristic they should know about Service Catalog variables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Catalog variables are global by default",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog variables cannot affect the order price",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog variables can only be used in Record Producers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog variables can only be used in Order Guides",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Service Catalog variables are global by default, display in all the tasks of a Requested Item, and provide options to tailor a catalog item to the customer\u0026#8216;s needs. For example, a computer might be available with different operating systems. The Service Catalog lets you attach variables either to a catalog item or to an execution plan. Question choices can define the available options and might affect the order price."
+  },
+  {
+    "Text": "Which ServiceNow capability allows you to provide knowledge articles, via a conversational messaging interface?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Agent Assist",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Now Messenger",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Connect Agent",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Virtual Agent",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The ServiceNow\u00AE Virtual Agent application provides user assistance through a conversational messaging interface so that you can design and build automated conversations that help users quickly obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Rome release."
+  },
+  {
+    "Text": "Access Control rules may provide access security for which of the following database objects?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "For a specific role, group, or user",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "For specific groups",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "For a specific row, column, or table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "For a specific CMDB Configuration item",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "While all the options provided are valid for access control rules in ServiceNow, the most commonly associated database objects with access security in ServiceNow are specific rows, columns, or tables. Access control rules can be applied to these elements to define who can view, modify, or interact with the data stored within them."
+  },
+  {
+    "Text": "A new Service Desk employee in Latin America complains that the create dates and times are incorrect on their Incident list. What would you suggest to fix this issue?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Have them correct the time zone on their computer.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Have them use the gear icon to set the employee\u2018s time zone.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Recommend they use Chrome, instead of Explorer.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Use the system properties to correct the instance\u2018s time zone.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Have them clear their cache.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Let's analyze each suggestion in the context of fixing incorrect create dates and times on an Incident list for a Service Desk employee in Latin America:"
+  },
+  {
+    "Text": "What resource can you use to view details of the tables and configuration items (CIs) associated with a particular use case?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Scenario Dashboard",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Common Service Data Model (CSDM) product view",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CMDB Use Case Modeler",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI Use Case Modeler",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Common Service Data Model (CSDM) product view is the resource used to view details of the tables and configuration items (CIs) associated with a particular use case in ServiceNow. The CSDM provides a framework for organizing, defining, and visualizing an organization\u0026#8216;s services and related data. It helps to provide a common language and structure to facilitate communication between IT and business stakeholders, as well as to ensure that data is consistent and accurate across the organization."
+  },
+  {
+    "Text": "Automated Chatting agent available on the service portal is commonly referred to as?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Alexa",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Agentless Bot",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Virtual Agent",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Chatbot",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, the automated chatting agent available on the service portal is most commonly referred to as:"
+  },
+  {
+    "Text": "You cannot deactivate a plugin, once it has been activated.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "After a plugin is activated, you cannot disable or deactivate it. If needed, you can hide the functionality. You should thoroughly test, in a non-production instance, the specific features and functionalities that are installed when you activate the plugin before using them in a production instance."
+  },
+  {
+    "Text": "Where can Admins check which release is running on an ServiceNow instance?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Stats module",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "system.upgraded table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Memory Stats module",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Transactions log",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can also type \u0026#8216;stats.do\u0026#8216;"
+  },
+  {
+    "Text": "How is the Event Log different from the Event Registry?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Event Log is formatted in the Log style, the Event Registry displays different fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Event Log lists Events that were triggered by integrations, the Event Registry lists the Events that were triggered during the day (24-hour period)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Event Log contains generated Events, the Event Registry is a table of Event definitions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Event Log is the same as the Event Registry",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Event Registry is a feature that allows ServiceNow to capture events from external systems, such as servers, applications, and network devices. The Event Registry provides a way to collect and analyze events from multiple sources in a single location, allowing organizations to identify patterns and trends in their IT infrastructure. The Event Registry can be configured to trigger notifications, alerts, and other actions based on specific events, enabling organizations to proactively manage their IT environment."
+  },
+  {
+    "Text": "What is a schema map?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A schema map graphically organizes the visual task boards for the CMDB",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A schema map graphically displays the Configuration Items that support a business service",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A schema map enables administrators to define records from specific tables as trouble sources for Configuration Items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A schema map displays the details of tables and their relationships in a visual manner, allowing administrators to view and easily access different parts of the database schema",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "This is the exact definition from the docs:\u00A0https://docs.servicenow.com/bundle/tokyo-platform-administration/page/administer/table-administration/concept/c_SchemaMapForTables.html"
+  },
+  {
+    "Text": "Which testing framework is used to test ServiceNow Applications?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Selenium",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Automated Test Framework (ATF)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Junit",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Test Driven Framework (TDF)",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Automated Test Framework (ATF) enables you to create and run automated tests to confirm that your instance works after making a change. For example, after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review."
+  },
+  {
+    "Text": "Which module is used to access the knowledge bases which are available to particular non-admin user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Knowledge \u003E Knowledge Bases",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge \u003E Overview",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge \u003E Home",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge \u003E All",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self Service \u003E Knowledge",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Non-admin user doesn\u0026#8216;t have access to Knowledge Base module"
+  },
+  {
+    "Text": "An IT user calls the service desk because they need to work on task records. All they can see is Self Service on their homepage when they login to the ServiceNow instance. What issue could explain this? (Choose two.)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Their user account does not have itil role",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Their user account failed LDAP authentication",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Their user account was not approved by their manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Their user account does not belong to any groups, which contain the itil role",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Their user account is not logged in properly",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "I recommend to watch this video:\u00A0https://youtu.be/dGooMB4Gdt0"
+  },
+  {
+    "Text": "What are the steps for applying an update set to an instance?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Retrieve, Preview, Commit",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Retrieve, Assess, Apply",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Pull, Review, Push",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Get, Test, Push",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Specify, Transform, Apply",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read more here about update set transfer: https://docs.servicenow.com/bundle/tokyo-application-development/page/build/system-update-sets/reference/update-set-transfers.html"
+  },
+  {
+    "Text": "When creating a global custom table named \u0026#8242;abc\u0026#8242;, what is the table name that is automatically assigned by the platform?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_abc",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "snc_abc",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "u_abc",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "abc",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Edit the table name, which is automatically populated based on the table label and a prefix as follows:For a table in a scoped application, the name is prefixed with a namespace identifier to indicate that it is part of an application.For a table in the global application, the name is prefixed with the string u_.For a remote table in a scoped application, the name is prefixed with a namespace identifier and the string st_ to indicate that it is remote and part of an application.For a remote table in the global application, the name is prefixed with the string u_st_.You cannot modify the prefix; however, you can modify the rest of the table name. The name can contain only lowercase, alphanumeric ASCII characters and underscores (_)."
+  },
+  {
+    "Text": "What is a no-code approach to control the mandatory or read-only state of a form field?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Rule",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Action",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI policies dynamically change the behavior of information on a form and control custom process flows for tasks.For example, you can use UI policies to make the number field on a form read-only, make the short description field mandatory, and hide other fields. Basic UI policies do not require any scripting, however for more advanced actions, use the\u00A0Run scripts\u00A0option."
+  },
+  {
+    "Text": "Which allows the creation of a task-based record from Service Catalog?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record Producers",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Builder",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Flow Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assignment Rule",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.Use record producers to provide a better end-user experience instead of using the regular task-based form for creating records. The look and feel of a record producer is similar to that of a catalog item. But the record producer generates a task record such as incident, instead of a requested item.You can create a record producer for tables and database views that are in the same scope as the record producer. You can also create a record producer for tables that allow create access from applications in other scopes.Define a record producer in the service catalog or from the table record."
+  },
+  {
+    "Text": "What are best practices regarding users/groups/roles?Select 2 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "You should assign roles to users.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "You should never assign roles to groups.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "You should add users to groups.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "You should assign roles to groups.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The two best practices regarding users/groups/roles in ServiceNow are:"
+  },
+  {
+    "Text": "What type of query allows you to filter list data using normal words, instead of the condition builder?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Auto-suggest Query",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Natural Language Query",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Machine Learning Query",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Alexa Query",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Predictive Intelligence Query",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow\u00AE NLQ translates natural language user input into glide record queries. The queries are rendered into an executable structured format, such as a JavaScript Object Notation (JSON) file or a visual definition. The output, in whichever format, is the response to the user\u0026#8216;s request."
+  },
+  {
+    "Text": "Which of the following are not included in an Update Set, by default?Select 4 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "New Users and Groups",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Related Lists",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Scheduled Jobs",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "New CI",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Data",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Report Definitions",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Read more here: https://docs.servicenow.com/bundle/tokyo-application-development/page/build/system-update-sets/reference/customizations-tracked-update-sets.htmlWhat is NOT captured in an update set:-Data-New Data-Records-Modified Data-Records-Tasks-Modified Cls-New Users and Groups-Schedules-Scheduled Jobs-Dashboards*"
+  },
+  {
+    "Text": "What capability allows users to create dashboards with widgets to visualize data over time in order to identify areas of improvement?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Scheduled Reports",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Performance Analytics",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Reporting",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Analytics Reports",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow\u00AE Performance Analytics is an in-platform process optimization solution to create management dashboards, report on KPIs and metrics, and answer key business questions to help increase quality and reduce the costs of service delivery.Performance Analytics and Reporting are two distinct applications. They address different use cases and are complementary to each other.Performance Analytics is able to generate accurate historical trends by capturing continuous snapshots on a regular schedule. As illustrated by the following diagram, Reporting answers the question of \"Where are we today,\" while Performance Analytics answers questions of what is happening over time."
+  },
+  {
+    "Text": "What role can edit ACLs?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "security_admin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "system_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "acl_admin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The security_admin role is an elevated privilege role provided with High Security Settings that lets users create and change access controls and change High Security Settings.In the base system, only the default System Administrator (admin) user has the security_admin role. Since it requires elevating privileges, the admin user does not have this role at login. After elevating privileges, the admin user has the security_admin role for the duration of the user session."
+  },
+  {
+    "Text": "Where is data stored?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "All of the information in the instances is stored in tables, which consist of a series of records. The record in turn holds a series of fields that hold the individual bits of data and can be viewed either as a list or a form."
+  },
+  {
+    "Text": "What are the steps for importing data using an import set?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Load the data; Create transform map; Transform data; Clean up import table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Select source file; Run automap; Transform data; Clean up target table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Setup LDAP; Test map; Create update set; Run import; Apply update set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Identity source; Import transform map; Run transformer, Verify import",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Here is detailed manual how to import data using import sets:\u00A0https://docs.servicenow.com/bundle/utah-integrate-applications/page/administer/import-sets/concept/c_ImportDataUsingImportSets.html"
+  },
+  {
+    "Text": "Which type of ServiceNow script runs on the web browser?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Local script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Server script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Database script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client script",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Client scripts allow the system to run JavaScript on the client (web browser) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.Use client scripts to configure forms, form fields, and field values while the user is using the form. Client scripts can:make fields hidden or visiblemake fields read only or writablemake fields optional or mandatory based on the user\u0026#8216;s roleset the value in one field based on the value in other fieldsmodify the options in a choice list based on a user\u0026#8216;s roledisplay messages based on a value in a field"
+  },
+  {
+    "Text": "On a filter condition, there is an element, which is based on the table, the user access rights, and columns on the table. What is this element called?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Attribute",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Column",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Label",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A condition consists of the following parts.Field: Each field contains data from a particular column in the table. Selecting a reference field enables you to dot-walk to data from other tables.Operator: Each field type has its own set of valid operators. The operator determines if a value is needed.Value: Each field has its own set of valid values determined by the field type. Reference fields have access to auto-complete, and choice lists provide a list of options.Grouping: Each condition line is grouped with either an AND or OR connector. The filter requires all condition lines linked with an AND connector to be met. The filter separately evaluates each condition line linked with an OR connector."
+  },
+  {
+    "Text": "Access Control rules may be defined with which of the following permission requirements?Select 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Scripts",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User Criteria",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Groups",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditional Expressions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Roles",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "User Criteria can be used in Service\u00A0Catalog and Knowledge Base.Groups can\u0026#8216;t be used in ACLs"
+  },
+  {
+    "Text": "When managing tags, you can adjust who is able to see it. What are the visibility options?Select 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Roles and Permissions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Everyone",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Me",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Groups and Users",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Tags are text labels that you can associate with items like records and pages. Tags enable you to group and organize the items. Tags can be visible to any user (global), visible only to specific groups or users (shared), or visible to a single user (private)."
+  },
+  {
+    "Text": "Which of the following statements describes how data is organized in a table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A column contains data from one user and a record is one set of fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A column is a field in the database and a record is one user",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A column is one field and a record is one column",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A column is one field and a record is one row",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A table is a collection of records in the database. Each record corresponds to a row in a table, and each field on a record corresponds to a column on that table."
+  },
+  {
+    "Text": "Groups are stored in what table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User Group [user_groups]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Group [sys_user_group]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Group [sn_sys_user_group]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Groups [sys_user_groups]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Groups [sn_user_groups]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Type ys_user_group.list in your PDI"
+  },
+  {
+    "Text": "How would you distinguish between a Base Class table and a Parent Class table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Extended tables can be extended from Parent tables or Base tables; but they cannot be extended from both.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base Class tables always have tables extended from them. Parent tables do not have tables extended from them.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Extended tables are always extended from Parent tables. Extended tables are usually extended from Base tables.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base Class table is not extended from another table, Parent class tables may be extended from another table.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A table that extends another table is called a child class, and the table it extends is the parent class. A table can be both a parent and child class both extending and providing extensions for other tables. A parent class that is not an extension of another table is called a base class."
+  },
+  {
+    "Text": "How are products and services in the Service Catalog organized?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Categories and Subcategories",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incidents and Problems",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tickets and Requests",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tasks and Subtasks",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Categories can have a parent-child relationship, for example,\u00A0IT\u00A0and\u00A0Laptops. A child category is a subcategory of its parent category. Each catalog item, order guide, record producer, content item, and subcategory appears as a single item within the category. A catalog item can exist in multiple categories, giving you the flexibility to offer the same service from multiple places within your catalog."
+  }
+]

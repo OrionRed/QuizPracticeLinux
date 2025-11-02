@@ -1,0 +1,1158 @@
+[
+  {
+    "Text": "Giving roles to groups considered best practices when it comes to assigning roles.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is TRUE. Assigning roles to groups is considered a best practice in ServiceNow for user access management. Here's why:"
+  },
+  {
+    "Text": "What can you do if the Homepage is slow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Do not Refresh the page",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Remove some gauges or change the refresh page",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Set the refresh page to sooner",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Just be patient",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The best course of action if the ServiceNow homepage is slow depends on the severity of the slowness and your role within the organization. Here's a breakdown of the options:"
+  },
+  {
+    "Text": "What are the type of SLAs?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "SLA",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "OLA",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UC",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: All of the above (Correct)."
+  },
+  {
+    "Text": "Where would you create the order guide choices/questions (e.g., department)?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Go to the order guide and go to the variables section.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Go to social it \u003E feed administration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System properties \u003E css",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Go to the order guide and go to the variables section. (Correct)"
+  },
+  {
+    "Text": "Transform maps can only be used once.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is FALSE. Transform maps in ServiceNow can be reused multiple times."
+  },
+  {
+    "Text": "How to capture workflow in update sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Create",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Publish",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Checkout",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Validate",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Publish (Correct)."
+  },
+  {
+    "Text": "What is an access control?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It is a security rule defined and set at the row level and the column level, and it is executed when attempting to access any ServiceNow table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It is a security rule defined and set on field level, and it is executed when attempting to access any ServiceNow record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Access control is a role provided out of the box in ServiceNow.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Inbound action can be used to: (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Parse Email",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Modify records",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Schedule a job",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Records",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Here's a breakdown of how inbound actions can be used in ServiceNow:"
+  },
+  {
+    "Text": "What is a data policy?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Enables admins to set mandatory and read only states for fields and can enforce data consistency across applications. You can set import data as read only, e.g., user info",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It\u0027s the control record of the table and determines whether the table will be audited, default sorting, attributes of table and how it will behave when it is a reference field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It\u0027s a series of tables that contain all the assets and business services controlled by your company as well as their configuration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "What is a UI policy?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Its a required field that requires a value",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It\u0027s a rule that applies to a form to dynamically change the ways the fields behave in a form",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It\u0027s a script that applies to a form to dynamically change form information or the form itself",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A UI policy is:"
+  },
+  {
+    "Text": "Where would you go to start an import set?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Import Sets \u003E Import sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Import sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System properties \u003E Import Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Import Sets \u003E Load Data",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To start an import set in ServiceNow, you'd navigate to System Import Sets \u0026gt; Load Data. Load Data is the specific function used to initiate the import process."
+  },
+  {
+    "Text": "What gets skipped during a major upgrade?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Read only data of a form that is not editable",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All system features, applications, functions, and data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Any record that has been altered from the base state. The upgrade app looks at the customer update table (e.g,, sys_update_xml)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "All the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which of the following can be an example of Out Of The Box table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "u_incident",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "incident",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "x_u123_incident",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "u_movie",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is incident."
+  },
+  {
+    "Text": "What is an order Guide?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A type of catalog Item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An order guide provides the ability to order multiple related items as one request",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A documentation guide which helps in ordering items",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which among the following is true regarding UI Policies?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "They run only on server side",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All the UI Policies of task table are not extended by the incident table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Based on the condition, it can be decided when to make it visible/hidden",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "They run on the cloud side",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Based on the condition, it can be decided when to make it visible/hidden."
+  },
+  {
+    "Text": "Which feature helps you in testing what another user sees in the instance without logging in with the user credentials?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Escalate",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Elevate Role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Impersonate",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Impersonate is the feature that allows you to see what another user sees in the ServiceNow instance without needing their credentials."
+  },
+  {
+    "Text": "ACL's can be defined in what many ways?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Conditional Expressions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Roles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is All of the above. ACLs (Access Control Lists) in ServiceNow offer a comprehensive approach to user access control, allowing you to define permissions using various methods:"
+  },
+  {
+    "Text": "Like business rules, notifications can be created when a record is inserted or updated.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE, notifications can be triggered just like business rules when a record is inserted or updated."
+  },
+  {
+    "Text": "What is SLM?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Level Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Server Limit Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Line Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is Service Level Management (SLM)."
+  },
+  {
+    "Text": "Unique ID is stored in which field of table",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "global_number",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "unique_id",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "32_id",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_id",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The unique identifier in ServiceNow tables is stored in the sys_id field."
+  },
+  {
+    "Text": "Where would you go to create an order guide?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System properties \u003E css",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service catalog \u003E catalog definition \u003E order guides and click new",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Go to system definition \u003E choice list",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Service catalog \u0026gt; catalog definition \u0026gt; order guides and click new."
+  },
+  {
+    "Text": "Multiple Choice, Single Text, and select Box are what type of elements in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Related Lists",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Request Types",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guides",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Variable Types",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is Variable Types."
+  },
+  {
+    "Text": "An ACL is _ type of security.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Physical",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Barrier",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Compliance",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Contextual",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, an ACL is a Contextual (Correct) security measure."
+  },
+  {
+    "Text": "What is the correct sequence of the steps of a Knowledge article?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Review, Draft, Publish",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Draft, Review, Publish, Retire",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Draft, Review, Publish,Delete",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Draft, Publish, Retire",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct sequence for a ServiceNow Knowledge Article is:"
+  },
+  {
+    "Text": "Where do UI Policies run?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "On server side",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On client side",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "On record stored in the sys_user_group table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI policies run on the client-side (Correct) in ServiceNow."
+  },
+  {
+    "Text": "To see the relationship between tables in a graphical view, what is used?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business Service Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tables and Columns",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Schema Map",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Tables Map",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is Schema Map."
+  },
+  {
+    "Text": "The upgrade history module helps an admin locate and resolve upgrade conflicts by reverting customization to the base version if necessary.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is TRUE. The Upgrade History module in ServiceNow is a valuable tool for admins to track upgrades and troubleshoot any issues that may arise. Here's how it helps with upgrade conflicts:"
+  },
+  {
+    "Text": "How do you change the sort sequence of fields or task? (select options which are correct)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Modify the order field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Make changes by clicking on the gear icon",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What are update sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "History of upgrades",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Customization that can be moved from 1 instance to another",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Groups items Together",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Customization that can be moved from 1 instance to another."
+  },
+  {
+    "Text": "In service catalog application, which module is used for creating items?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Maintain Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Maintain Category",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Maintain Dynamic Categories",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is Maintain Items."
+  },
+  {
+    "Text": "How do you enhance homepage performance in case of gauges? To diagnose problems and improve homepage performance, administration can: (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Turn on homepage debugging",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Troubleshoot slow dashboards",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Parallel homepage rendering",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Homepage caching",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Neutralize the application",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Out of the choices provided, valid options for enhancing homepage performance in ServiceNow, specifically related to gauges are:"
+  },
+  {
+    "Text": "All users can manage and setup import sets.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is FALSE. Only users with specific permissions can manage and set up import sets in ServiceNow."
+  },
+  {
+    "Text": "What are the main components of the User Interface in ServiceNow (UI16): (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Banner",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Right Navigation Pane",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Left Navigation Pane",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "News Feed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Content area",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "In ServiceNow UI16, the main components of the user interface are:"
+  },
+  {
+    "Text": "How to get security_admin role/ elevated privilege for a user session.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Select the Elevate Role option in the security admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Add security role to the user from Roles related list in user record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Select the security_admin option in the Elevate Roles section",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer to get the security_admin role for a user session is:"
+  },
+  {
+    "Text": "Task table is a _ table.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Custom",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Extended",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Child",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is Base (Correct)."
+  },
+  {
+    "Text": "A Business rule can be set before or after the database action has occurred.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is TRUE."
+  },
+  {
+    "Text": "Types of SLA (SLA, OLA \u0026amp; UC) are defined in which field?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Retroactive Start",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Condition Field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Type Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Duration",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The type of SLA (Service Level Agreement), OLA (Operational Level Agreement), and UC (Underpinning Contract) is defined in the Type Field (Correct) within ServiceNow."
+  },
+  {
+    "Text": "What are the out of box progress stages for a Service Request?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Waiting for approval",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Fulfillment",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Delivery",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "All of the above (Correct) is the answer. ServiceNow offers the following out-of-the-box progress stages for a Service Request:"
+  },
+  {
+    "Text": "What is true about deleting tables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "An ESS user can delete any table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Deleting a table doesnot delete associated elements like views",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "only tables beginning with \u0022u_\u0022 can be permanently deleted",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Here's a breakdown of the statements about deleting tables in ServiceNow:"
+  },
+  {
+    "Text": "Where can you view a series of customizations?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Update set",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "History",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Update set."
+  },
+  {
+    "Text": "What are the main tools you can use to automate servicenow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System properties \u003E css",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Ui policy, data policies, ui actions and scripts",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Lists, global text search, navigation filter, live feed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Out of the choices provided, the main tools for automating ServiceNow are:"
+  },
+  {
+    "Text": "You cannot revert update set versions.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is FALSE."
+  },
+  {
+    "Text": "Which one is used to group related fields together?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Form Layout",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sections",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List Layout",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "View",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which one of the following statements describes the purpose of an update set?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Move customizations from Production to Development",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create a standard process for moving customizations from instance to instance",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Load incidents data from one instance to other instance",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The primary purpose of an update set in ServiceNow is to:"
+  },
+  {
+    "Text": "What database kept all the customization that you made on your instance?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Sys_update_XML",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Sys_update_HTML",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sys_update_SAML",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sys_Update_CSS",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Sys_update_XML (Correct)"
+  },
+  {
+    "Text": "How to make a fields madatory at data base level, before updating or inserting?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Data Policy."
+  },
+  {
+    "Text": "What does a dictionary override do?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It updates the db fields and brings you back to a list",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Set fields on a form from to visible or hidden; editable or read only; optional or mandatory",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It provides the ability to override several aspects of a field in extended tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Display information from a record",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: It provides the ability to override several aspects of a field in extended tables (Correct)."
+  },
+  {
+    "Text": "To create two columns in a form, how many splits should be used",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Three",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Four",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "One",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Two",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: One (Correct)."
+  },
+  {
+    "Text": "What does a patch release fix?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It allows you to update the record without having to into a form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Combines hot fixes from last feature release and does other fixes",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Define the questions to ask from the end user ordering the catalog item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Combines hot fixes from last feature release and does other fixes (Correct)."
+  },
+  {
+    "Text": "What is a healthy total response time for Network, browser \u0026amp; server?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "3 seconds, On Average",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "60 Seconds, On Average",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "10 Seconds, On Average",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "1 Minutes, On Average",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The ideal total response time for Network, Browser \u0026amp; Server in ServiceNow can vary depending on factors like internet connection speed, server load, and device processing power. However, a healthy total response time generally falls between 1-3 seconds on average. Here's a breakdown:"
+  },
+  {
+    "Text": "What does SAAS stands for?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System as a service",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Software as a service",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System And Applicable Software",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: Software as a service."
+  },
+  {
+    "Text": "If a row level and a field level rule are in conflict, both rules must be met before an operation is allowed.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is TRUE."
+  }
+]

@@ -1,0 +1,1426 @@
+[
+  {
+    "Text": "Buttons, form links, and context menu items are all examples of what type of functionality?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI\u00A0Actions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI\u00A0Policy",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI actions include the buttons, links, and context menu items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities.Administrators and users with the ui_action_admin role can define UI actions.UI action controlsYou can create a UI action to provide any of these controls:A button on a form.A context menu item on a form that appears when you open the form context menu or right-click the form header.A related link in a form.A button in the banner on top of a list.A button at the bottom of a list.A context menu item on a list that appears when you open the list context menu or right-click the list header.A menu item for the action choice list at the bottom of a list.A related link at the bottom of a list."
+  },
+  {
+    "Text": "Which field (or fields) is used as a unique key during imports?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Coalesce Fields",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Sys IDs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Key Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Match Fields",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Before importing data, plan for how to handle collisions between the source data and the target table.Keep the record already in the target table?Overwrite the record in the target table with the source data?Create duplicate records?Use the\u00A0Coalesce\u00A0option in a Transform Map Field Map to determine if a row in the staging table matches a record in the target table. The\u00A0Coalesce\u00A0option makes a field a record\u0026#8216;s unique key. Set the\u00A0Coalesce\u00A0value to\u00A0true\u00A0to use a field to check for collisions."
+  },
+  {
+    "Text": "What catalog tool would you use to create a catalog item or record producer?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Workflow Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalog Formatter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalog Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalog Builder",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can create or edit a catalog item (catalog item or record producer) using a visual and guided experience along with specified restrictions. The catalog builder experience enables you to delegate the creation and maintenance of the catalog.You can also create a template that can be used to create catalog items. While creating the template, you can specify values or restrictions for items created using the template, for example, restrictions to catalogs, categories, variable types, and portal settings.From the home page of the catalog builder, you can do the following:Create a catalog itemCreate a catalog item templateView the available catalog itemsView the available catalog item templatesView catalog items that are recently updatedView the configured content that describes the catalog building process in your organization."
+  },
+  {
+    "Text": "The _______ protects applications by identifying and restricting access to available files and data.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Update set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Configuration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Scope",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Access Control Rule",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Application scoping protects applications by identifying and restricting access to application files and data.Administrators can specify what parts of an application are accessible to other applications from:The Custom application recordEach application Table recordFor example, suppose that you create a conference room booking application in its own application scope. By default, the application can access and change its own tables and business logic but other applications can\u0026#8216;t unless you give them explicit permission. The application scope ensures:"
+  },
+  {
+    "Text": "As an IT employee what interface would you use, if you wanted to browse internal IT documentation, like troubleshooting scripts and FAQs?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "ServiceNow Wiki",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "SharePoint",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Stack Overflow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://support.servicenow.com/kb?id=kb_article_view\u0026#038;sysparm_article=KB0547260"
+  },
+  {
+    "Text": "What is the purpose of a Related List?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "To create a one-to-many relationship",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "To present related records",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "To present related fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "To dot-walk to a core table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Related lists appear on forms and show records in tables that have relationships to the current record."
+  },
+  {
+    "Text": "Which one of the following statements describes the contents of the Configuration Management Database (CMDB)?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The CMDB archives all Service Management PaaS equipment metadata and usage statistics",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The CMDB contains ITIL process data pertaining to configuration items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The CMDB contains the Business Rules that direct the intangible, configurable assets used by a company",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The CMDB contains data about tangible and intangible business assets",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The configurations are stored in a configuration management database (ServiceNow CMDB) which consists of entities, called Configuration Items (CI), that are part of your environment. A CI may be:A physical entity, such as a computer or routerA logical entity, such as an instance of a databaseConceptual, such as a Requisition Service"
+  },
+  {
+    "Text": "Where can we create SLAs, OLAs and Underpinning Contracts?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Level Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incident Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configuration Management",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read more here: https://docs.servicenow.com/bundle/vancouver-it-service-management/page/product/service-level-management/reference/service-level-mgmt-landing-page.html"
+  },
+  {
+    "Text": "Which of the following is used to initiate a flow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A spoke",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An Event",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Trigger",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Core Action",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Triggers determine when a flow\u0026#8216;s logic executes. Every Flow has one trigger. There are three Trigger types:Record: execute the flow when a record is created or updatedDate: execute the flow at a specific time or intervalApplication: execute the flow when something happens on an instance, such as receiving an email"
+  },
+  {
+    "Text": "What are the three key tables in an enterprise CMDB?Select 3 answers",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "cmdb_rel_ci",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "cmdb",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sn_cmdb",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmdb_ci",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "cmdb_bak",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sn_cmdb_bak",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Key tables in the configuration management database (CMDB):The Base Configuration Item [cmdb] table, which is the core CMDB table for non IT CIs (descending classes are non IT CIs).The core Configuration Item [cmdb_ci] table, which stores the basic attributes of all the CIs. The admin, itil, or asset user role is required to access this table (descending classes are IT CIs).The CI Relationship [cmdb_rel_ci] table, which defines all relationships between CIs."
+  },
+  {
+    "Text": "Which statement is true about business rules?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A business rule must run before a database action occurs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A business rule must not run before a database action occurs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A business rule monitors fields on a form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A business rule can be a piece of Javascript",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/utah-api-reference/page/script/business-rules/concept/c_BusinessRules.html"
+  },
+  {
+    "Text": "What is the best practice related to using the Default Update Set for moving customizations between instances?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "You should not use the Default Update sets for moving between instances",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Keep Default update set to maximum of 20 records, for troubleshooting purposes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Merge Default update sets before moving between instances",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Submit Default update set to application repository",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/utah-application-development/page/build/system-update-sets/reference/get-started-update-sets.html"
+  },
+  {
+    "Text": "Your customer would like to create a new template to notify users who are affected by network outages at their site. Which module would you use to create a new notification?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Notification \u003E Email \u003E Notifications",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Properties \u003E Email \u003E Settings",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Preferences \u003E Email \u003E Notifications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Click Gear \u003E Notifications \u003E New",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Administration \u003E Notification Overview",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To create a new notification navigate to\u00A0All\u00A0\u003E\u00A0System Notification\u00A0\u003E\u00A0Email\u00A0\u003E\u00A0Notifications."
+  },
+  {
+    "Text": "On a filter condition, which component is always a choice list?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Match Criteria",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Operation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Filter Criteria",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Operator",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Operator is a choice list based on the field type. For example: is, is not, is one of, greater than, is different, is empty string, on, after, starts with etc"
+  },
+  {
+    "Text": "To apply a UI Policy to all views, which field should be set to true in its definition record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "On Load",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Global",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Reverse if false",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Inherit",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Global [Advanced view] Option for specifying whether the UI policy applies to all form views. If this check box is cleared, the UI policy is view-specific.By default, the Global UI policy applies to all form views. However, a UI policy can be specific to a view. For example, you can define a UI policy for only the itil view of a form. Use the View field to accomplish this."
+  },
+  {
+    "Text": "A Role is defined as what?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A set of user access policies",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A collection of permissions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A set of access control rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Persona in a workflow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Roles control access to features and capabilities in applications and modules. The admin role provides access to all features and capabilities.After access has been granted to a role, all the groups or users assigned to the role are granted the access. Roles can contain other roles, and any access granted to a role is granted to any role that contains it."
+  },
+  {
+    "Text": "If a knowledge base has no access details specified, what users are able to read articles in that knowledge base?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "No users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "itil users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Any active user",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Any user with an article\u0026#8216;s permalink",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Users with kb_user role",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Several basic principles apply to all instances when configuring user criteria in knowledge.A knowledge manager can specify which users\u00A0Can read\u00A0and\u00A0Can contribute\u00A0to a knowledge base by creating and selecting user criteria.A user must have at least one role to contribute. This requirement is independent of any user criteria selected for a knowledge base.If no user criteria is selected for a knowledge base, all users can read and all users with roles can contribute to that knowledge base.Selecting a single user criteria record in the\u00A0Can read\u00A0and\u00A0Can contribute\u00A0related lists restricts the audience and contributors of that knowledge base to those users.Users included in the\u00A0Can contribute\u00A0user criteria can also read articles. You do not need to explicitly grant these users read-access.Knowledge search results include articles from all knowledge bases the current user has access to. If user criteria prevents a user from viewing an article, that article does not appear in search results for that user.User criteria records are shared between Knowledge and the Service Catalog."
+  },
+  {
+    "Text": "To retrieve an update set from a remote instance, in the Production instance, navigate to:",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "All \u003E Update Sets \u003E Update Sources",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All \u003E System Update Sets \u003E Update Sources",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "All \u003E System Update Sets \u003E Retrieved Sources",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All \u003E System Definition \u003E Update Sources",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All \u003E System Update Sets \u003E Committed Sources",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read the docs: https://docs.servicenow.com/bundle/tokyo-application-development/page/build/system-update-sets/task/t_RetrieveAnUpdateSet.html"
+  },
+  {
+    "Text": "What is common between CIs, Users, Groups?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Any changes to these are not captured in an update set",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_db_object is parent of all tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All changes to these are captured in an update set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They are stored in the same base table cmdb",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The common characteristic between CIs (Configuration Items), Users, and Groups in ServiceNow is that:"
+  },
+  {
+    "Text": "Which best describes a field in a ServiceNow table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A field is an item that appears in a menu list.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A field is a table cell that stores data.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A field is a record in a table.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A field is a table row.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Record is a row.Field is not a record in a table (technically it is, but in this one there is question about something different)"
+  },
+  {
+    "Text": "Tables may have a One to Many relationships. From the Service Catalog, what are examples of tables having a one to many relationships?Select 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "One Request can have many Requested Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "One Requested Item can have many Catalog Tasks",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "One Requested Item can have many Approvals",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "One Approval can have many Requests",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "One Cart can have many Requests",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The three excellent examples of one-to-many relationships within the Service Catalog in ServiceNow:"
+  },
+  {
+    "Text": "The display sequence is controlled in a Service Catalog Item using which of the following?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The Sequence field in the Catalog Item form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The Order field in the Variable form",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The Default Value field in the Catalog Item form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The Choice field in the Variable form",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read the article:\u00A0https://support.servicenow.com/kb?id=kb_article_view\u0026#038;sysparm_article=KB0688324"
+  },
+  {
+    "Text": "Virtual agent capabilities include which\u00A0three\u00A0of the following?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Performing diagnostics",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Providing tutorial (\u0093how to\u0094) information",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Translating conversations",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Elevated role functions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Answering FAQs",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Virtual Agent docs: https://docs.servicenow.com/bundle/vancouver-servicenow-platform/page/administer/virtual-agent/concept/virtual-agent-landing-page.html"
+  },
+  {
+    "Text": "Which technique is used to get information from a series of referenced fields from different tables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Dot-Walking",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Record-Hopping",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table-Walking",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sys_ID Pulling",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/utah-platform-user-interface/page/use/navigation/reference/dot-walking-examples.html"
+  },
+  {
+    "Text": "In what order are Access Controls evaluated?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Table-level - most specific to most general; then Field-level - most specific to most general",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Field-level - most specific to most general; then Table-level - most specific to most general",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field-level - most general to most specific; then Row-level - most specific to most general",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table-level - most specific to most general, then Row-level - most specific to most general",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Due to inheritance, the\u00A0Task\u00A0table Access Controls can grant or deny access to\u00A0NeedIt\u00A0table records, if no Access Controls specific to the\u00A0NeedIt\u00A0table exist. If no Access Control exists on the table, the parent table Access Controls are searched.When deciding whether to grant or deny access, the ACL is searched from the most specific to the most generic match. For example, when determining whether to grant access to the\u00A0NeedIt\u00A0table\u00A0Short description\u00A0field, the search order is:1. Match the table and field name:\u00A0x_58872_needit_needit.short_description2. Match the parent table and field name:\u00A0task.short_description3. Match any table with the field name:\u00A0*.short_description4. Match the table and any field (wildcard):\u00A0x_58872_needit_needit.*5. Match the parent table and any field (wildcard):\u00A0task.*6. Match any table (wildcard) and any field (wildcard):\u00A0*.*"
+  },
+  {
+    "Text": "Which features ensures data consistency while importing data using import sets and web services?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Client Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI\u00A0Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Data Policy is the feature that ensures data consistency while importing data using import sets and web services in ServiceNow."
+  },
+  {
+    "Text": "How is a group defined in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A group defines a set of users that share the same location",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A group is one record stored in the Group Type [sys_user_group_type] table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A group is one record stored in the Group [sys_user_group] table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A group defines a set of users that share the same job title",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "C. A group is one record stored in the Group [sys_user_group] table \u2705"
+  },
+  {
+    "Text": "What is the name of the 32-character unique key that ServiceNow uses to identify each record in a table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System ID",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Unique ID",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ID",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Key",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sys ID",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, every record in any table has a unique identifier called the Sys ID. This is a 32-character alphanumeric string automatically generated by the system when the record is created. The Sys ID is used internally by ServiceNow to:"
+  },
+  {
+    "Text": "Which of the following allows a user to edit field values in a list without opening the form?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Data Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Update flow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List editor",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI\u00A0Action",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The list editor\u00A0lets you edit field values in a list without opening a form."
+  },
+  {
+    "Text": "Your customer requires the ability to monitor which users are performing impersonations in their instance. What would you do to meet that requirement?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "From User icon, select Elevate Roles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On the Impersonator role record, right click and select Create Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create user update set for impersonation tracking",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Activate the glide.sys.log_impersonation prop",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Add the role Log Write [sn_log_write] to the Impersonator Group",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Impersonation logging for interactive sessionsInteractive sessions are performed through the user interface (UI). Enable or disable impersonation logging for interactive sessions using the glide.sys.log_impersonation property.If you enable impersonation logging for interactive sessions by setting glide.sys.log_impersonation to true, all interactive sessions are recorded in the impersonate log."
+  },
+  {
+    "Text": "How can the abbreviation CSDM be expanded?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Customer Service Data Model",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Common System Database Model",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Customer System Data Media",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Common Service Data Model",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/csdm-implementation/concept/csdm-basics.html"
+  },
+  {
+    "Text": "An order from the Service Catalog has been placed. Two records in the Platform are created as a result. Which two records are associated with this newly ordered item?Select 2 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "A change record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A problem record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An incident record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A record of sc_req_item table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A record of sc_task",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The two most likely records associated with a newly ordered item from the Service Catalog:"
+  },
+  {
+    "Text": "What are the components that make up a filter condition?Select 3 answers",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Column",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Value",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Match Criteria",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Operator",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A condition consists of the following parts.Field: Each field contains data from a particular column in the table. Selecting a reference field enables you to dot-walk to data from other tables.Operator: Each field type has its own set of valid operators. The operator determines if a value is needed.Value: Each field has its own set of valid values determined by the field type. Reference fields have access to auto-complete, and choice lists provide a list of options.Grouping: Each condition line is grouped with either an AND or OR connector. The filter requires all condition lines linked with an AND connector to be met. The filter separately evaluates each condition line linked with an OR connector."
+  },
+  {
+    "Text": "A customer wants to use a client script to validate things on a form in order to make sure the submission makes sense. What type of client script would you recommend to meet this requirement?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "onLoad()",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onUpdate()",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onSubmit()",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onSubmission()",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Client script types:onLoad() \u0097 runs when the system first renders the form and before users can enter data. Typically, onLoad() client scripts perform client-side-manipulation of the current form or set default record values.onSubmit() \u0097 runs when a form is submitted. Typically, onSubmit() scripts validate things on the form and ensure that the submission makes sense. An onSubmit() client script can cancel form submission by returning a value of false.onChange() \u0097 runs when a particular field value changes on the form. The onChange() client script must specify these parameters.control: the DHTML widget whose value changed.Note:\u00A0control is not accessible in mobile and service portal.oldValue: the value the widget had when the record was loaded.newValue: the value the widget has after the change.isLoading: identifies whether the change occurs as part of a form load.isTemplate: identifies whether the change occurs as part of a template load.onCellEdit() \u0097 runs when the list editor changes a cell value. The onCellEdit() client script must specify these parameters.sysIDs: an array of the sys_ids for all items being edited.table: the table of the items being edited.oldValues: the old values of the cells being edited.newValue: the new value for the cells being edited.callback: a callback that continues the execution of any other related cell edit scripts. If\u00A0true\u00A0is passed as a parameter, the other scripts are executed or the change is committed if there are no more scripts. If\u00A0false\u00A0is passed as a parameter, any further scripts are not executed and the change is not committed."
+  },
+  {
+    "Text": "IntegrationHub enables execution of third-party APIs as a part of a flow. These integrations are referred to as",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "a spoke",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "a connection",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "an action",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "an integration step",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/utah-integrate-applications/page/administer/integrationhub/concept/integrationhub.html\u0026#8216;Integration Hub enables execution of third-party APIs as a part of a flow when a specific event occurs in ServiceNow. These integrations, referred to as\u00A0spokes\u0026#8216;"
+  },
+  {
+    "Text": "What is a Dictionary Override?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A Dictionary Override sets field properties in extended tables.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A Dictionary Override is a task within a workflow that requests an action before the workflow can continue",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Dictionary Override is the addition, modification, or removal of anything that could have an effect on IT services",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Dictionary Override is an incoming customer update in an update set which applies to the same object as a new local customer update.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Use a dictionary override to allow a field in a child table to have a different value or behavior than the same field in a parent table. For example, a dictionary override changes the default value of the priority field from 4 in the parent table to 5 in the Incident table.Dictionary overrides are inherited by extended tables, so it may be necessary to define additional overrides to change the value of fields on extended tables. For example, if you define the default value of cmdb_ci.install_status to be 3, and create an override for the same field on cmdb_ci_hardware to be 5, all tables extended from the Hardware table will also default to 5. So if you want the default cmdb_ci_computer.install_status to be 3, you will need another override."
+  },
+  {
+    "Text": "Other than Update Set, how else can you move data to another instance in a easy way?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "XML",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Excel",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CSV",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "REST",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To occasionally migrate data from one instance to another, you can export XML data from one instance and import it to another.This method ensures that all fields and values are transferred exactly. Migrating data in an XML file saves time for unscheduled data imports because there is no need to build an import set or a transform map.Exporting and importing data in XML files is commonly used for records created in a development instance that must be migrated with the update sets as part of a migration procedure. Examples of these records include lookup tables, unit test records, and other information required to support production. Typically, this information is only migrated once and the overhead of an import set is not justified."
+  },
+  {
+    "Text": "Which one of the following statements is a recommendation from ServiceNow about Update Sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Avoid using the Default Update set as an Update Set for moving customizations from instance to instance",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Once an Update Set is closed as ?\u0080Complete?\u0080, change it back to ?\u0080In Progress?\u0080 until it is applied to another instance",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Before moving customizations from instance to instance with Update Sets, ensure that both instances are different versions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Use the Baseline Update Set to store the contents of items after they are changed the first time",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/en-US/bundle/tokyo-application-development/page/build/system-update-sets/reference/default-update-sets.html"
+  },
+  {
+    "Text": "Which of the following concepts are associated with the ServiceNow CMDB?Select 4 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "The Dependency View",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A Database",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Tables and Fields",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Processes",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User Permissions",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Read more here about CMDB:\u00A0https://docs.servicenow.com/bundle/utah-servicenow-platform/page/product/configuration-management/concept/cnfig-mgmt-and-cmdb.html"
+  },
+  {
+    "Text": "As it relates to ServiceNow reporting, which of the following statements describes what a metric can do?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A metric is a time measurement used to report the effectiveness of workflows and SLAs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A metric is used to measure and evaluate the effectiveness of IT service management processes",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A metric is a report gauge used on homepages to display real-time data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A metric is a comparative measurement used to report the effectiveness of flows and SLAs.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "It is a definition from SN\u00A0Docs: https://docs.servicenow.com/bundle/tokyo-platform-administration/page/use/reporting/concept/c_MetricDefinitionSupport.html"
+  },
+  {
+    "Text": "Which ServiceNow capability provides assistance to help users obtain information, make decisions, and perform common work tasks via a messaging interface?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Virtual Agent",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Agent Workspace",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Chat GPT",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Now Support",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read more here about VA:\u00A0https://docs.servicenow.com/bundle/utah-servicenow-platform/page/administer/virtual-agent/concept/virtual-agent-landing-page.html"
+  },
+  {
+    "Text": "Which ServiceNow products can be used to discover and populate the CMDB?Select 2 answers",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "IntegrationHub ETL",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Finder",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CMDB Integration Dashboard",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CMDB Plug-in",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Discovery",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "You can populate the CMDB by using Discovery, by using the IntegrationHub ETL or Import Sets to import and integrate data from a third-party source, by integrating with an external CMDB, or by manually creating CIs."
+  },
+  {
+    "Text": "What process allows users to create, categorize, review, approve and browse important information in a centralized location that is shared by the entire organization?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business Information Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self Service Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Information Portal Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge-Centered Management",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/utah-servicenow-platform/page/product/knowledge-management/topic/p_KnowledgeManagment.html"
+  },
+  {
+    "Text": "How do you define sys_id in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Unique 34-character identifier that is assigned to every table record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Unique 32-character identifier that is assigned to every table record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Unique 20-character identifier that is assigned to every table record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Unique 30-character identifier that is assigned to every table record",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A unique 32-character GUID (Globally Unique ID), called a Sys ID (sys_id) identifies each record in an instance. There are various ways a record is assigned a sys_id.When created within the application, sys_id values are unique. The Now Platform and database should manage all operations on sys_id values. The same sys_id value is never generated twice, which ensures that every record created in every table in every instance in the world has a unique identifier. If two records have the same sys_id value, it occurs as a result of the following situations:If a record with the sys_id was copied to the other at the database level outside of the Now Platform.If a record with the sys_id was copied using an Update Set or via XML, its sys_id is the same."
+  },
+  {
+    "Text": "Which system property is added and set to true in order to see impersonation events in the System Log?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "glide.impersonation_setting",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "glide.sys.all_impersonation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "glide.user_setting",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "glide.sys.admin_login",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "glide.sys.log_impersonation",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "How to find the history of impersonations: https://support.servicenow.com/kb?id=kb_article_view\u0026#038;sysparm_article=KB0717055"
+  },
+  {
+    "Text": "What type of user (persona) has clearly defined paths and workflows in the platform and have one or more roles (ie itil and approver_user)?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Approving Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflow User",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ITSM User",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Desk User",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process User",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most fitting user type (persona) in ServiceNow with clearly defined paths and workflows, typically holding multiple roles like ITIL and approver_user, is:"
+  },
+  {
+    "Text": "You are asked to create an option in the Service Catalog, which will allow a user to click Get Help and describe the issue they are having. These forms should create incident records, which are automatically routed to the Service Desk. Which method would you use?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Create Record Producer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Create Content Item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Catalog Item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Order Guide",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Catalog Item will end up in opening a request and request item and attaches a workflow and catalog task, approvals. Where as a Record producer simply insert a record in the selected table."
+  },
+  {
+    "Text": "What is the name of the table relationship, where two or more tables are related in a bi-directional relationship, so that the related records are visible from both tables in a related list?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Many to Many",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Database View",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "One to Many",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Extended",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Many-to-many relationships allow a list to point to a list of entries, rather than to single field.For example, if a knowledge base article points to a list of related configuration items, it uses a related list. Not all lists can be used as related lists, however. For a list to be related to another list, a many-to-many relationship that refers to both tables must exist.The Many to Many Definitions\u00A0[sys_m2m]\u00A0table allows administrators to create custom many-to-many relationships."
+  },
+  {
+    "Text": "How is a user defined in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A user is a record stored in the User Preference [sys_user_preference] table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A user is a record stored in the User [sys_user] table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A user is a field in the LDAP integration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A user is a record stored in the Profile [sys_user_profile] table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read more here about user administration: https://docs.servicenow.com/bundle/utah-platform-administration/page/administer/roles/concept/user.htmlType sys_user.list in your PDI"
+  },
+  {
+    "Text": "What is the name of the string that displays filter criteria?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Menu",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Choice",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Topic",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Breadcrumb",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A filter is a set of conditions applied to a table to help you find and work with a subset of the data in that table.You can apply, modify, create, and save filters. A hierarchical list of conditions at the top of the table \u0097 breadcrumbs \u0097 indicates the current filter.Breadcrumbs offer a quick form of filter navigation. They are ordered from left to right. The left condition is the most general, and the right condition is the most specific. Clicking a breadcrumb removes all the conditions to its right. Clicking the condition separator (\u003E) before a condition removes only that condition."
+  },
+  {
+    "Text": "Which type of tables may be extended by other tables, but are not extended from another table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Custom Tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base Tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Extended Tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Core Tables",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Core = Any table that exists by default in the baseline instance.Custom = Any table that is created by an Admin that does not exist in the baseline instance.Base = Any table that is a parent table (has children) [extended], but is not a child of any other table [doesn\u0026#8216;t extend or not extending]."
+  },
+  {
+    "Text": "Which table stores the Task SLA records for the SLA\u0026#8216;s attached to particular tasks?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sla_task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sla",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sla_definition",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "task_sla",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sla_value",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Task SLA [task_sla] table stores Task SLA records for the SLAs attached to particular tasks.Read more here: https://docs.servicenow.com/bundle/vancouver-it-service-management/page/product/service-level-management/reference/r_TaskSLATable.html"
+  },
+  {
+    "Text": "Which features allow you to update multiple records at one time?Select 2 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Update Selected Action",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Bulk Record Update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Remediation Dashboard",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field Update Action",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List Editor",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "https://docs.servicenow.com/en-US/bundle/utah-platform-user-interface/page/use/using-lists/task/t_EditMultRecUsingListEditor.htmlhttps://docs.servicenow.com/bundle/utah-platform-user-interface/page/use/using-lists/task/t_EditMultiRecUsingEditingForm.html"
+  },
+  {
+    "Text": "Which type of scripts run in the client-side?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business Rule Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Script Include Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Access Control Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Policies and Client Scripts",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read more here: https://docs.servicenow.com/bundle/utah-api-reference/page/script/client-scripts/concept/client-side-scripting-overview.htmlUI\u00A0Policy: make field mandatory, read-only, visible"
+  },
+  {
+    "Text": "Which framework can automatically populate values for the Priority and Category fields based on the Short description field value?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "CSDM",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assignment Rule",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Predictive Intelligence",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Action",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Predictive Intelligence is the interface by which you can train models on the ServiceNow AI Platform. These models enable you to predict, estimate, and identify patterns that can be used to route work, populate form fields, estimate wait times, and more.Show suggestions for relevant articles.Assign, categorize, and prioritize tasks.Detect major incidents.Recommend case resolutions.Prevent duplicate articles and ideas.Detect phishing attempts."
+  },
+  {
+    "Text": "What would NOT appear in the Application Navigator if \u0026#8216;service\u0026#8216; is typed into the filter field?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Portal \u003E Widgets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident \u003E Assigned to me",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Self-Service \u003E Knowledge",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configuration \u003E Business Services",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Application \u0026#8216;Incident\u0026#8216; and module \u0026#8216;Assigned to me\u0026#8216; don\u0026#8216;t contain \u0026#8216;service\u0026#8216; word"
+  }
+]

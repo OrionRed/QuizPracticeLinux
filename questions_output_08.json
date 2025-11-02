@@ -1,0 +1,1146 @@
+[
+  {
+    "Text": "The problem_task table extends which table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "There is no table such as problem_task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It does not extend any table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Task",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Problem",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What are the major workflow activities?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Approvals, Conditions, Notifications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approval conditions, Notification, Tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approvals, Conditions, Notifications, Tasks, Timers, Utilities",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: C. Approvals, Conditions, Notifications, Tasks, Timers, Utilities"
+  },
+  {
+    "Text": "What records can be created when placing an order in the Service Catalog? Select 3 answers",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Problem Task [problem_task]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Requested Item [sc_req_item]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Catalog Task [sc_task]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Request [sc_request]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Change Request [change_request]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The records that can be created when placing an order in the Service Catalog are:"
+  },
+  {
+    "Text": "Which of the following are valid variable types in ServiceNow? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Radio Button List",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Drop Down List",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Date",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Multiple Choice",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Select Box",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Reference",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "All the correct variable types in ServiceNow:"
+  },
+  {
+    "Text": "A group can contain a nested group.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "Which one of the following is NOT a type of Visual Task Board?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Freeform",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Flexible",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Feature",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Guided boards",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "The System Administrator role is one of the baseline roles and it contains the security_admin role",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "How is it possible for a non-administrator to develop and deploy applications on the Now Platform?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Ask the administrators to do it since only administrators have this level of access.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It is not possible to develop or deploy applications in ServiceNow.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It is not necessary for a non-administrator to develop or deploy applications.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Use delegated development and deployment application.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The ServiceNow\u00A0Delegated development and deployment application\u00A0enables non-administrators to develop and deploy applications."
+  },
+  {
+    "Text": "Who can access to schema maps, tables and column module?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "ITIL User",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "End User",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approver",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Administrator",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: D. Administrator"
+  },
+  {
+    "Text": "What are the workflow activities?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Start, Pause, Reset, Complete",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Draft, Review, Publish, Retire",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Waiting for approval, fulfillment, delivery, completed",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Start, Pause, Reset",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, the workflow activities refer to the different stages or steps that a record goes through during the workflow process."
+  },
+  {
+    "Text": "When you have subject filled on email notification as well as on the notification template, which one will appear on the sent email?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Both the subjects are concatenated",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Subject from Email Notification",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Subject from Template",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Blank",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: B. Subject from Email Notification"
+  },
+  {
+    "Text": "What does the attachment functionality in a kb article do?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It will take you to a blank incident form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Read only data that is not editable on this form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It provides a choice of adding documents as attachments",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Allow you to attach any other existing record in ServiceNow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: C. It provides a choice of adding documents as attachments"
+  },
+  {
+    "Text": "What is the purpose of the import set table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Used to import users data only",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It acts as a staging area for records imported",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A new application in servicenow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: B. It acts as a staging area for records imported"
+  },
+  {
+    "Text": "Which of the following is possible via an inbound action?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Schedule a job",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sends an email notification",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Change main banner",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Modifying existing records",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Inbound actions are a feature used in systems like ServiceNow to automate responses based on incoming emails. Here\u2019s what is possible via an inbound action:"
+  },
+  {
+    "Text": "How are users and groups related?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Many to Many",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "One to one",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "One to Many",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All to All",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. Many to Many"
+  },
+  {
+    "Text": "What is a Service Now event?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business rules, client scripts, fields, forms and form sections, reports, tables, views and workflows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create a new table and fill out he extend table field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It is an indication to the ServiceNow processes that something notable has occurred, e.g., approving a request, workflow, etc.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Semaphores, which control the number of user transactions that can be run in parallel. It makes sure there aren\u0027t too many things running at once.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A ServiceNow event is an indication to the ServiceNow processes that something notable has occurred, e.g., approving a request, workflow, etc."
+  },
+  {
+    "Text": "What are the ways you can bring users into your ServiceNow instance?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "SSO",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "LDAP",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Manual Import",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All the above",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: D. All the above"
+  },
+  {
+    "Text": "When can SLAs include actions be triggered on ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Breached",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Completed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "In progress",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Anytime",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Anytime"
+  },
+  {
+    "Text": "What's a module and application in the example \u0026#8230; Incident \u0026gt; create new",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Incident is an application and create new is the module",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incident is a module and create new is an application",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident and create new both are applications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident and create new both are modules",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. Incident is an application and create new is a module"
+  },
+  {
+    "Text": "Which icon in the banner do you use to turn on the Application Picker and the Update Set Picker?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Magnifier",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Check box",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Globe",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Question mark",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Chat bubbles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To turn on the\u00A0Application Picker\u00A0and the\u00A0Update Set Picker\u00A0in ServiceNow, you typically use the\u00A0Globe\u00A0icon in the banner. This icon opens the application navigator, where you can switch between different apps and update sets15."
+  },
+  {
+    "Text": "Difference between Business Rule \u0026amp; Client Script?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business rule works on before insert, update and delete in a database \u0026 client script works only on Submit.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business rule works on before or after Insert, update and delete in a database \u0026 client script works on Submit, on change, on Cell Edit \u0026 on Load.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Business Rule works on Browser side and client scripts works on Server side.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "There is no difference b/w the two.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: B. Business rule works on before or after Insert, update and delete in a database \u0026amp; client script works on Submit, on change, on Cell Edit \u0026amp; on Load."
+  },
+  {
+    "Text": "Which of the following concepts are associated with the ServiceNow CMDB? (Choose four)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Service Processes",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Tables and Fields",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A Database",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User Permissions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The Dependency View",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The concepts associated with the ServiceNow CMDB are:"
+  },
+  {
+    "Text": "Access to tables and fields are governed by Access Control.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True"
+  },
+  {
+    "Text": "What Details does a knowledge article hold? (Select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Known errors",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User Solutions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Troubleshooting tips",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User information",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Known errors\nThis option is\u00A0correct. Knowledge articles can contain information about known errors, which helps users understand issues that have been identified and documented within the system. This aligns with the purpose of knowledge management to capture and share information about problems and their resolutions."
+  },
+  {
+    "Text": "What is an Access Control List (ACL)?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Database Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Update Set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It\u0027s a bunch of access controls for a table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: C. It's a bunch of access controls for a table"
+  },
+  {
+    "Text": "How do you change the sort sequence of fields or tasks?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Variable Set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Arrange in Alphabetical Order",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Modify Field Types",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Modify the order field",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What are the three basic elements of a workflow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "SLA definition, Task SLA, SLA workflow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approval, notification and task",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Task, Table and Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: B. Approval, notification and task"
+  },
+  {
+    "Text": "End Users can personalize the list layouts for themselves.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE"
+  },
+  {
+    "Text": "Is is true that System upgrade schedule auto-updates an existing MID server to the latest build on a ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What related tables does the schema map show?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Sys_user",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Cmdb_ci_computers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Class extension or reference",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: C. Class extension or reference"
+  },
+  {
+    "Text": "Form Context Menu provides a graphical representation of other tables related to a specific table ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is FALSE. While the Form Context Menu provides various actions and options related to the current form, it does not offer a graphical representation of related tables."
+  },
+  {
+    "Text": "Resetting the list layout globally will over ride personal preferences.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE."
+  },
+  {
+    "Text": "ESS users have access to only self service portal.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE"
+  },
+  {
+    "Text": "What is a ci?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "CI is a menu of any application in ServiceNow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI is a table in serviceNow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI is a tangible device or intangible dedicated software in CMDB",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: C. CI is a tangible device or intangible dedicated software in CMDB"
+  },
+  {
+    "Text": "Example of Contextual Security",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: C. ACL"
+  },
+  {
+    "Text": "When relating to Task SLA Time-Based Fields, The Breach time is the same as Planned end time.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "FALSE"
+  },
+  {
+    "Text": "What is the significance of Order field on Catalog Item variables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It established the display order of variables - Listed in ascending order values",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It displays the number to the left side of the variable",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It provides the order in which data will be parsed",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. It established the display order of variables - Listed in ascending order values"
+  },
+  {
+    "Text": "What is a sys_id?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It is a unique 16 character globally unique id used to identify a record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It is a unique 24 character globally unique id used to identify a record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It is a unique 32 character globally unique id used to identify a record",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "For UI policy to be applied on all views which among the following should be checked?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Global",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "On Load",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Condition",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Run Script",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. Global"
+  },
+  {
+    "Text": "Which is the correct role that allows you personalising a list view on a ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "admin / personalize_control / personalize_form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ess role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "personalize_list",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The role that allows you to personalize a list view on a ServiceNow instance is personalize_list."
+  },
+  {
+    "Text": "What is retroactive start in SLA?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It is used for attaching SLA from a particularly created date \u0026 time without attaching SLA on the opened time.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "This is used for calculating duration of SLA.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Through this field we can stop SLA on any condition.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "This field is not there on SLA Definition page.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Can you change the number prefix from \u201CINC\u201D to \u201CIN\u201D for incident table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System definition - Data dictionary.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System definition - Auto number",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System definition - Number maintenance table(sys_number).",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "No. It is not possible",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which is not Related to UI Action?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "List Link",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form Link",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Search",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Form Button",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Search is not directly related to UI actions. UI actions are elements that trigger specific actions or behaviors within a user interface, such as opening forms, executing scripts, or navigating to other pages. List links, form links, and form buttons are all examples of UI actions."
+  },
+  {
+    "Text": "SSO abbreviation is",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Single Sign On",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Sign on",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Single Source on",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Source Sign on",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "SSO stands for Single Sign On. In ServiceNow, and many other software applications, SSO allows a user to log in once and access multiple applications or systems with those same credentials."
+  },
+  {
+    "Text": "What is an order guide?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It defines every table and field in the system. It contains information about a field\u0027s data type, character limit, default value, dependency and other attributes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It allows user to order everything they need for one particular request",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It\u0027s a bunch of access controls for a table, i.e., show me all access controls for table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "An order guide in ServiceNow is:"
+  },
+  {
+    "Text": "Where does the global text search appear?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Banner",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Left Navigation Pane",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Content Area",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The global text search in ServiceNow appears in the Banner (Correct)."
+  },
+  {
+    "Text": "You can limit Service Now access by IP ranges.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is TRUE (Correct). ServiceNow allows you to limit access based on IP ranges."
+  },
+  {
+    "Text": "Enhanced notification preferences enable you to easily change your preferences and choose which notifications you prefer, where and when you want to be notified.\nWhat options are available for users when setting their notification preferences in Next Experience? (Select 3)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Set global notification preferences for all active users in the system.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Enable or disable a particular channel for receiving notifications.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Create, edit, or delete notification channels for instant messages, email, SMS, and voice.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Create, edit, or delete system notifications for a particular channel.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create custom notifications by subscribing to system notifications and applying desired conditions.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The correct options for setting notification preferences in Next Experience are:"
+  },
+  {
+    "Text": "What provides a guide for moving data from import sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Data Source",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Transform Maps",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Coalesce Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business Rules",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Out of the choices you provided, Transform Maps (Correct) are the primary guide for moving data from import sets in ServiceNow."
+  },
+  {
+    "Text": "Update sets cannot be merged.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is FALSE (Correct). Update sets in ServiceNow can be merged."
+  },
+  {
+    "Text": "Which tool is used to create dependencies between configuration items in the CMDB?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "CMDB\u00A0Builder",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI\u00A0Class Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI\u00A0Relationship Editor",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CI\u00A0Service\u00A0Manager",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The tool used to create dependencies between configuration items in the CMDB is CI Relationship Editor."
+  }
+]

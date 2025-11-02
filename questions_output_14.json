@@ -1,0 +1,1470 @@
+[
+  {
+    "Text": "What role enables someone to authorize a request, with no other permissions on the platform?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Approver [approver_user]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Authorize [authorize_user]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reviewer [reviewer_user]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Verification [verify_user]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approval Group [approval_group]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What is a formatter? Select one of the following.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A formatter allows you to configure applications on your instance",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A formatter is a set of conditions applied to a table to help find and work with data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A formatter allows you to populate fields automatically",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A formatter is a form element used to display information that is not a field in the record",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "On a related list, which buttons are commonly used for managing the records on the list?\nSelect 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Add",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Manage",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "New",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Publish",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Edit",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which one of the following statements is true about Column Context Menus?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It displays actions such as creating quick reports, configuring the list, and exporting data",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It displays actions such as view form, view related task, and add relationship",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It displays actions related to viewing and filtering the entire list",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It displays actions related to filtering options, assigning tags, and search",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "On the knowledge base record, which tab would you use to define which users are not able to write articles to the knowledge base?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Cannot Write",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Cannot Author",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Can Contribute",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Cannot Contribute",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Read Only",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "How would you navigate to the Schema map for a table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Dictionary \u003E Show Schema Map; Select Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Tables; Select Table; Go to Related links and click Show Schema Map",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Definition \u003E Dictionary; Select Table; Go to Related links and click Show Schema Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Show Schema Map; Select Table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Generate a schema map to view and easily access different parts of the database schema.1. Navigate to\u00A0All\u00A0\u003E\u00A0System Definition\u00A0\u003E\u00A0Tables \u0026#038; Columns.2. In the\u00A0Table Names\u00A0pane, select a table.3. Click\u00A0Schema map.The schema map for the selected table opens in a separate tab or window.If required, you can print this map from the browser."
+  },
+  {
+    "Text": "When looking at a long list of records, you want to quickly filter, to show only those which have Category of Hardware. How might you do that?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Click Funnel icon, type Hardware and click enter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Right click on magnifier, type Hardware and click enter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On the Category column header, right click and select Show \u003E Hardware",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On Breadcrumb, click \u003E icon, type Hardware and click enter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On the list, locate and right click on the value Hardware, select Show Matching",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To quickly filter a list using a value in a field, right-click in the field and select\u00A0Show Matching\u00A0or\u00A0Filter Out."
+  },
+  {
+    "Text": "Which of the following are a type of client scripts supported in ServiceNow?\nSelect 4 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "onEdit",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onUpdate",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onChange",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onCellEdit",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onSubmit",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onLoad",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which modules can you use to create a new table?\nSelect 2 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Schema Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Database",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Applications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tables \u0026 Columns",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Test this in your instance and verify!"
+  },
+  {
+    "Text": "Which module would you use to create a new automation of business logic such as approvals, tasks, and notifications?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Process Automation \u003E Active Flows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Automation \u003E Workflow Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Automation \u003E Flow Administration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Automation \u003E Process Flow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Automation \u003E Flow Designer",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which of the following is NOT a database setting on the Application Access section of a Table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Can create",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Can update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Can write",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Can read",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Can delete",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "A task worker asks how they can monitor any updates occurring to records assigned to him, like responses from customers. What do you suggest?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Click on the eyeglass icon to expand the Monitor frame",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Open an Agent workspace tab for each record he wants to monitor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On My Work list, select the Activity Stream icon to show a frame with live updates",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Select Service Desk \u003E My Work Dashboard",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "On what part of the ServiceNow instance, would you find the option to Impersonate User?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Content Frame",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Module",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User\u00A0Menu",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Application Navigator",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What section on a task record would you use to see the most recent update made to a record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Timeline",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Audit Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Activity",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Journal",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which script runs when a record is displayed, inserted, updated, deleted, or when a table is queried?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Client Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI\u00A0Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Script Include",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What type of client script runs when a cell on a list changes value through use of the List editor?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "onEdit()",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onCellEdit()",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onListEdit()",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onChange()",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What will happen if you click \u2018Show Matching\u2018 on the \u2018Software\u2018 category on the incident list?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "All incidents with Software category will remain visible",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It will open a new window in your browser and display all the tickets other than Software",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All incidents with Software category will disappear from the list",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Nothing will happen",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To quickly filter a list using a value in a field, right-click in the field and select\u00A0Show Matching\u00A0or\u00A0Filter Out. For date fields, choose from\u00A0Show Before,\u00A0Show After, and\u00A0Filter Out."
+  },
+  {
+    "Text": "On the Form header, which element you to access form templates?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "More Options (...)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Stamp",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Paperclip",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Pages",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "The Report Designer contains different sections for configuring your report.\nWhich section is used to adjust the look of your report, including colors, titles and legend layout?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Configure",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Format",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Layout",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Style",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which term refers to application menus and modules which you may want to access quickly and often?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Bookmark",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Favorite",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Breadcrumb",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tag",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What icon do you use to change the label on a Favorite?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Clock",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Pencil",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Triangle",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Star",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What is the sequence of conditions in an SLA definition?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Start, In Progress, Stop",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Start, Pause, Stop",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Start, Hold, Halt",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Begin, Hold, Halt",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What happens if you select Publish when creating articles manually or by import?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It triggers the publish workflow assigned to the knowledge base.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The articles are sent for review",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The articles are automatically moved to a published state.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The articles are sent for approvals.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "On a form, which type of field has this icon which can be clicked, to see a preview of the associated record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Choice",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Preview",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reference",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Lookup",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, a Reference field is used to link to another record in a different table (e.g., \"Caller\" references the User table)."
+  },
+  {
+    "Text": "What are examples of UI Actions relating to forms?\nSelect 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Form Columns",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form View",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form Context Menu",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Form Links",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Form Buttons",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What is the path an Administrator could take to view the fulfillment stage task list for an order placed by a user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FULFILLMENT (Number)\u003ERITM (Number)\u003ETASK (Number)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "REQ (Number)\u003ERITM (Number)\u003ETASK (Number)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "RITM (Number)\u003EREQ (Number)\u003EPROCUREMENT (Number)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "REQ (Number)\u003ERITM (Number)\u003EPROCUREMENT (Number)",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "REQ contains RITMs and RITM contains TASKs"
+  },
+  {
+    "Text": "Which field type displays records from another table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Choice",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "String",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reference",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Select-box",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Read more here about field types:\u00A0https://docs.servicenow.com/en-US/bundle/utah-platform-administration/page/administer/reference-pages/reference/r_FieldTypes.html"
+  },
+  {
+    "Text": "Which three Variable Types can be added to a Service Catalog Item?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True/False, Multiple Choice, and Ordered",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Number List, Single Line Text, and Reference",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Multiple Choice, Select Box, and Checkbox",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "True/False, Checkbox, and Number List",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What controls the publishing and retiring process for knowledge articles?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Workflow Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approval Definitions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approval Policies",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflow",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "State Lifecycle",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What ServiceNow feature allows you to include data from a secondary related table on a report?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "SQL",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dot Walking",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Outer Join",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Join",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can dotwalk to related records using Choose columns in the Configure section."
+  },
+  {
+    "Text": "Which tab on the knowledge base record, would you use to identify the sets of users who are able to read articles in that knowledge base?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Can Access",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Can Read",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Accessible to",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You specify user criteria for a knowledge base to control which users are granted access to read and contribute knowledge articles to that knowledge base."
+  },
+  {
+    "Text": "What do you click when you have made modifications to your report, and you want to see the results without saving?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Run",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Save",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Test",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Try It",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Execute",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "After configuring a report, click the\u00A0Run\u00A0button to run the report without saving the changes. To run the report and save the changes, click the\u00A0Save\u00A0button."
+  },
+  {
+    "Text": "What sections do you need to fill in when creating a notification?\nSelect 3 asnwers",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Who will receive",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Who will send",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Notes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "When to send",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "What it will contain",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What is shown in the image below?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Relationships",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI\u00A0Class Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI\u00A0Dependency View",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Schema map",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow\u00AE Dependency Views maps graphically display CIs that support application or business services and the relationships between the CIs."
+  },
+  {
+    "Text": "A knowledge article must be which of the following states to display to a user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Review",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Retired",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Published",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Draft",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Knowledge Base Search results can be sorted by which of the following?\nSelect 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Views",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Relevance",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Popularity",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Newest",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "My group articles",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which are valid Service Now User Authentication Methods?\nSelect 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Local Database",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "XML feed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FTP authentication",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "LDAP",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "SSO",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which section of the ServiceNow UI allows you to perform a global search?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Banner frame",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Content frame",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Navigator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record form",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Reports can be created from which different places in the platform?\nSelect 2 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "List column heading",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Metrics module",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "View / Run module",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Statistics module",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "When impersonating a user for testing purposes, what is the best way to return to your account?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Clear browser cache",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Turn your computer off and on again",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Log out and back in",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "End Impersonation",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What ServiceNow feature can be triggered by events, and is used to inform users about activities or updates in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Events",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Alerts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Texts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Notifications",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "When creating a new notification, what must you define?\nSelect 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "What the content of the notification",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Who receives the notification",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Settings for handing inactive user accounts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The associated knowledge base",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Under what conditions is the notification sent",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "On the Reports page, what sections allow you to see which reports are visible to different audiences?\nSelect 4 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "My reports",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "All",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Global",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Group",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Team",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Department",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "The Report Designer contains different sections for configuring your report. Which section is used to specify the name of the report, and the table or data source for the report?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Design",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configure",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Name",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Style",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What will happen if you click \u2018Filter Out\u2018 on the \u2018Hardware\u2018 category on the incident list?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Nothing will happen",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All incidents with Hardware category will disappear from the list",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It will open a new window in your browser and display all the tickets other than Hardware",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All incidents with Hardware category will remain visible",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To quickly filter a list using a value in a field, right-click in the field and select\u00A0Show Matching\u00A0or\u00A0Filter Out. For date fields, choose from\u00A0Show Before,\u00A0Show After, and\u00A0Filter Out."
+  },
+  {
+    "Text": "Which role can manage multiple knowledge bases?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "knowledge_admin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sn_kb_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "knowledge_base_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "kb_admin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "While showing a customer their Incident form, they ask to change the Priority field title to display their internal terminology. How would you do that?\nSelect 2 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Right click on Priority and select Configure Dictionary",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Right click on Priority and select Configure Label",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Right click on Priority and select Configure Display Settings",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Right click on Priority and select Configure Column",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What options are available to choose from in the \u2018When\u2018 field in the Business Rule?\nSelect 2 answers",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Before",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Insert",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "After",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Where can we create SLAs, OLAs and Underpinning Contracts?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Configuration Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Level Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, SLAs (Service Level Agreements), OLAs (Operation Level Agreements), and Underpinning Contracts are all managed within the Service Level Management (SLM) application. This module provides dedicated functionalities for defining, configuring, and monitoring these agreements, ensuring smooth service delivery across your organization."
+  },
+  {
+    "Text": "What is the name of text indexing search engine used in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Google",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Bing",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Zing",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Baidu",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, the default text indexing and search engine is called Zing."
+  },
+  {
+    "Text": "In Knowledge Base, articles are grouped by?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Categories",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Contents",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalogs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "News",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In the ServiceNow Knowledge Base, articles are primarily grouped by Categories."
+  },
+  {
+    "Text": "What do client request \u002B server response =?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Single trip",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Round trip",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Multiple trip",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The equation client request \u002B server response = round trip accurately represents communication between a client and a server."
+  },
+  {
+    "Text": "In Service Catalog, when a user orders several Items, following records are created: (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "SCTASK",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CHG",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "REQ",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "INC",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "RITM",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The correct choices :"
+  },
+  {
+    "Text": "When you open a service catalog and click the order button what gets created?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "REQ\u003ERITM\u003ETASK",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Item",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct sequence of record creation when you click the order button in a Service Catalog is:"
+  },
+  {
+    "Text": "What does specifying a coalesce mean?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It\u0027s a special data set brought over using a different module",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Make the report that will feed the gauge",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The field or fields you specify will be used as a unique key",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In ServiceNow, specifying a coalesce means the field or fields you specify will be used as a unique key when importing data."
+  },
+  {
+    "Text": "A role does not inherit all the permissions of any other roles it includes.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is FALSE. In ServiceNow, a role can inherit permissions from other roles it includes. This is a key feature for managing user access efficiently."
+  },
+  {
+    "Text": "What is contextual security?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Means the field has been modified",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Display information from a record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Its a system security type, which Controls every level in the servicenow object hierarchy. You can control specific tables and fields.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It\u0027s a group of customizations that can be packaged and moved from one instance to another",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Client Script on the Task table will be applied to Problem table as well",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Only if inherit is false",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Only if inherit is true",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Always Yes",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is Only if inherit is true."
+  }
+]

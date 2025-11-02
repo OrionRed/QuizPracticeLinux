@@ -1,0 +1,838 @@
+[
+  {
+    "Text": "Which tool is used for creating dependencies between configuration items in the CMDB?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "CI Relationship Editor",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CMDB Builder",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Cl Class Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI Service Manager",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "CI Relationship Editor is the tool typically used for creating dependencies between Configuration Items (CIs) in a CMDB (Configuration Management Database)."
+  },
+  {
+    "Text": "When designing a relationship between 2 configuration items, which of the following roles will the base CI take?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The base CI can be the parent or child CI depending on the relationship nature",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The relationship doesn\u2018t involve parent-child roles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The base CI will be the parent CI",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The base CI will be the child CI",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct:"
+  },
+  {
+    "Text": "Tables that exist in the base system are called \u0026#8230;\u0026#8230;\u0026#8230;.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "core tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "custom tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "parent tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "default tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "fixed tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "base tables",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct:"
+  },
+  {
+    "Text": "On Access Control Definitions, what are ways you can set the permissions on a Table?\nSelect 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Groups",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Script that sets the answer variable to true or false",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Roles",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CRUD",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditional Expressions",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The three correct answers are:"
+  },
+  {
+    "Text": "Different views can be created for a list to show different columns and records",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement \"Different views can be created for a list to show different columns and records\" is TRUE."
+  },
+  {
+    "Text": "Which field type displays as a checkbox on the Form? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Multiselect Choice",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Choice",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True/False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Checkbox",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Checkbox list",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The following field types display as a checkbox on the Form:"
+  },
+  {
+    "Text": "What happens when you change the order of columns using the Column Context Menu \u0026gt; Configure \u0026gt; List Layout?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The order of columns for this list changes for all users",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The order of columns for this list changes only for the logged-in user",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The order of columns for this list changes for all users except the users who personalized the list",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the listed answers",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What are examples of Core tables in the ServiceNow platform?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Configuration, Connect, Chat",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Work, Caller, Timecard",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Team, Party, Awards",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User, Task, Incident",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Watch a quick video to get familiar with tables: https://www.youtube.com/watch?v=a7Nrz0OU8XM"
+  },
+  {
+    "Text": "Which application is used primarily to load data into ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Import Hub",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Import Sets",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Import Set",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "System Import Sets is the primary application used to load data into ServiceNow. It allows you to import data from various sources, such as CSV files, XML files, and other systems, into ServiceNow tables."
+  },
+  {
+    "Text": "The Employee On-boarding team has asked for a way for managers to order computers, monitors, business cards, and cell phones for new employees. How would you proceed to meet the requirement?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Create Order Guide",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Create Requested Item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Record Producer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create On-boarding Bot",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "User records are stored in which table",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "profiles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_user",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "What section on the notes tab, shows the history of the work documented on the record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Journal",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Activity",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Timeline",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Audit Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Diary",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "What do you click when you have made modifications to your report, and you want to see the results without saving?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Run",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Execute",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Test",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Preview",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Try it",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Your customer wants to update a notification, so it is sent to the Caller, and also to the Manager of the Caller. How would you approach this requirement?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Set Who will receive to Subscribable",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On the Send to tab, add Caller field, dot walk to Caller\u2019s Manager to add Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create workflow and include a notification in the workflow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On Who will receive tab, select Copy Manager check box",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On Who will receive tab, add Caller field, dot walk to Caller\u2019s Manager to add Manager",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "What type of rule specifies which user or groups are responsible to work on different types of tasks?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "On-call",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assignment",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Routing",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Calendar",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Escalation",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Assignment"
+  },
+  {
+    "Text": "onCellEdit client script is executed when?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Any field is modified",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A particular field is modified on Form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A particular field is modified on List",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The onCellEdit client script is executed when a particular field is modified on a List."
+  },
+  {
+    "Text": "When looking at a long list of records, you want to quickly filter, to show only those which have Category of Hardware. How might you do that?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "On Breadcrumb, click \u003E icon, type Hardware and click enter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Right click on magnifier, type Hardware and click enter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Click Funnel icon, type Hardware and click enter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "On the list, locate and right click on the value Hardware, select Show Matching",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "On the Category column header, right click and select Show \u003E Hardware",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Which resource would you use to determine if a specific user could contribute to a particular knowledge base?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User Criteria Diagnostics",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sn_kb_author role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Criteria Job Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Author Group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "KB Author Checker",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To determine which resource can be used to check if a specific user can contribute to a particular knowledge base in ServiceNow, let's analyze each option provided in the question:"
+  },
+  {
+    "Text": "Business rules are real time",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The statement is FALSE. Business rules in ServiceNow are not necessarily real-time."
+  },
+  {
+    "Text": "What is an ACL defined and applied to?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Specific Table User",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Specific user on a CI",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Specific group of users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Specific Role or user",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: D. Specific Role or user"
+  },
+  {
+    "Text": "What are the different life cycle states of a workflow ? Select all that apply. HINT : Expected answers are states and not stages",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Waiting for approval",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Published",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Fulfilment",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Delivery",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Checked Out",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Unpublished",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "When considering the lifecycle states of a workflow (especially within platforms like Power Automate or similar systems), the focus is on the operational status, not the specific stages within the workflow itself. Here are the relevant lifecycle states:"
+  },
+  {
+    "Text": "Production, Development and Test/QA are the only types of environments in remote instances ServiceNow.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "FALSE"
+  },
+  {
+    "Text": "ServiceNow provides customers with a dedicated database, application and data isolation using which one of the following models ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Multi-tenant",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Single-tenant",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Hybrid Cloud",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow provides customers with a dedicated database, application, and data isolation using a single-tenant model."
+  },
+  {
+    "Text": "When importing data from a spreadsheet, which step defines where the incoming data columns will be written in the receiving table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Schedule Transform",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Select Data Source",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field Mapping",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Load Data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create Transform Map",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "\u2705\u00A0E. Create Transform Map: This is the correct option. In ServiceNow, creating a\u00A0transform map\u00A0is the step where you define how the incoming data columns from a spreadsheet will be mapped to the receiving table. A transform map specifies the relationship between the fields in the import set (staging table) and the fields in the target table, ensuring that data is correctly placed in the receiving table."
+  },
+  {
+    "Text": "Which plugin needs to be activated in order to translate the content of catalog item to multiple languages ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Multiple Language framework plugin ( com.glide.multiple.language_framework )",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Localization framework plugin ( com.glide.localization_framework )",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Translation framework plugin ( com.glide.translation_framework )",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. Localization framework plugin (com.glide.localization_framework)."
+  },
+  {
+    "Text": "How can administrators utilise the same content for different notification channels ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Provide default notification content",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Enable actionable notification content",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Set up related notification content",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Provide common notification content",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Provide common notification content"
+  },
+  {
+    "Text": "Which fields can be configured in reporting to perform arithmetic, coalesce, concatenation and length ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Calculation fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sourcing fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Function fields",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Function fields"
+  },
+  {
+    "Text": "How can administrators personalize access to applications and modules for users and groups in the Platform to complete their work more efficiently? (Select 3)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Create homepages and dashboards and assign specific work to users and groups",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Create a workspace with links to access the applications and modules",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Configure a custom menu",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Configure sidebars with links, specific to users and groups",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Enable the user preference to specify the page that appears when they log in to the Next Experience user interface",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Here's how administrators can personalize access for users and groups, focusing on efficiency:"
+  },
+  {
+    "Text": "If we make the short description field on incident table as mandatory at the dictionary level?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Nothing happens",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Short description will be mandated on incident table only",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Short description will be mandated on all the tables which are extending task table",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "If you make the \"short description\" field on the incident table mandatory at the dictionary level, the following will happen:"
+  },
+  {
+    "Text": "Users with the following role will have full view/edit/delete and share privileges of all dashboard on given ServiceNow instance.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "homepage_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "report_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "dashboard_manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "dashboard_admin",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "What are examples of UI Actions, relating to Lists? (Select four responses)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "List Buttons",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List Context menu",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List Links",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List Choices",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List Control",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List Override",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Correct Options (Examples of UI Actions)"
+  },
+  {
+    "Text": "Following types of reports are available in ServiceNow: (Select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Pareto",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Line Chart",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Donut",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "You're absolutely right! Here's a breakdown of the report types you mentioned and how they fit into ServiceNow's reporting capabilities:"
+  },
+  {
+    "Text": "What table is used to track all changes in an update Set?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "update_set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_update_xml",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_update_set",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is sys_update_xml."
+  },
+  {
+    "Text": "What are events caused by?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User action and scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflow Scripts and Business Rules",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Class extension or reference",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is"
+  }
+]

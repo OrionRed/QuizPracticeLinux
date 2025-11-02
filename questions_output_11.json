@@ -1,0 +1,1350 @@
+[
+  {
+    "Text": "Which database provides a logical model of your company infrastructure by identifying, controlling, maintaining and verifying CIs that exist?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "ITSM",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CIBM",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "LDAP",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CMDB",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CSDM",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A CMDB provides a common place to store data associated with IT assets and configuration items (CIs). The fundamental building block of a CMDB is the CI. A CI represents an item under configuration management, such as a router, a server, an application, a virtual machine, a container, or even a logical construct such as a portfolio. Data import tools are usually used to identify CIs in the environment, and transfer them to the CMDB. Some IT teams may also use manual tools to keep their CMDB updated but this is not a good practice as it cannot scale and it introduces errors - duplicates and un-necessary CIs. Once all of the information is gathered and unified, it must be reviewed for accuracy and consistency, and any data-gaps should be identified and resolved."
+  },
+  {
+    "Text": "Which module can be used to create assignment rules?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System \u003E Assignment Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Policy \u003E Assignment Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Policy \u003E Rules \u003E Assignments",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System \u003E Rules \u003E Assignments",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which of the following modules can be used to view knowledge content?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Self-Service \u003E Knowledge",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Self-Service \u003E Knowledge Bases",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Desk \u003E Articles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge \u003E Content",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Desk \u003E Knowledge Bases",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "ServiceNow consists of standard integration with LDAP",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow and LDAP Integration"
+  },
+  {
+    "Text": "Create Incident, Password Reset, and Report outage: what do these services in the Service Catalog have in common?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "They direct the user to a catalog property",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They direct the user to a record producer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "They direct the user to a catalog UI policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They direct the user to a catalog client script",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "All three services in the Service Catalog - Incident, Password Reset, and Report Outage - share the characteristic of guiding users to a record producer. A record producer is a form within the ServiceNow platform that enables users to initiate the creation of a new record, like an incident or a password reset request. When users request any of these services, they are redirected to a record producer where they can input the necessary information and submit their request.Although the specific details of each record producer may differ depending on the type of service requested, the common thread among them is that they all serve as the initial step for generating a new record in the ServiceNow platform."
+  },
+  {
+    "Text": "What do you activate when you want to add applications or functionality within your development instance?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Updated Pack",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Plugin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Patch",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "App Package",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Update Set",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Plugins are software components that provide specific features and functionalities within a ServiceNow instance.If a plugin is not active by default on the Now Platform, you can activate it from the All Applications list in your instance."
+  },
+  {
+    "Text": "Which admin role is required to make changes to High Security Settings?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "hi_sec_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "security_admin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "acl_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sec_admin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://support.servicenow.com/kb?id=kb_article_view\u0026#038;sysparm_article=KB0688286"
+  },
+  {
+    "Text": "The manager plans to send the same report every month to the client via email. What can help with this?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Schedule",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Scheduled Report",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Scheduled Job",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Date/Time field on the report record",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Scheduled reports are automatically run at a pre-defined frequency and emailed as files to a list of recipients. Scheduled report formats are CSV, XLS, PNG, and PDF.In the main ServiceNow browser window, use the\u00A0All\u00A0menu to open\u00A0Reports \u003E Scheduled Reports. Click the\u00A0New\u00A0button to create a schedule."
+  },
+  {
+    "Text": "Which of the following is used to categorize, flag, and locate records?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Search",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Favorites",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tags",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Bookmarks",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Tags are text labels that you can associate with items like records and pages. Tags enable you to group and organize the items. Tags can be visible to any user (global), visible only to specific groups or users (shared), or visible to a single user (private).Tags are stored in the Tag [label] table. To view tags in a list, navigate to\u00A0System Definition\u00A0\u003E\u00A0Tags\u00A0or\u00A0Self-Service\u00A0\u003E\u00A0My Tags."
+  },
+  {
+    "Text": "Which statement correctly describes the differences between a Client Script and a Business Rule?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A Client Script executes on the server and a Business Rule executes on the client",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Client Script executes before a record is loaded and a Business Rule executes after a record is updated",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Client Script executes on the client and a Business Rule executes on the server",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A Client Script executes before a record is loaded and a Business Rule executes after a record is loaded",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct statement describing the difference between a Client Script and a Business Rule is:"
+  },
+  {
+    "Text": "What is a characteristic of importing data into ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "An existing Transform Map can be used multiple times on the same import set",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "An existing Transform Map can be used one time on the same import set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Any user can manage and set up import sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Coalesce fields are used only after running Transform",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "An existing Transform Map can be used multiple times on the same import set is a characteristic of importing data into ServiceNow. Transform Maps are used to map data from an import set to fields in a ServiceNow table. Once a Transform Map is created, it can be used multiple times on the same import set or on different import sets that have the same data structure. This makes it easier to import data into ServiceNow, especially if you need to import the same type of data on a regular basis."
+  },
+  {
+    "Text": "What do you need to do before you can use an Application-based trigger in your flow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Activate application trigger spoke",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assign Application trigger role [sn_app_trigger_write] to SME",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Activate application spoke, and plug-ins as needed",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Activate application plugins only",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Activate trigger security rules",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Application-based triggers are added when the associated application spoke* is activated.For example, these types of triggers allow you trigger a flow when an item is requested from the Service Catalog. In some instances, a plug-in might need to be activated as well (e.g. Flow Designer Support for Service Catalog).*A spoke contains Flow Designer triggers and actions dedicated to a particular application. For example, the ITSM Spoke contains actions for managing Task records such as the Create Task action. Spokes are activated when their parent application is activated."
+  },
+  {
+    "Text": "What is a key difference between Reporting and Performance Analytics?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Reports can be run on a scheduled basis; Performance Analytics cannot.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Performance Analytics can show trends; Reports cannot.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Performance Analytics contains snapshots of data taken over time; Reporting shows only the data as it is, at the moment the report is run.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Performance Analytics data can be published to Dashboards; Reports cannot.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Performance Analytics shows KPIs; Reporting does not.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/utah-now-intelligence/page/use/performance-analytics/concept/pa-vs-reporting-pa.html"
+  },
+  {
+    "Text": "What module in the Service Catalog application does an Administrator access to begin creating a new catalog item?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Maintain Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Content Items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalog Item",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Admin can define individual catalog items using Service Catalog \u003E Catalog Definition \u003E Maintain Items.You can create, edit, and copy catalog items.Maintain items is an application module that list few types of request items like catalog item, record producer, standard change templates, software catalog, hardware catalog etc. All of these are extended from the base sc_cat_item table and used for request fulfillment from your service catalog. They do create new records ie request or RITM from catalog items or a task based record from a record producer or a change from standard template."
+  },
+  {
+    "Text": "The ServiceNow platform includes which types of interfaces?Select 3 answers.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Now Mobile Apps",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Back Office Dashboard",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Portals",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Agent Control Center",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Now Platform?\u00AE User Interfaces",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Field Service Taskboard",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Read more here:https://docs.servicenow.com/bundle/utah-mobile/page/administer/tablet-mobile-ui/concept/mobile-config-navigation.htmlhttps://www.servicenow.com/products/service-portal.html"
+  },
+  {
+    "Text": "Which module can be used to create assignment lookup rules?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System \u003E Rules \u003E Assignments Lookup Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Policy \u003E Rules \u003E Assignments Lookup Rules",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System \u003E Assignments Lookup Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Policy \u003E Assignments Lookup Rules",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which of the following is true of Service Catalog Items in relation to the Service Catalog?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "They are the building blocks.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "They are optional.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They run behind the scenes.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They provide options.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most accurate statement about Service Catalog Items in relation to the Service Catalog is:"
+  },
+  {
+    "Text": "Which of the following protects applications by identifying and restricting access to available files and data?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Access Control Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Verbose Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Scope",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Application Configuration",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "\"Application scoping protects applications by identifying and restricting access to application files and data.\" https://docs.servicenow.com/bundle/tokyo-application-development/page/build/applications/concept/c_ApplicationScope.html"
+  },
+  {
+    "Text": "Which tool should be used to populate commonly used fields in a form?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Formatter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Template",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Reference Qualifier",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Assignment Rule",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Templates simplify the process of submitting new records by populating fields automatically."
+  },
+  {
+    "Text": "How to combine data from two tables in a report?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Join",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Many to Many",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Database View",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Related Lists",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A database view defines table joins for reporting purposes.For example, a database view can join the Incident table to the Metric Definition and Metric Instance tables. This view can be used to report on incident metrics and may include fields from any of these three tables.Several useful database views are installed with the Database View plugin and the Database Views for Service Management plugin. These database views cover most metric reporting needs and greatly reduce the need to define new ones.Any user who can create a report can use database views as the report source, but ACLs on the underlying tables are honored."
+  },
+  {
+    "Text": "What is the name of the conversational bot platform that provides assistance to help users obtain information, make decisions, and perform common tasks?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Live Feed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Connect Chat",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Answer Agent",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Virtual Agent",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://www.servicenow.com/products/virtual-agent.html"
+  },
+  {
+    "Text": "How are Workflows moved between instances?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Workflows cannot be moved between instances",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflows are moved using Application Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflows are moved using XML\u00A0only",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflows are moved using Update Sets",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Update Sets are used to move customizations and configurations from one ServiceNow instance to another. Workflows, being a type of customization, can be moved between instances using Update Sets. When you create an Update Set, you can add workflows to it, along with any related components such as tables, fields, business rules, and UI pages. Once you have created an Update Set, you can then export it from the source instance and import it into the target instance. This allows you to move workflows and other customizations between instances as needed.The system tracks workflows in update sets differently than other records because workflow information is stored across multiple tables.Changes made to a workflow version are not added to the update set until the workflow is published, at which point the entire workflow is added into the update set. Update sets store workflows as a single Workflow [wf_workflow] record and only retain the latest version with the update type of Workflow."
+  },
+  {
+    "Text": "What information does the System Dictionary contain?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The definition for each table and column",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The information on how tables relate to each other",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The language dictionary used for spell checking",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The human-readable labels and language settings",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The system dictionary is a table, called Dictionary Entry\u00A0[sys_dictionary], that contains details for each table and the definition for every column on each table in an instance.Each row in the system dictionary represents either a table or a column in one of the tables. The system dictionary provides options for administrators to modify tables and fields, which in turn define lists and forms.Use caution when changing system dictionary records because changes can have a high impact on functionality. In particular, changes to dictionary entries for system tables, which are tables that begin with sys_, can create system-wide issues such as the inability to use update sets.Dictionary changes are difficult to reverse. Also, dictionary changes automatically apply to all extended tables unless a dictionary override is defined. Be sure that changes are well-tested before applying them to a production instance."
+  },
+  {
+    "Text": "Where can you create flow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Process Automation \u003E\u00A0Flow Designer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Workflow \u003E\u00A0Workflow Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflow \u003E\u00A0Flow Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Automation \u003E\u00A0Create Flow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Check docs: https://docs.servicenow.com/bundle/vancouver-build-workflows/page/administer/flow-designer/task/create-flow.html"
+  },
+  {
+    "Text": "When using the Load Data and Transform Map process, what is the Mapping Assist used for?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Mapping fields using the Import Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mapping fields using Transform History",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mapping fields using an SLA",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mapping fields using a Field Map",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "https://docs.servicenow.com/bundle/utah-integrate-applications/page/script/server-scripting/concept/c_MappingOptions.html"
+  },
+  {
+    "Text": "Which term best describes something that is created, has worked performed upon it, and is eventually moved to a state of closed?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "event",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "task",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "report",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "flow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Only tasks use states, so they can be moved to closed. We can work on it."
+  },
+  {
+    "Text": "What ServiceNow API will you use to retrieve the incident data in the server script?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "g_form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "GlideRecord",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "GlideApi",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "GlideData",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The GlideRecord API is used for database operations.The GlideRecord API is the primary means of interfacing with the database on the server-side code. A GlideRecord is an object that contains records from a single table. Use the API to instantiate a GlideRecord object and add query parameters, filters, limits, and ordering."
+  },
+  {
+    "Text": "What is the Import Set Table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A repository for Update Set information",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A table where data will be placed, post-transformation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A table that determines relationships",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A staging area for imported records",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Import Set Table is a staging area for imported records in ServiceNow. It is used to import data from various sources into ServiceNow tables. Import Set Tables provide a temporary holding area for records imported from a data source such as a CSV file, an Excel file, or a database table. Once the records are imported into the Import Set Table, they can be transformed and then moved to the appropriate ServiceNow table. The Import Set Table is typically used in conjunction with Transform Maps, which define how the imported data is transformed and mapped to ServiceNow tables"
+  },
+  {
+    "Text": "Which one of the following statements describes the purpose of a Service Catalog flow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A Service Catalog flow is used to drive complex fulfillment processes and sends notifications to defined users or groups",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Although a Service Catalog flow cannot send notifications, the flow drives complex fulfillment processes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Service Catalog flow generates three basic components: item variable types, tasks, and notifications",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A Service Catalog flow generates three basic components: item variable types, tasks, and approvals",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Let's analyze each statement about the purpose of a Service Catalog flow:"
+  },
+  {
+    "Text": "Which of the following modules can I use to see a list of tasks assigned to me?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "System \u003E My Work",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Desk \u003E My Work",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System \u003E My Tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "My Work \u003E Tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Desk \u003E My Tasks",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": ""
+  },
+  {
+    "Text": "Which of the following modules can be used to track the requests that you submitted?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Self-Service \u003E Requests",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-Service \u003E My Submitted Requests",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-Service \u003E My Service Requests",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-Service \u003E My Requests",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Self-Service \u003E My Requests  is the most suitable module to track the requests you submitted in ServiceNow."
+  },
+  {
+    "Text": "The items in the \"Favorites\" synchronize automatically between the classic mobile UI and the desktop UI",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "If you select a link or a module as favorite in the desktop UI, it will automatically synchronize and appear as a favorite in the classic mobile app"
+  },
+  {
+    "Text": "Access control can be applied on both the column level and the row level",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True. In ServiceNow, access control can be applied at both the column (field) level and the row level through the use of Access Control Lists (ACLs)."
+  },
+  {
+    "Text": "Notifications can be sent to individual users or to groups or to both.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "Delegated developers automatically get the permission for deployment.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "False."
+  },
+  {
+    "Text": "One of the important features in Now Platform is that it is specialized to specific departments",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Now Platform is not limited to specific departments or function but encompasses the entire enterprise"
+  },
+  {
+    "Text": "You can approve/reject an approval request record by right clicking the approval request in the list and then selecting approve or reject",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is True."
+  },
+  {
+    "Text": "Import Articles button can be used to import articles from Word documents into the knowledge base",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "If you have big chunk of data to import, it is recommended to import them all at once",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is False."
+  },
+  {
+    "Text": "Related lists do NOT appear on a form until a record has been saved to the database",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "\"The correct answer is True."
+  },
+  {
+    "Text": "Multiple catalog tasks can be linked to one requested item.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "Multi row variable sets can only be used in one record producer or catalog item.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "False, multi-row variable sets can be used in multiple record producers or catalog items within ServiceNow .  This flexibility is a valuable feature for a ServiceNow Certified System Administrator (CSA) to understand and leverage effectively."
+  },
+  {
+    "Text": "Automated tests can run in a web browser if the test requires filling data in a form.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Automated tests can indeed run in a web browser if the test requires filling data in a form (True).  A ServiceNow Certified System Administrator (CSA) should be familiar with various automated testing tools and techniques, including browser-based automation for form filling."
+  },
+  {
+    "Text": "ATF can consist of steps that run on web browser",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Automated Test Framework (ATF) in ServiceNow can indeed consist of steps that run on a web browser (True).  A ServiceNow Certified System Administrator (CSA) should be familiar with ATF\u0026#8216;s capabilities, including web browser-based testing."
+  },
+  {
+    "Text": "Which module displays a list of tasks assigned to a user\u0026#8216;s group but not yet to a specific user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Desk \u003E My Groups Work",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Self-Service \u003E My Groups Work",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Desk \u003E My Work",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Desk \u003E Unassigned Tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-Service \u003E My Work",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-Service \u003E Unassigned Tasks",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "There is no need to create new Import Set for every time you need to import data, you can reuse the Import Set if you\u0026#8216;re importing data with the same columns",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "True."
+  },
+  {
+    "Text": "Which module can be used to access catalog items?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Catalog \u003E Catalog Items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog \u003E Catalog Definitions \u003E Maintain Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog \u003E Maintain Items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog \u003E Categories \u003E Items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog \u003E Items",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "ServiceNow supports multiple service catalogs",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow does support multiple service catalogs (True). This functionality offers flexibility and organization for managing various types of service offerings within your organization."
+  },
+  {
+    "Text": "Delegated developers automatically get the admin role",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Delegated developers do not automatically get the admin role in ServiceNow. Let\u0026#8216;s delve deeper into this concept to solidify its importance for a ServiceNow Certified System Administrator (CSA)."
+  },
+  {
+    "Text": "Which module can be used for branding?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Properties \u003E Basic Configuration UI16",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Properties \u003E Themes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Properties \u003E Branding",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Properties \u003E UI Configuration",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which module can be used to see a list of events that have been triggered?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Policy \u003E Events \u003E Event Log",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Policy \u003E Event Log",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Policy \u003E Events",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Policy \u003E Events \u003E Triggered Events",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which module can be used to change the default date/time formatting?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Properties \u003E Date/Time",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Properties \u003E Configuration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Properties \u003E Basic Configuration UI16",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Properties \u003E General",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which module can be used to access system dictionary?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Definition \u003E Tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System \u003E Data Structure",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Dictionary",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Dictionary \u003E Tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System \u003E Data Schema",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which module should be used to create visual task boards?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Self-Service \u003E Visual Task Boards",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Self-Service \u003E Tasks \u003E Boards",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Self-Service \u003E Personalization \u003E Visual Task Boards",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System \u003E Tasks \u003E Boards",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System \u003E Visual Task Boards",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System \u003E Personalization \u003E Visual Task Boards",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which of the following modules can be used to build database views?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Database \u003E Views",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Database \u003E Joins",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Database Views",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Definition \u003E Database Joins",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which module can be used to manage record numbers?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Definition \u003E Numbering",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Number Configuration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Dictionary \u003E Numbers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Dictionary \u003E Number Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Number Maintenance",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "E. System Definition \u003E Number Maintenance"
+  },
+  {
+    "Text": "Which module can be used to access catalogs?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Catalog \u003E Catalog Definitions \u003E Maintain Catalogs",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog \u003E Catalogs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog \u003E Maintain Catalogs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Catalog \u003E Categories \u003E Catalogs",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which of the following modules should be used to create CI relationships?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Configuration \u003E CI Relationships",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configuration \u003E Suggested Relationships",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configuration \u003E Relationships",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configuration \u003E Relationships \u003E Suggested Relationships",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "You need to change the prefix in the Number field in Problem table from \"PRB\" to \"PRBLM\", which module should you use?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Definition \u003E Numbering",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Dictionary \u003E Number Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Number Maintenance",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Definition \u003E Number Configuration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Dictionary \u003E Numbers",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  }
+]

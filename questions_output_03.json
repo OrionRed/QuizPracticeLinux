@@ -1,0 +1,1238 @@
+[
+  {
+    "Text": "Which one of the following phrases completes the statement: \"The purpose of transform map is to\"",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Create a set of new tables before any data is imported during the load data process.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Determine the relationship between fields displaying in an import set table to the fields in an existing ServiceNow table.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Encrypt data within the instance for higher security.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It adds a dummy record to align fields in a table before an administrator runs transform.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A transform map is a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident [incident] or User [sys_user].The\u00A0Transform Maps\u00A0module enables an administrator to define destinations for imported data on any tables. Transform mapping can be as simple as a drag and drop operation to specify linking between source fields on an import set table and destination fields on any table. Use transform mapping to map source and destination fields dynamically."
+  },
+  {
+    "Text": "How to manage record numbering (like INC0000777)?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System Definition \u003E Number maintenance",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Number field \u003E Number",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Definition \u003E Numbers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "In the base system, several tables are numbered, including Incident, Problem, Change Request, and Knowledge. You can also use these numbers anywhere that script is present, for example to generate watermarks for emails.\u00A0Records in tables can be numbered automatically.Administrators can manage record numbering by navigating to\u00A0System Definition\u00A0\u003E\u00A0Number Maintenance. The current number format for a table, including the prefix (such as\u00A0INC\u00A0for incidents or\u00A0CHG\u00A0for changes), is stored in a record on the Number [sys_number] table."
+  },
+  {
+    "Text": "Which of the following describes the purpose of an order guide?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Order guides provide a list of guidelines for administrators on how to set up item variables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order guides provide me ability to order multiple related items as one request",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Order guides restrict the number of items in an order to only one item per request",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order guides take the user directly to the checkout without prompting for information",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Order guide submits a single service catalog request that generates several items.Order guides determine which catalog items to order by evaluating order guide rule conditions. Information the customer enters within the order guide can be passed as cascading variables to the ordered items, allowing common information to be reused across multiple items."
+  },
+  {
+    "Text": "What is contextual security in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The contextual security manager profile incredible flexibility and power to perfect information by controlling read/write authorization.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It doesn\u0026#8216;t apply the security rules to any level in the object hierarchy.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "In platform security Settings, High automatically activities the contextual security plugin if is already active.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Protects a record based on its contents and table location, data is acted upon based on the position of the information in the table hierarchy. Defines access control rules to any level.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Contextual Security Manager is aware of the system table hierarchy, enabling you to create specific security rules for a field based on where in the hierarchy it is displayed. Benefits of the Contextual Security Manager include:Contextual security: Secure a record based on the contents of the record.Hierarchical security: Apply security rules to any level in the object hierarchy."
+  },
+  {
+    "Text": "What are the three components of a filter condition?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Value",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Operator",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Condition builder format works in\u00A0Field \u003E Operator \u003E Value\u00A0fashion."
+  },
+  {
+    "Text": "What is the primary application used to load data into ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Configuration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Import Sets",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service\u00A0Level Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Update Sets",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "To load data from a data source into a staging table, use the Application Navigator in the main ServiceNow browser window to open\u00A0System Import Sets \u0026gt; Load Data. The configuration options vary depending on the Data Source. In the example, the Data Source is an Excel file. The staging table,\u00A0x_snc_employee_spe_occasions_staging, is created dynamically."
+  },
+  {
+    "Text": "Which statement of the following is correct when referring to UI actions?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI actions are only executed on the server.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Actions cannot use scripts or be scripted.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditions can be specified to determine when a UI Action appears.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Actions on the task table are not available to its extended tables.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI actions include the\u00A0buttons, links, and context menu\u00A0items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities."
+  },
+  {
+    "Text": "Which of the following can be configured by all users in the Next Experience instances?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "AI Search",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Next Experience Readiness Checker",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Personalised Start Page",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Custom menus",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Admin menu",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Users have a new user preference that enables them to specify the page that appears when they login to the Next Experience user interface.\nYou can configure\u00A0a user-selected/personalised start page, other than the default landing page, to appear when you log in to your Next Experience instances."
+  },
+  {
+    "Text": "Which one of the following is a list of what the Service Catalog contains?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record Producer, Order Guide, and Catalog Items.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Order Axles, Exchange Rates, Calendar.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalog Items, Asset Contracts, Task Surveys.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guide, Catalog Items and Interceptors.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Service Catalog application, create service catalogs that provide your customers with self-service opportunities.Catalog/Maintain items\u00A0is used to create and maintain individual catalog items - like iPad, Laptop, etc. where as\u00A0Order guides\u00A0are used to create a \"collection\" of related items - like a new employee.A catalog item works with the cart where you can add multiple and then checkout. On the back end it creates a request, request item, and possibly approvals and tasks depending on its workflow. A record producer is ordered one at a time and creates one record on the back end, most commonly an incident. An order guide is used to guide the user into ordering multiple items.Catalog Items and Record Producers are forms that people can fill out that will create records after being submitted where as Order guides are a way to bundle catalog items together i.e. can handle multiple requests at the requested item level and still present it as one single item to the user."
+  },
+  {
+    "Text": "You are asked to create an option in the service catalog, which will allow a user to click get help and describe the issue they are having. these forms should create incident records, which are automatically routed to the service desk, which method would you use",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Create order guide",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create catalog item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create content item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create record producer",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.Use record producers to provide a better end-user experience instead of using the regular task-based form for creating records."
+  },
+  {
+    "Text": "Where would you go to see if an admin impersonated another user?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User Administration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Base Class",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Log",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Tables",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Go to the syslog.list and set the source as \"Impersonate\" then you will find the details."
+  },
+  {
+    "Text": "Access Control rules may be defined with which of the following permission requirements? (Choose 3)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Scripts",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Groups",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditional Expressions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Roles",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Assignment Rules",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Criteria",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "In ServiceNow, Access Control List (ACL) rules control access to data.Each ACL rule can evaluate three main factors:"
+  },
+  {
+    "Text": "Which role can manage multiple Knowledge bases?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sn_kb_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "kb_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "knowledge_admin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "knowledge_base_admin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "knowledge :\u00A0Can write, edit, and review knowledge management articlesknowledge_admin\u00A0: Can manage the knowledge Knowledge Baseknowledge_manager\u00A0: Can administer knowledge bases and request new knowledge bases for the knowledge_admin to approve"
+  },
+  {
+    "Text": "What is the Import Set Table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A staging area for imported records",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A repository for Update Set information",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A table that determines relationships",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A table where data will be placed, post-transformation",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Import Set Table : A table that acts as a staging location for records imported from a data source prior to transforming those records. Fields on these tables are generated automatically based on imported data and should not be modified manually."
+  },
+  {
+    "Text": "While showing a customer their incident form, they ask to change the Priority field title to display their internal terminology\u00A0PValue. How would you do that? (Choose two responses)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Right click on Priority and select Configure Dictionary",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Right click on Priority and select Configure Label",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Right click on Priority and select Configure Display Settings",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Right click on Priority and select Configure",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "You need to right click on the priority field then select configuration dictionary. Which then opens up a form scroll down \u0026#038; look for Choices tab. This is where you can modify the value to be displayed.Also, if required to be sure it does not impact anything you can keep the Value as is \u0026#038; modify the label so that it does not have any negative impact."
+  },
+  {
+    "Text": "Which field (or fields) is used as a unique key during imports?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Sys IDs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Match Fields",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Coalesce Fields",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Key Fields",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Reference:\u00A0Coalescing"
+  },
+  {
+    "Text": "What module enable an administrator to define destinations for imported data on any ServiceNow table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Field Transform",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Schema Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Transform Map",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Reference:\u00A0Transform Map"
+  },
+  {
+    "Text": "You can identify tables without\u00A0report_view\u00A0access control lists (ACLs) and evaluate which users won\u2019t pass the\u00A0read\u00A0ACLs on a table.\nWhat application allows you to compare reports against all\u00A0report_view\u00A0and the corresponding\u00A0read\u00A0ACLs?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Report Security - enforce access control checks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reporting Statistics Reports",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Security Jump Start (ACL Rules)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL Assessment for Reports",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Anonymous Report Center",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The report_view operation is a record type access control list (ACL) that restricts access to reports. Only users who have one of the required roles can view reports that contain the restricted resource. There are two kinds of report_view access control lists (ACLs): report_view table ACLs and report_view field ACLs.\nYou can use the Report ACL dashboard to identify reports that users can\u2018t see. If the owner doesn\u2018t meet ACL constraints, ACLs can block report creators from their own reports.\nThe scan evaluates all reports against the\u00A0report_view\u00A0ACLs on the instance. It also identifies tables without\u00A0report_view\u00A0ACLs and evaluates which users won\u2018t pass the\u00A0read\u00A0ACLs on a table.\nList of report_view Access Controls -"
+  },
+  {
+    "Text": "Which component of a table contains a piece of data for one record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Factor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Datapoint",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Elements",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A field\u00A0represents an individual item of data on a record. Users can view and modify field data on a form."
+  },
+  {
+    "Text": "You can add human-readable keywords to the URLs of portal pages to improve search engine optimization (SEO) and click-through rates and help users understand what to expect on the page.What can be added as human-readable keywords to help with SEO? (Select 2)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Dynamic page variables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Page parameters",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Sys ID",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Static content",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Page ID",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "You can add human-readable keywords to URLs to improve SEO on Service Portal pages.Human readable keywords are added to URLs in the following format:https://///?id=\u0026#038;Keywords can be populated using\u00A0static content or dynamic page variables\u00A0and can include a single slash (/). Dynamic page variables load keywords that are based on data in a record. The page parameters in the URL specify which record to use.Some portal pages load data from a record that\u0026#8216;s specified by a parameter in the URL. For these pages, you can use dynamic page variables to add meta tags, page titles, and human-readable URL keywords that vary depending on the record loaded on the page.In the following examples, the category and short description of a knowledge article and the category and name of a catalogue item are added as keywords:https:///kb/en/faq/what-is-a-cookie?id=kb_article_view\u0026#038;sysparm_article=KB0000007https:///sp/es/hardware/developer-laptop-mac?id=sc_cat_item\u0026#038;sys_id=774906834fbb4200086eeed18110c737In the \u0026#8216;Human readable url structure\u0026#8216; field of the page record, you can specify the keywords to populate the page URL using\u00A0static content, dynamic page variables, or a combination.Keywords can include alphanumeric characters, hyphens (\u2010), one slash (/), and per cent signs (%) for variables."
+  },
+  {
+    "Text": "Which section of the ServiceNow UI allows you to perform a global search?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Application Navigator.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Content frame",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Banner frame",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List pane",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Banner Frame contains the global search feature.It runs across the top of every page and contains a logo, global navigation controls, and tools.The magnifying glass logo is the global search:"
+  },
+  {
+    "Text": "Which of the following roles cannot be delegated? (Select 2 answers)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "admin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "itil",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "user_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "role_delegator",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "By default, the following roles cannot be delegated:admin, public, nobody and\u00A0role_delegator\u00A0( a user with the role_delegator role cannot delegate this role to other group members)."
+  },
+  {
+    "Text": "What is a best practice regarding data imports?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Plan time before your import to remove obsolete or inaccurate data",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Use extremely large Import Sets, instead of multiple large Import Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Adjust your Transform maps, after the data is loaded into the target table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create a new import set table for each new data load",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Monitor data quality and clean imported data, using the Data Scrub Workspace",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Note while importing:\n1) Before import we need to Verify/clean our data.\n2)\u00A0Data should not be imported in extremely large chunks"
+  },
+  {
+    "Text": "What process allows users to create, categorize, review, approve and browse important information in a centralized location that is shared by the entire organization?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Self Service Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge-Centred Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Business Information Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Information Portal Management",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Knowledge Management supports processes for creating, categorizing, reviewing, and approving articles. Users can search and browse articles as well as provide feedback."
+  },
+  {
+    "Text": "Why is it recommended that you limit update sets to a maximum of 100 records? (Choose 2 answers)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Comply with ISO audit requirements",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Smaller update sets can be imported to production during business hours",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reduce potential conflicts",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Improve ability to troubleshoot issues with default update set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Make it easier to identify and review changes",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Keeps update set logs shorter",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Update sets best practices to follow, in general:1. One update set per user story2. Keep the number of updates per update set small3. Don\u0026#8216;t merge update sets4. Specify update set order5. Update set naming convention6. Publish workflows before completing an update set7. Check all updates before migrating8. Never delete updates, instead move them to Default9. Update set migration order10. Promote changes after hours or on weekendsWhy should the number of update sets kept small?Update sets become convolutedIf you are trying to remove unnecessary updates from an update set, it is much easier to identify these updates when there are only a few entries to go through.Troubleshooting update set conflicts becomes much more difficultWith large update sets, it becomes an inevitability that conflicts will arise. Especially when you have multiple developers on your team all making changes to the same instance."
+  },
+  {
+    "Text": "What is the language used for scripting in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Python",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "JavaScript",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "C\u002B\u002B",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "PHP",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Glide",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Perl",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "JavaScript - Main programming language used in ServiceNow"
+  },
+  {
+    "Text": "What are the different ways to bring users into the ServiceNow system?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Through Single Sign-on, LDAP, Homepage Admin, manually entering users.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Through Single Sign-on, Knowledge Base, manually created by admin.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Through Knowledge Base, Organization Management process module, manually creating users.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Through Single Sign-on, LDAP, using an import sets (importing users), both manually entering users and creating users.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Bringing users into ServiceNow from SSO, LDAP, User Authentication (Manually/Automatically), and Import sets."
+  },
+  {
+    "Text": "To quickly return to your instance\u2019s home page, what item would you click?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Star icon",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Shortcut\u2019s icon",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Navigation header",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Gear icon",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Instance logo",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User menu",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Self-Explanatory"
+  },
+  {
+    "Text": "What is Single Sign-On (SSO)?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A process that grants access to third-party software that allows Service Now to write to outside databases.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A ServiceNow application that maintains, stores, and validates passwords for access to Service Now applications.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A type of ServiceNow release that updates existing Service Now instance.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A type of integration that enables a user to log in once and gain access to the resources of multiple software systems without being prompted to log in again.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "By definition,\u00A0Single sign-on\u00A0(SSO) is an authentication scheme that allows a user to\u00A0log in\u00A0with a single ID and password to any of several related, yet independent, software systems."
+  },
+  {
+    "Text": "Which script can run when a record is displayed, inserted, updated, deleted, or when a table is queried?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Client Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Scheduled Job",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record rule",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A\u00A0business rule\u00A0is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried."
+  },
+  {
+    "Text": "Which one of the following are types of Service Catalog variables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Number list, Check box, Single-line",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Select box, Check box,\u00A0Multi-line",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Reference, Number list, Multi line",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the above",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Reference:\u00A0Types of variables"
+  },
+  {
+    "Text": "What utility enables process owners to author cross-enterprise workflows within a single, unified process?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Flow Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Flow Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflow Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Owner Dashboard",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Workflow Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Automation Designer",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow Process Automation Designer\u00A0enables process owners to author cross-enterprise workflows and create a single, unified process. It can be used to provide end users with a simplified, task-oriented view of your process."
+  },
+  {
+    "Text": "On a list, what part of the table, does each column show?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "An element",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A relationship",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "An attribute",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A field",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Self-Explanatory"
+  },
+  {
+    "Text": "In a typical ServiceNow instance, what types of users are in the system? (Choose one list that orders from 1=most seats to 4=least in amount of seats)",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "1) System Administrator 2) Delegate Administrator 3) ITIL. User 4) ESS user.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "1) ESS user 2) Delegate Administrator 3) ITIL User 4) System Administrator.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "1) ESS user 2) ITIL User 3) Delegate Administrator 4) System Administrator.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "1) System Administrator 2) ITIL User 3) Delegate Administrator 4) ESS user.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ESS\u00A0users are users who can create request via catalog item, create incident if the face any issue and so on.ITIL\u00A0user - Can perform standard actions for an ITIL helpdesk technician. This is the out-of-box \u0026#8216;\u0026#8216;technician\u0026#8216;\u0026#8216; role. Can open, update, close incidents, problems, changes, config management items. Out-of-box, only users with the ITIL role can have tasks assigned to them.Admin:\u00A0This role has special access to all system features, functions, and data because administrators can override ACL rules and pass all role checks.Delegated administration\u00A0allows administrators to set domain-specific policies.System administrator: Duties are to design, develop, build, and customize applications or provide support responsibilities to end-users of the software."
+  },
+  {
+    "Text": "The wait time for end users is based on the round-trip between the client and the server. What activities are included in the roundtrips?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Submit \u002B Query",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Request \u002B Response",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Insert \u002B Verify",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Save \u002B Update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Write \u002B Read",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Self-Explanatory"
+  },
+  {
+    "Text": "Incident, problem and change tables extend which table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User [sys_user]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Task [task]",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Process steps [access steps]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Map [map]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Task [task] is one of the core tables provided with the base system.It provides a series of standard fields used on each of the tables that extend it, such as the Incident [incident] and Problem [problem] tables. In addition, any table which extends task can take advantage of task-specific functionality for driving tasks."
+  },
+  {
+    "Text": "New records, new groups and modified configuration items what do they have in common?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "They are included in an update set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They are customizations",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They do not have anything in common",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "They are not captured in an update set.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "An update set is a group of configuration changes that can be moved from one instance to another. This feature allows administrators to group a series of changes into a named set and then move them as a unit to other systems for testing or deployment.Update set captures the system configuration changes you make to the system. This includes, but is not limited to:Tables, Fields, form layout, list layout, Business rules, workflows, system properties, client scripts, script includes, and other scriptsWhat it does NOT capture is your transactional data likeChanges in Records, Users, Groups, Incidents, Configuration Items, Email"
+  },
+  {
+    "Text": "Which of the following is a requirement for using the CMDB Data Manager?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Configuring the data mapping and migration rules in the CMDB Data Manager.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Setting up the Common Service Data Model (CSDM) environment.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Ensuring there is an active life-cycle rule corresponding to each target class in a life-cycle policy.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Mapping and migrating legacy life-cycle values into the CSDM standard values.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Installing the CSDM Activation (com.snc.cmdb.csdm.activation) plugin.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The requirements for using the CMDB Data Manager have changed since the Utah release.\nTo use CMDB Data Manager, you no longer need to set up the Common Service Data Model (CSDM) environment or activate the CSDM Activation plugin (com.snc.cmdb.csdm.activation) or map and migrate legacy life-cycle values into the CSDM standard values.\nHowever, you must\u00A0ensure that there is an active life-cycle rule corresponding to each target class in a life-cycle policy,\u00A0such as Retire, Archive, or Delete. You can also customize predefined life-cycle rules to reflect processes in your organization.\nLife-cycle rules support the transition of CIs through life-cycle stages as implemented by CMDB Data Manager policies. A life-cycle rule specifies the retirement conditions for a class, reflecting processes and protocols in your organization. A life-cycle rule is required for each targeted class in a Retire, Archive, and Delete CMDB Data Manager policy."
+  },
+  {
+    "Text": "What is a workflow primarily used for?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "To send email notifications.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "To order catalog items.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "To automate a sequence of activities.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "To schedule reports.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Workflow consists of a sequence of\u00A0activities, such as generating records, notifying users of pending approvals, or running scripts.\nHigh-level workflow activity described for reference:"
+  },
+  {
+    "Text": "A dark theme or mode is available for some of the Now Platform capabilities in the Next Experience UI to allow users to fine-tune their experience and help alleviate their eye strain.\nWhich of the following products can support the dark theme? (Choose 3)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Assessments and Surveys",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Dashboards and Reports",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Natural Language Understanding",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "AI Search",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A dark theme or mode is available to allow users to fine-tune their experience and help alleviate their eye strain by reducing the light emitted by device screens.\nHere are some of the Now Platform capabilities that support the dark theme:\nDashboards and Reports\nKnowledge Management\nAssessments and Surveys\nExample:"
+  },
+  {
+    "Text": "When using Transform Mapping how we can dynamically map field?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "We can dynamically map source and destination fields by using ServiceNow scripting objects and functionality.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "By updating the fields using update sets, we can add/delete/modify the fields using rules and server scripts.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "We cannot map dynamically map source and destination fields by using ServiceNow scripting objects and functionality.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "We cannot Schedule data imports for mapping the source and destination fields.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The\u00A0Transform Maps\u00A0module enables an administrator to define destinations for imported data on any tables. Transform mapping can be as simple as a drag and drop operation to specify linking between source fields on an import set table and destination fields on any table.Use transform mapping to map source and destination fields dynamically"
+  },
+  {
+    "Text": "By default in ServiceNow, what customizations are added to Update Sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Changes made to a schedule.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Changes made to a form.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Changes made to data.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Changes made to a homepage.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Update sets can track customizations to application tables, fields, and records. All of which are entailed in a form.Reference:\u00A0Customizations tracked by update sets"
+  },
+  {
+    "Text": "An IT user calls the service desk because they need to work on task records. All they can see is Self Service on their homepage when they login to the ServiceNow instance. What issue could explain this? (Choose 2)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Their user account was not approved by their manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Their user account does not belong to any groups, which contain the ITIL role",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Their user account is not logged in properly",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Their user account does not have ITIL role",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The role which is mostly or widely used is \u201CITIL\u201D. Through this role User is granted as access of Service Desk or technician through which he can open, update, close incidents, problems, changes, configuration management items.(Important Question)"
+  },
+  {
+    "Text": "What is the industry term used to describe the computing platform and solution stack that supports the delivery of web applications?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Single Sign On[SSO]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Simple Object Access Protocol[SOAP]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Open Database Connectivity[ODBC]",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Platform as a service[PaaS]",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Below is the basic Cloud Services Model:\nBelow is how ServiceNow Services are divided:"
+  },
+  {
+    "Text": "The ___________ is a user friendly reference to a field and the ____________ is the backend reference to a field?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "name, label",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "label, name",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "name, value",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "label, value",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Reference:\u00A0Label and name"
+  },
+  {
+    "Text": "What features of ITIL are utilized by the ServiceNow platform?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Planning, Design, Configuration, Testing",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Strategy, Design, Transition, Operations",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Strategy, Design, Transition, Configurations",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Planning, Strategy, Design, Transition",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The IT Infrastructure Library (ITIL) is an integrated, process-based framework for managing IT services.It provides guidance for creating and operating a Service Desk that provides efficient communication between the user community and the IT provider."
+  },
+  {
+    "Text": "Which of the following statements correctly describes the difference between a client script and a business rule?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A client script runs on the server and a business rule runs on the client",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A client script runs on the client when onLoad, onChange of a field or onSubmit of a record. A business rule runs on server before or after a record is loaded, inserted, deleted or updated.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A client script runs before a record is loaded and a business rule runs after a record is loaded.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A client script runs on the client only on load of a record A business rule runs on the server only after a record is added, inserted, deleted or updated.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Client scripts allow the system to run JavaScript on the client (web browser) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.A Business Rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried."
+  },
+  {
+    "Text": "What integration with Catalog Builder enables you to translate the content of the catalogue items on the Catalog Builder dashboard?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Internationalization Framework",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Localization Framework",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Translation Framework",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Globalization Framework",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "You can translate the content of the catalogue items on the Catalog Builder dashboard when the\u00A0localization framework plugin\u00A0(com.glide.localization_framework.installer)\u00A0is installed.\nYou can translate a catalogue item into multiple languages using various translation methods. When a catalogue item is requested for translation into a language, a localisation requested item (LRITM) is created.\nYou can also view the translation status of the catalogue items, request a translation, or translate catalogue items using the Comparison UI.\n1)\u00A0Installing Localization Framework"
+  }
+]

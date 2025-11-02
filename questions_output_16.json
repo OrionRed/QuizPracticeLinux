@@ -1,0 +1,1146 @@
+[
+  {
+    "Text": "How is the knowledge base populated? Choose the right answer.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Using update sets.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The problem application plugin has a workaround feature.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Importing existing articles",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "You can develop a business rule that generates a news item.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "From an existing problem record",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Which of the following statements is true when a new table is created by extending another table ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The new table inherits all of the fields, but does not inherit Access Control rules, Client Scripts, and UI Policies of the parent table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The new table archives the parent table and assumed its roles in the database",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The new table inherits all of the fields of the parent table and can also contain new fields unique to itself",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The new table inherits all of the Business Rules, Client Scripts, and UI Policies of the parent table, but none of the existing fields",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is C. The new table inherits all of the fields of the parent table and can also contain new fields unique to itself."
+  },
+  {
+    "Text": "A.\u00A0What are the main components of the Service Now graphical user interface (GUI) ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Application Navigator, Banner, Power Edge and Content Frame.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Application List, Report Gauge frame, Power Bar and Details pane",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Navigator, News Content Frame, List pane and Information Structure.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Navigation Bar, Report Gauge frame, Power Bar and News Content Block.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. Application Navigator, Banner, Power Edge and Content Frame."
+  },
+  {
+    "Text": "Links, buttons, context menu action belongs to ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "client script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI action",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is C. UI action."
+  },
+  {
+    "Text": "LDAP comes auto configured with company ServiceNow vendor instance",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "FALSE."
+  },
+  {
+    "Text": "Which statement of the following is correct when referring to UI actions ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Actions cannot use scripts or be scripted.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI actions are only executed on the server.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Actions on the task table are not available to its extended tables.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditions can be specified to determine when a UI Action appears.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is D. Conditions can be specified to determine when a UI Action appears."
+  },
+  {
+    "Text": "Which is true regarding Knowledge Base?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "In a Knowledge base, articles are grouped according to categories.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "In a Knowledge base, articles are grouped according to users.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. In a Knowledge base, articles are grouped according to categories."
+  },
+  {
+    "Text": "Can we draw multiple transition from a single activity in workflow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "No",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE."
+  },
+  {
+    "Text": "Choose the table name where business rule information is stored in a ServiceNow instance .",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "\u0022sys_include\u0022 table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "\u0022sys_script\u0022 table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_script_include\u0022 table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. \"sys_script\" table."
+  },
+  {
+    "Text": "Fill in the blank: _____ is any content created using the ServiceNow knowledge base.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Blog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "News",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Post",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Article",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is D. Article."
+  },
+  {
+    "Text": "List the different type of table relationships",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Multiple Inheritance",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Many to Many",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Extensions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "One to many",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The correct options are:"
+  },
+  {
+    "Text": "How do you edit/ create a workflow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Syntax Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Script include",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Graphical Workflow Editor",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is C. Graphical Workflow Editor."
+  },
+  {
+    "Text": "Applications and modules are loaded based on ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "ServiceNow version",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "roles",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Group membership",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "business rules",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. roles."
+  },
+  {
+    "Text": "Which of the following is true while solving incidents as per ITIL framework ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Incident Priority is filled by the user.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident Impact is calculated on the basis of Urgency \u0026 Priority.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident Priority is calculated on the basis of Impact \u0026 Urgency.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incident Urgency is based on Impact \u0026 Priority.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is C. Incident Priority is calculated on the basis of Impact \u0026amp; Urgency."
+  },
+  {
+    "Text": "Choose any 3 ways from the below to update CMDB\u00A0in a ServiceNow instance ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "manual inputs",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "External integrations",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Macros",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import set",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI policy",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Correct: CMDB data can be manually entered into the ServiceNow instance by authorized users."
+  },
+  {
+    "Text": "Knowledge process consists of which of the following ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "publishing",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "document creation, approval and review from SMEs and publishing",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "document creation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI pages",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. document creation, approval and review from SMEs and publishing."
+  },
+  {
+    "Text": "What are the main tools you can use to automate ServiceNow ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "UI policy",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "data policies",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "ui actions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System properties",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Lists, global text search, navigation filter, live feed",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Correct Options:"
+  },
+  {
+    "Text": "SLA, OLA and UC are configured in which module?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ITSM",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "SLM",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Update set can be moved from one instance to another only if state is marked Completed ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE."
+  },
+  {
+    "Text": "Use ______ to create a story with data that can be shared.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Formatters",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field Values",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Task Tables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Dashboards",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is D. Dashboards."
+  },
+  {
+    "Text": "When you open a service catalog and click the Order button what gets created first ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "RITM",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "INCIDENT",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "REQ",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is D. REQ."
+  },
+  {
+    "Text": "Which of the components are visible on Workflow welcome screen ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Catalog Form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "New Workflow Button",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. New Workflow Button."
+  },
+  {
+    "Text": "Which one of the below is used to group related fields together ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Sections",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Form Layout",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "View",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List Layout",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. Sections."
+  },
+  {
+    "Text": "Incident extends which table ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "task table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "cmdb_ci table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. task table."
+  },
+  {
+    "Text": "The MID Server initiates all communications with the ServiceNow instance. This communication is saved as records in ____ . FIll in the blank with the correct option.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Transactions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import Queue",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Staging Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ECC Queue",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Only predefined roles can be migrated from one instance to another ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "FALSE."
+  },
+  {
+    "Text": "Which tables are not part of base ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "base table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "custom tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "extended tables",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. custom tables."
+  },
+  {
+    "Text": "When searching using the App Navigator search field, what can be returned? (Choose four.)\nA.\u00A0Names of Applications and Modules\nB.\u00A0Names of Modules\nC.\u00A0Names of Applications\nD.\u00A0Favorites\nE.\u00A0History Records\nF.\u00A0Titles of Dashboard Gauges",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A,B,C,D",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A,C,D,E",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "B,D,E,F",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A,B,D",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Options (Can be Returned)"
+  },
+  {
+    "Text": "Which of the following provides the working surface for creating new workflows or editing existing ones ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Checkbox",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Stages",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Canvas",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Reports",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is C. Canvas."
+  },
+  {
+    "Text": "On ServiceNow instance, where can you view information about the system activity ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System logs",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Stats",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Upgrade History",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "System Diagnostics",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. System logs."
+  },
+  {
+    "Text": "Choose all the possible way by which events can be created on a ServiceNow instance.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Business rules",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Workflow",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Macro",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client scripts",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Correct: Business rules can be configured to create events under certain conditions, such as when a record is created, updated, or deleted."
+  },
+  {
+    "Text": "If the system administrator wants to modify the homepage, which of the following links on the page indicates that this can be done ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Change Layout",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Add Context",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Make Gauge",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. Change Layout."
+  },
+  {
+    "Text": "Can you change the number prefix from \u201CINC\u201D to \u201CIN\u201D for incident table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System definition \u003E Number maintenance table(sys_number)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "No",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Task related records extend task table. Can a task refer one or more configuration items ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The answer is A. TRUE."
+  },
+  {
+    "Text": "What setting allows users to view a knowledge base article even if they are not logged in?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The \u0022ESS_user\u0022 role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The \u0022Allow AlI\u0022 role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The Public setting",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is C. The Public setting."
+  },
+  {
+    "Text": "Which of the below actions can a user perform in Knowledge management ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "View articles",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Edit articles",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Hide articles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Create articles",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "In Knowledge Management (KM), users can perform several actions based on their roles and permissions. Here's a breakdown of the actions you've listed:"
+  },
+  {
+    "Text": "Which one is not part of filter conditions ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Operator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Value",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Type Field",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is D. Type Field."
+  },
+  {
+    "Text": "Choose the stages for publishing a basic Knowledge publishing workflow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Created \u003E Reviewed \u003EDeployed",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Draft \u003E Review \u003E Published \u003E Retire",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Start \u003E Process \u003E End",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. Draft \u0026gt; Review \u0026gt; Published \u0026gt; Retire."
+  },
+  {
+    "Text": "Which table stores information about groups in ServiceNow instance ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_user_group",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_grp",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_groups",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_user_grp",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "How can Banner Color on ServiceNow instance be personalized ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Not Possible",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Themes section",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Navigation Pane",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Developer Sections",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "What related tables does the schema map show ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Class extension or reference",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Sys_user",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Cmdb_ci_computers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "All the options",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. Class extension or reference."
+  },
+  {
+    "Text": "ServiceNow Virtual Agent provides assistance with a messaging interface. Which capability allows end users to configure Virtual Agent to intercept and help resolve submitted tickets ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Incident Auto-Resolution",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Ticket resolver",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Virtual Agent helper",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Web Intelligence",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Answer: A. Incident Auto-Resolution"
+  },
+  {
+    "Text": "How are local flow variables accessed in flow designer data panel ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Scratchpad variables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "New generated items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "New tabs",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data pills",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is D. Data pills."
+  },
+  {
+    "Text": "Which of the following gets automatically captured in an update set ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Forms",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Views",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Correct Options (Automatically Captured)"
+  },
+  {
+    "Text": "In SLA, what attribute controls what is calculated as hours in a work day, # of work week days ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Schedule",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Type",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Duration",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. Schedule."
+  },
+  {
+    "Text": "What table is used to store customisation of an update set in ServiceNow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Incident",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_update_xml",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "update_set",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is B. sys_update_xml."
+  },
+  {
+    "Text": "What enables you to track and aggregate data over time through elements called scorecards and indicators ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Performance Analytics",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The workflow version",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Update Sets",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Task SLA [task_sla]",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. Performance Analytics."
+  },
+  {
+    "Text": "A Schema Map displays which of the following ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Task Table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Extended Tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Workflows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Reference Table",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Extending Tables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incidents",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Incorrect: A schema map doesn't specifically show individual tables like the Task table."
+  },
+  {
+    "Text": "What Details does a knowledge article hold ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Known errors , User Solutions , Troubleshooting tips",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Known errors , User Solutions , Troubleshooting tips , User information",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is A. Known errors, User Solutions, Troubleshooting tips."
+  },
+  {
+    "Text": "When a knowledge article can be viewed?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "After it is published",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "After it is set to public",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "After it is created",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "From the below, choose all the possible ways by which a Service Catalog workflow be attached ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Through Transform map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Automatically on condition",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Manually on catalog item form",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Service Catalog workflows are typically attached to catalog items to automate the fulfillment process. Here are the two primary methods:"
+  },
+  {
+    "Text": "Which of the below rightly explains the relation between RITM, task and request ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "REQ -\u003E tasks\u00A0 -\u003E RITM",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "RITM -\u003E REQ -\u003E tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "REQ -\u003E RITM -\u003E tasks",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is C. REQ -\u0026gt; RITM -\u0026gt; tasks."
+  }
+]

@@ -1,0 +1,1370 @@
+[
+  {
+    "Text": "Which of the following formatters is used to display the different stages in a linear process flow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "None of the listed answers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approval summarizer formatter",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process flow formatter",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Parent breadcrumbs formatter",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The process flow formatter provides a graphical summary of the stages in a process. The formatter is typically shown at the top of forms that are part of a process. Check this article for more details: https://docs.servicenow.com/bundle/utah-platform-administration/page/administer/form-administration/reference/r_ProcessFlowFormatter.html"
+  },
+  {
+    "Text": "You need to create a new field in a table. What is the field type that you should use if your field will contain letters, numbers, and special characters?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Text",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Text Box",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "String",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "For 255 characters or less, the string field is a single-line text field. Anything 256 characters or over appears as a multi-line text box. For more details, check this article: https://docs.servicenow.com/bundle/utah-platform-administration/page/administer/reference-pages/reference/r_FieldTypes.html"
+  },
+  {
+    "Text": "Which of the following can be used to define conditions that determine which users can create, read, write and retire knowledge base article?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Knowledge Roles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Criteria",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Article Permissions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "KB Permissions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "HR Criteria",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable option for defining user permissions related to creating, reading, writing, and retiring knowledge base (KB) articles in ServiceNow is:"
+  },
+  {
+    "Text": "Roles can be assigned to groups but they cannot be assigned to individual users",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Roles can be assigned to groups or users, however, it is considered a best practice to assign roles to groups rather than individual users"
+  },
+  {
+    "Text": "Which table is used to store CI relationship data?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "ci_relation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmdb_ci_rel",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmdb_relation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ci_rel",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "cmdb_rel_ci",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most likely table used to store CI relationship data in ServiceNow is cmdb_rel_ci ."
+  },
+  {
+    "Text": "What is a configuration Item?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Any record that refers to configuration or settings",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Any component that needs to be managed in order to deliver services",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Any configuration record that determines the behavior of the database",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Any component in ServiceNow is considered a configuration item",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A configuration item (CI) in ServiceNow is:"
+  },
+  {
+    "Text": "Which of the following statements best explains the difference between Work Notes and Additional Comments?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Work Notes are only available to fulfillers whereas Additional Comments are only available to customers/external users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Additional Comments are only available to fulfillers whereas Work Notes are available to both fulfillers and customers/external users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Work Notes are only available to fulfillers whereas Additional Comments are available to both fulfillers and customers/external users",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Work Notes are stored in the activity history whereas Additional Comments are not",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Additional Comments are stored in the activity history whereas Work Notes are not",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The key distinction between Work Notes and Additional Comments lies in their visibility:"
+  },
+  {
+    "Text": "Which of the following knowledge base workflows immediately retires an article without needing an approval?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Knowledge - Retire Knowledge",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge - Retire Article",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge - Direct Retire",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge - Instant Retire",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most likely workflow in ServiceNow that immediately retires an article without needing approval is:"
+  },
+  {
+    "Text": "By default, what is the maximum number of activities displayed in the history tab of the application navigator?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "50",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "100",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "124",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "40",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "30",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "By default, the maximum number of activities displayed in the history tab of the application navigator is 30. Administrators can configure this setting in the system properties table (sys_properties.list) by modifying the value in the glide.ui.nav.history_length property."
+  },
+  {
+    "Text": "You need to add a button to one of your forms. Which of the following should you use?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Action",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Button",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable option for adding a button to a form in ServiceNow is a UI Action ."
+  },
+  {
+    "Text": "Which of the following UI Actions is useful if you would like to apply the \"Save As\" functionality?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Submit",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Save",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Insert",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Insert UI Action is one such action that can be used to implement a \"Save As\" functionality. This action creates a new record using the current record\u0026#8216;s data, which is similar to a \"Save As\" operation in many software applications."
+  },
+  {
+    "Text": "Which table is used to store groups data?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "user_group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_user_group",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "sys_user_group is the table used to store groups. Please check this article for more details: https://docs.servicenow.com/en-US/bundle/vancouver-platform-administration/page/administer/users-and-groups/concept/c_Groups.html"
+  },
+  {
+    "Text": "Which of the following statements is NOT true regarding configuration items",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Software applications and business services are considered configuration items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Configuration items can be tangible or intangible",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Relationship can be built between configuration items",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CMDB consists of a static list of configuration items",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "CMDB is NOT a static list. It tracks CI\u0026#8216;s within your platform and also it tracks the relationships between them"
+  },
+  {
+    "Text": "You are importing data from an excel sheet into the Incident table. The Incident table already contains data. You want to make sure that the import doesn\u0026#8216;t result in duplicate records. What should you do?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Uncheck the \"Allow Duplicates\" checkbox in the Transform Map form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "In the Transform Map form, add a new record in the Compare related list to specify the comparison with Title column",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Set the coalesce to Title field",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Add a business rule to run after insertion. The business rule should delete the inserted record if it is a duplicate",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The best option to prevent duplicate records during the import is:"
+  },
+  {
+    "Text": "If a session requests access to data in a certain table, what happens if the user passes the table ACL rule but fails the field rule?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The user will be granted access to the table but won\u0026#8216;t see the field which he doesn\u0026#8216;t have access to",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "None of the listed answers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The user is denied access to the entire table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The user is granted access to the entire table because the table ACL rule will override the field ACL rule",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: The user will be granted access to the table but won\u0026#8216;t see the field which he doesn\u0026#8216;t have access to."
+  },
+  {
+    "Text": "Which of the following features helps users see reasonable relationships between configuration items?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "CI Relationship Wizard",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CMDB Relationship Assistant",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI Relationship Editor",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CMDB Relationship Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "CI Relationship Assistant",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable feature for visualizing relationships between configuration items (CIs) in ServiceNow is:"
+  },
+  {
+    "Text": "The Import Set Table acts as a staging table, but the data will eventually be stored somewhere else",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "If you are importing data from an excel file to Incident table, they will first be saved in a staging table (the Import Set table) and then they will go to the Incident table"
+  },
+  {
+    "Text": "Which of the following can be used to automate business logic for a particular process such as approvals, tasks, notifications, etc\u0026#8230;",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Logic Builder",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Process Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Logic Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Flow Designer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Approvals Flow",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable option for automating business logic for processes involving approvals, tasks, notifications, etc. in ServiceNow is:"
+  },
+  {
+    "Text": "You are importing data. Which of the following statements best describes what happens when a set of fields are coalesced?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "If a match is found using the coalesce fields, the system creates a new record based on the information being imported",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "If a match is not found using the coalesce fields, the system does not create a Transform Map",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "If a match is found using the coalesce fields, no record is created but rather the existing record is updated with the information being imported",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "If a match is NOT found using the coalesce fields, no record is created but rather the existing record is updated with the information being imported",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Coalescing a field (or multiple fields) means the field will be used as a unique key during imports. If a match is found using the coalesce field(s), the existing record will be updated with the information being imported. If a match is not found using the coalesce field(s), then a new record will be inserted into the database."
+  },
+  {
+    "Text": "Which of the following should you use to search for information across applications and records?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Filter Navigator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Portal Search",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Base Search",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Global Search",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most comprehensive tool for searching across applications and records in ServiceNow is:"
+  },
+  {
+    "Text": "Which of the following are valid data sources for import sets? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "JDBC",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "XML Files",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "HTTP",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "CSV Files",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Excel files",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "All the valid data sources for import sets in ServiceNow:"
+  },
+  {
+    "Text": "Having an up-to-date CMDB has a lot of benefits. Which of the following is NOT a benefit one of them?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Facilitating quick analysis of change impact",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Locating failed changes and associated incidents",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Helping in reducing the downtime",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Automatically resolving incidents",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "An up-to-date CMDB offers numerous advantages, but one benefit it doesn\u0026#8216;t directly provide is:"
+  },
+  {
+    "Text": "What is common way of testing functionality for different roles?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Private account",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Elevate Roles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Impersonate user",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Escalated Privileges",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. Please check this article for more details: https://docs.servicenow.com/bundle/utah-platform-administration/page/administer/users-and-groups/concept/c_ImpersonateAUser.html"
+  },
+  {
+    "Text": "Which of the following is an example of knowledge base contextual search?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "In the service portal, you can search for articles using the search text box",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "When viewing a knowledge base article, it will show you similar articles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "None of the listed answers",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "When creating an incident, it will suggest relevant articles",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most appropriate example of knowledge base contextual search among the choices is:"
+  },
+  {
+    "Text": "Which of the following statements is correct regarding fulfiller and approver users?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Fulfiller users only have the approver_user role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Fulfiller users only have the itil role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approver users have the itil and approver_user roles",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Approver users only have the approver_user role",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Fulfiller users have the itil and approver_user roles",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct statement is:"
+  },
+  {
+    "Text": "Which of the following statements is most accurate when it comes to how the system evaluates ACLs when a session requests accessing a record?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "A user must pass both table and field ACL rules to access a record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A user must at least pass the table ACL rule to access the record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A user must pass either the table or the field ACL rules to access the record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A user must at least pass the field ACL rule to access the record",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most accurate statement is:"
+  },
+  {
+    "Text": "Which one of the following statements is correct regarding the difference between Save button and Update button?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Save applies the input validations before saving the record while Update skips the input validations",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Save allows the user to remain on the same record while Update returns the user to the previously viewed record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Update allows the user to remain on the same record while Save returns the user to the previously viewed record",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Save is used to insert new records while Update is used to update existing records",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct statement is: Save is used to insert new records while Update is used to update existing records."
+  },
+  {
+    "Text": "What does the wildcard \u201C*abc\u201C mean?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It will retrieve all results that contain \u201Cabc\u201C",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It will retrieve all results that are exactly \u201Cabc\u201C",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It will retrieve all results that start with \u201Cabc\u201C",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It will retrieve all results that end with \u201Cabc\u201C",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is It will retrieve all results that end with \u201Cabc\u201C."
+  },
+  {
+    "Text": "If you need to display information in a form that is not a field in the record, what element should you add?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Reference Field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Related Field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Formatter",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Reference",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A formatter is a form element used to display information that is not a field in the record.The formatter provides an easy way to track items not saved with a field in the record, for example, journal fields like comments and work notes. Formatter Examples: Activity formatter, Process flow formatter, Parent breadcrumbs formatter, Approver summarizer formatter, and CI relations formatter."
+  },
+  {
+    "Text": "Which form of storage is used to store data in ServiceNow?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Flat-file database",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Relational database",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "No-Sql database",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Binary files",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The primary form of storage used to store data in ServiceNow is a relational database."
+  },
+  {
+    "Text": "____________ delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the Now Platform.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Workspace",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Employee Service Center",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Service Portal",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The Next Experience UI",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The Next Experience UI delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the Now Platform. The UI unifies your instance apps and reduces clicks to access the items you need to get working. Check this article for more details: https://docs.servicenow.com/bundle/vancouver-platform-user-interface/page/get-started/servicenow-overview/concept/next-experience-landing-page.html"
+  },
+  {
+    "Text": "What is the minimum role needed to create import sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "itil",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "security_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "import_admin",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The minimum role needed to create import sets in ServiceNow is import_admin."
+  },
+  {
+    "Text": "Each organization receives one instance (production) and they have the option to obtain 2 other instances for development and testing",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Each organization receives 2 instances (production and sub-production). They have the ability to obtain an additional sub-production instance"
+  },
+  {
+    "Text": "Which table can be used to modify the configuration related to the maximum number of activities displayed in the history tab of the application navigator?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_configuration",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_properties",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_system",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_config",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "By default, the maximum number of activities displayed in the history tab of the application navigator is 30. Administrators can configure this setting in the system properties table (sys_properties.list) by modifying the value in the glide.ui.nav.history_length property."
+  },
+  {
+    "Text": "In ServiceNow Explorer, you need to see a list of files that comprise your application. Which of the following should you use?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "File Explorer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Source Code Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Studio Manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Studio Explorer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Explorer",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "you should use Application Explorer to see a list of files that comprise your application, not Studio Explorer."
+  },
+  {
+    "Text": "Which table is used to store users data?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_user",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "user",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "users",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "system_user",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Table \"sys_user\" is used to store users. There are no tables in ServiceNow with names system_user, user, or users"
+  },
+  {
+    "Text": "UI Policies execute on the client side",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI policies dynamically change the behavior of information on a form and control custom process flows for tasks. Any scripts you create for UI policies run on the client side."
+  },
+  {
+    "Text": "Every record is identified by a 32-character, globally unique ID, which is called _______",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "number",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "id",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_id",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "rec_id",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_num",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "unique_id",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Each record in the instance is identified by a unique 32-character GUID (Globally Unique ID) called a Sys ID (sys_id). The same sys_id value is never generated twice, which ensures that every record created in every table in every instance in the world has a unique identifier."
+  },
+  {
+    "Text": "Which of the following roles is the minimum role required to be able to access My Work and My Group Work modules?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "itil_admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "admin",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "itil",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "problem_manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "fulfiller",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The minimum role required to access My Work and My Group Work modules in ServiceNow is itil."
+  },
+  {
+    "Text": "In ServiceNow fulfillment view, in which part of the screen do the forms get displayed?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Banner Frame",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Frame",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Navigator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Content Frame",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Content frame displays information such as lists, forms, homepages, and wizards. For more information, check: https://docs.servicenow.com/bundle/utah-platform-user-interface/page/administer/navigation-and-ui/concept/c_UI16.html"
+  },
+  {
+    "Text": "Which of the following roles is required to manage more than one knowledge base?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "kb_manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "kb_controller",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "knowledge_admin",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "knowledge_manager",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "kb_admin",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Knowledge administrators can create new knowledge bases and manage all knowledge bases. Knowledge managers perform administrative functions for knowledge bases they manage such as defining categories, pinning important articles, and approving changes to articles. The other roles don\u0026#8216;t exist."
+  },
+  {
+    "Text": "Which of the following statements best describes the function of \"My Groups Work\" module?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "List of all active tasks assigned to one of my groups",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List of all active tasks assigned to one of my groups but the \"assigned to\" is empty",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "List of approval requests assigned to one of my groups",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List of incidents assigned to one of my groups",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The \"My Groups Work\" module in ServiceNow displays a list of all active tasks assigned to one of your groups but where the \u0026#8216;assigned to\u0026#8216; field is empty."
+  },
+  {
+    "Text": "How to show the visual task board view for tasks list?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Click on the gear icon in the top banner and select the checkbox \"Show Visual Task Board\"",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Right-click on the list header and select \"Show Visual Task Board\"",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Click on the gear icon in the tasks list and select the checkbox \"Show Visual Task Board\"",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Right-click on any of the columns and select \"Show Visual Task Board\"",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Visual Task Boards (VTB) transform the navigation of lists and forms into an interactive graphical experience. In order to manage a list of tasks visually using BTB, navigate to the list and then right-click on any of the columns and select \"Show Visual Task Board\""
+  },
+  {
+    "Text": "UI Policy is applied on all data input no matter what the channel is, including web form, import sets, \u0026#8230;etc",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "UI Policy (as opposed to Data Policy) is only applied to data entered in the web form"
+  },
+  {
+    "Text": "In the context of importing data, what does it mean when you specify a field as a coalesce?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The field will be considered the display field for the target table",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The field will be ignored when importing data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The imported data will be sorted on this field",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "The field will be used as a unique key during imports",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "When you specify a field as a coalesce in the context of importing data in ServiceNow, it means the field will be used as a unique key during imports."
+  },
+  {
+    "Text": "Which technique is used to access information from referenced fields from related tables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Dot Walking",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Dot navigation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Field navigator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table Walking",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Dot-Walking gathers information from a series of tables through reference fields. If the current table contains a reference to another table, any field on the referenced table can be accessed using dot-walking. Dot-walking references a field by building a chain of field names separated by dots (periods). For instance, incident.assigned_to.company references the company of the user assigned to an incident. The recommended limit for chain length is three levels."
+  },
+  {
+    "Text": "Which of the following can be used to integrate flow designer with other instances and 3rd party applications?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Application Link",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Connector",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Mid Server",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Integration Hub",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Integration Hub enables execution of third-party APIs as a part of a flow when a specific event occurs in ServiceNow. These integrations, referred to as spokes, are easy to configure and enable you to quickly add powerful actions without the need to write a script. For example, you can post a message and incident details in a Slack channel when a high priority incident is created. The MID Server is a different thing. It facilitates communication and movement of data between the platform and external applications, data sources, and services. It is not about integration between ServiceNow and other systems."
+  },
+  {
+    "Text": "Which of the following can be useful if you want to restrict certain users from executing scripts on a tables?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Client Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "ACL",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most effective option to restrict users from executing scripts on tables in ServiceNow is an ACL (Access Control List)."
+  },
+  {
+    "Text": "Which of the following is useful when your users need to order more than one item together?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Order Guide",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Variable",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record Producer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Catalog Item",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Order guide submits a single service catalog request that generates several items. For example, a New Employee Hire order guide can contain several items that new employees commonly need, such as business cards, computer, and cell phone. Record producers are used to generate records in tables. Catalog items allow the user to request only one item whereas the order guide can contain multiple items. A variable is a field within the catalog item or record producer."
+  },
+  {
+    "Text": "Which of the following is useful if you have a set of fields that needs to be used in multiple record producers?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User Control",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Fields Set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Variable Set",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Fields Container",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Variables Container",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The most suitable option if you have a set of fields that needs to be used in multiple record producers is a Variable Set."
+  },
+  {
+    "Text": "Which of the following are supported types of client scripts? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "onChange",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onLoad",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onClick",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onAction",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onCellEdit",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onMouseOver",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Here are the supported types of client scripts in ServiceNow:"
+  },
+  {
+    "Text": "Every user can be added to only one group.",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "False",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A user can be added to multiple groups and he/she will inherit all the roles in all the groups"
+  },
+  {
+    "Text": "Which section in the task form shows the full history of updates and comments made on the task?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Archive",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Updates List",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Activity",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Notes",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "History",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "This data is available in the Activity section. The activity section itself is in the Notes tab. (the question is about the section not the tab)"
+  },
+  {
+    "Text": "ServiceNow instance can be hosted on the cloud or on-premises",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "True",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "ServiceNow is cloud-based, however, under certain conditions, it is also possible to host it on-premises"
+  },
+  {
+    "Text": "Which of the following is captured in update sets? (select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Client Scripts",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Business Rules",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Modified Data Records",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "New Data Records",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Fields",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Update sets in ServiceNow capture several elements related to application customizations, and here\u0026#8216;s a breakdown of what gets included:"
+  },
+  {
+    "Text": "What is the Task table name?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "system_task",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "task",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_request",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Task [task] is one of the core tables provided with the base system. Check this article for more details: https://docs.servicenow.com/bundle/utah-application-development/page/administer/task-table/concept/c_TaskTable.html"
+  }
+]

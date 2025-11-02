@@ -1,0 +1,1182 @@
+[
+  {
+    "Text": "What module in the Service Catalog application does an Administrator access to begin creating a new item?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Maintain Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Maintain Categories",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Content Items",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Maintain Items"
+  },
+  {
+    "Text": "Which is true regarding Knowledge Base ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "In a Knowledge base, articles are grouped according to categories.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "In a Knowledge base, articles are grouped according to users who created them.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "In a Knowledge base, articles are grouped according to approval dates.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "In a Knowledge base, articles are grouped according to their created dates.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. In a Knowledge base, articles are grouped according to categories."
+  },
+  {
+    "Text": "Which of the following statement is TRUE about sys_dictionary?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_dictionary is a table where all the details about the fields are stored",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "sys_dictionary is a field and used for make field mandatory",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. sys_dictionary is a table where all the details about the fields are stored"
+  },
+  {
+    "Text": "Which of the below are \u0022ServiceNow release cycle\u0022 types ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System import sets \u003E load data",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "One record stored in the sys_user_group table; and, it\u0027s a collection of users who share a common purpose",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Enables admins to set mandatory and read only states for fields and can enforce data consistency across applications. You can set import data as read only. e.x - user info",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Feature release, patch release and hot fix",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is: D. Feature release, patch release and hot fix"
+  },
+  {
+    "Text": "To generate task based records through service request which is the correct option below ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Action",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record producer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business Rule",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A Record Producer is correct because it allows users to create task-based records through a service request. A Record Producer is essentially a form within ServiceNow that offers an alternative way to create records for a specific table. Users can complete the form to generate incident records, change requests, and so on, directly from the service catalog."
+  },
+  {
+    "Text": "Which of the following are a type of client scripts supported in ServiceNow ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "onLoad",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onSubmit",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onCellEdit",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onUpdate",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "onChange",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "onSave",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Correct Options"
+  },
+  {
+    "Text": "You will see a text area widget where you can add conditional expressions to your ACL. It is known as ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Content Frame",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Conditional Expressions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "SLA Condition Evaluation",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Conditional Expressions"
+  },
+  {
+    "Text": "Which of the following is true ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "System tables cannot be deleted",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "When moved from left to right slush bucket, referance fields get deleted",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Deleted system tables will be created again during an instance upgrade",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. System tables cannot be deleted"
+  },
+  {
+    "Text": "If the system administrator wants to modify the homepage, which of the following links on the page\nindicates that this can be done ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Add Context",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Change Layout",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Make Gauge",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Change Layout"
+  },
+  {
+    "Text": "Out of the below listed applications, which will not run natively on smartphones ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Self-Service",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflow",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Catalog",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Workflow"
+  },
+  {
+    "Text": "The baseline Service Catalog homepage contains links to which of the following components ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Record Producers, Order Guides, and Catalog Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Order Guides, Catalog Items, and Workflows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guides, Item Variables, and Workflows",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record Producers, Order Guides, and Item Variables",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct option is A. Record Producers, Order Guides, and Catalog Items because the baseline Service Catalog homepage is designed to provide users with the primary interface for ordering items within the catalog. Here's a brief explanation of each component:"
+  },
+  {
+    "Text": "In a workflow, what is the workflow timeline ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Defines unique key for record. If record found, import will update the record. If not found, import will create a new record.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Shows the progress of a workflow. It provides a complete time-based display of activities associated with workflow context.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "An automation block such as approvals, conditions, notifications, tasks, timers and utilities",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. Shows the progress of a workflow. It provides a complete time-based display of activities associated with workflow context."
+  },
+  {
+    "Text": "What does a request number in Service Catalog represent ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "It represents the order number",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "It represents the individual item in the order.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "It represents the task to complete.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. It represents the order number"
+  },
+  {
+    "Text": "Which of the following concepts are associated with the ServiceNow CMDB ? (Choose four.)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "User Permissions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Tables and Fields",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "The Dependency View",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "A Database",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Processes",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The correct options are:"
+  },
+  {
+    "Text": "What defines conditions that are evaluated against users to determine which users can access Service Catalog items ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "User Criteria",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Palette Tabs",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. User Criteria"
+  },
+  {
+    "Text": "An outbound SOAP message is defined. Which function can invoke the SOAP message ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Action",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. UI Action"
+  },
+  {
+    "Text": "Which of the following is used to initiate a flow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "An Event",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "A spoke",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Trigger",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Core Action",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A. An Event"
+  },
+  {
+    "Text": "Which table defines what conditions trigger an SLA ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "contract_sla",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "task_sla",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sla_condition_class_list",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Which tables captures information related to workflow versions ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "wf_workflow_version",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "wf_workflow_versions",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "wf_workflow table",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A. wf_workflow_version"
+  },
+  {
+    "Text": "Which one of the following statements describes the contents of the Configuration Management Database (CMDB) ?\nA.\u00A0The CMDB contains data about tangible and intangible business assets\nB.\u00A0The CMDB contains the Business Rules that direct the intangible, configurable assets used by a company\nC.\u00A0The CMDB archives all Service Management PaaS equipment metadata and usage statistics\nD.\u00A0The CMDB contains ITIL process data pertaining to configuration items",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Statement B",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Statement D",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Statement C",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Statement A",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "A. The CMDB contains data about tangible and intangible business assets"
+  },
+  {
+    "Text": "On any ServiceNow instance, which of the following allows a user to edit field values in a list without opening the form ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "List Editor",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Data Editor",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Form Designer",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Edit Menu",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "The correct answer is:"
+  },
+  {
+    "Text": "Which of the following can be performed by inbound email action ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Create or update task record",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Validate a form",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Create or update task record"
+  },
+  {
+    "Text": "Which of the following can be customized through the Basic Configuration UI 16 module? (Choose three.)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Browser Tab Title",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Banner Image",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "System Date Format",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Form Header Size",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record Number Format",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Browser Tab Title"
+  },
+  {
+    "Text": "Which of the following statement describes the purpose of an Order Guide in ServiceNow platform ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Order Guide provide the ability to order multiple, related items as one request",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Order Guide provide a list of guidelines for Administrators on how to set up item variables",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Order Guides restrict the number of items in an order to only one item per request",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Order Guide provide the ability to order multiple, related items as one request"
+  },
+  {
+    "Text": "Regarding update sets, Customer updates/payload is stored in _ table",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_customer_update",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "update_set",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_update_xml",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. sys_update_xml"
+  },
+  {
+    "Text": "Which one of the following is true characteristics for workflows in service catalog ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "The start \u0026 end activities in workflows can be changed.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflows can have a maximum of five rounds of approval actions.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Only one rollback activities is allowed in a workflow",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Workflows can have a multiple rounds of approval actions.",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Workflows can have a multiple rounds of approval actions."
+  },
+  {
+    "Text": "What are the UI components of a homepage ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Banner, Content pane and Application Navigator",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Banner, Content pane, Header and Application Navigator",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Banner, Content pane, Header, Footer and Application Navigator",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Which of the following contains tabs for accessing workflows that are being edited or created ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Transition",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Many to Many",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Canvas Tabs",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Select Box",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Canvas Tabs"
+  },
+  {
+    "Text": "What defines how departments work together to meet the service level requirements documented in an SLA ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Operational Level Agreement (OLA)",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Service Level Agreement (SLA)",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Underpinning Contract (UC)",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Operational Level Agreement (OLA)"
+  },
+  {
+    "Text": "Button, Related Links and Context Menu are part of ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Form",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Action",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Client script",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Page",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. UI Action"
+  },
+  {
+    "Text": "Is it true that all users can manage and setup import sets ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "FALSE"
+  },
+  {
+    "Text": "What are two of the settings that can be made in the contextual security manager ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Ability to disable applications and to set the maximum notification size.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Ability to change release dates and manage group personnel.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Ability to specify the attachment file types.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Ability to set the maximum attachment size.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Ability to change release dates and restrict automatic notifications.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Ability to disable applications and to set the maximum notification size"
+  },
+  {
+    "Text": "Variable sets can be used in which of the below options ? Choose all that apply.",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Record Producer",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Order Guides",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Catalog Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incidents",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Answer: A. Record Producer, B. Order Guides, and C. Catalog Items"
+  },
+  {
+    "Text": "How to differentiate SLA, OLA and underpinning contracts based on which options below ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "sys_id",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "configuration item",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "meta-type",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Type",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: D. Type"
+  },
+  {
+    "Text": "In SLA, a \u0022retroactive start\u0022 allows setting the start time to a time from an earlier event ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE"
+  },
+  {
+    "Text": "What details does a knowledge article hold ? (Select all that apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Troubleshooting tips",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Known errors",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "All of the above",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "User Solutions",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "User information",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "A. Troubleshooting tips"
+  },
+  {
+    "Text": "What are the 3 components of the Now Platform User Interface ?",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Module",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Application Navigator",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Banner Frame",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Content Frame",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The 3 main components of the Now Platform User Interface are:"
+  },
+  {
+    "Text": "Which of the following belongs to Service Catalog",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Variables",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Catalog Items",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Change tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Record Producers",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Correct Options:"
+  },
+  {
+    "Text": "Which module displays a list of tasks assigned to a user\u2019s group, but not yet assigned to an individual user ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "My Teams Tasks",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "My Teams Work",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "My Groups Work",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "My Groups Tasks",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. My Groups Work"
+  },
+  {
+    "Text": "A variable set can be used in multiple catalog Items",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. TRUE"
+  },
+  {
+    "Text": "How to make a field mandatory at data base level, before updating or inserting ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client Scripts",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Data Policy",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Data Policy"
+  },
+  {
+    "Text": "Which of the following statement is TRUE for a field on an audited table?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Add \u0022no_audit = true\u0022 to attribute for exclude from auditing",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Add \u0022no_audit = 0\u0022 to attribute for exclude from auditing",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Add \"no_audit = true\" to attribute for exclude from auditing"
+  },
+  {
+    "Text": "SLA, OLA and UC are related to ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Service Level Management",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Incident Management",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Knowledge Base",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Home Page",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Service Level Management"
+  },
+  {
+    "Text": "_ application menu has the details about the upgrades in the system",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Upgrade History",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Documentation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Upgrades",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "History",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. Upgrade History"
+  },
+  {
+    "Text": "By default in ServiceNow, what customization's are added to Update Sets?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Changes made to a schedule.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Changes made to data.",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Changes made to a form.",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Changes made to a homepage.",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. Changes made to a form."
+  },
+  {
+    "Text": "What are the ways to Create CMDB data",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Discovery",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Help the Help Desk",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Import Set",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Manual",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "The correct options for creating CMDB data are:"
+  },
+  {
+    "Text": "Server side scripting is used in which of the following ? (Select all that Apply)",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Script include",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "UI Policy",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Client sript",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Business rule",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Correct Options:"
+  },
+  {
+    "Text": "Which would NOT appear in the History section of the Application navigator ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Records",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Lists",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "UI Pages",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. UI Pages"
+  },
+  {
+    "Text": "Which of the following are captured in update set",
+    "QuestionType": "multiple",
+    "Answers": [
+      {
+        "Text": "Group Creation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Incident Creation",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Table Creation",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Field Creation",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "multiple",
+    "wpProQuiz_correct": "Answer: C. Table Creation and D. Field Creation"
+  },
+  {
+    "Text": "Where will a user find option to edit a list in ServiceNow ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "Grid control",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "List control",
+        "IsCorrect": 1
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: B. List control"
+  },
+  {
+    "Text": "Personlizing a list for an individual user will not affect other users list layout",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "TRUE",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "FALSE",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "TRUE"
+  },
+  {
+    "Text": "Groups are stored in which table",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "user_group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_user_group",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "group",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "sys_group",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Correct Option:"
+  },
+  {
+    "Text": "Which one statement correctly describes Access Control rule evaluation ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "If more than one rule applies to a row, the older rule is evaluated first",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "Rules are evaluated using roles. The role with the most permissions evaluates the rules first",
+        "IsCorrect": 0
+      },
+      {
+        "Text": "If a row level rule and a field level rule exist, both rules must be true before an operation is allowed",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "Rules are evaluated from the general to the specific, so a table rule must be active to continue",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: C. If a row level rule and a field level rule exist, both rules must be true before an operation is allowed"
+  },
+  {
+    "Text": "Knowledge process consists of which of the below components ?",
+    "QuestionType": "single",
+    "Answers": [
+      {
+        "Text": "document creation, approval and review from SMEs and publishing",
+        "IsCorrect": 1
+      },
+      {
+        "Text": "document creation, approval and review from SMEs",
+        "IsCorrect": 0
+      }
+    ],
+    "JsonType": "single",
+    "wpProQuiz_correct": "Answer: A. document creation, approval and review from SMEs and publishing"
+  }
+]

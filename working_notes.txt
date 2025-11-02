@@ -1,0 +1,24 @@
+private void PopulateQuestionsFileComboBox()
+{
+    var directory = GetQuestionsDirectory();
+    Console.WriteLine($"[DEBUG] Looking in: {directory}");
+    if (Directory.Exists(directory))
+    {
+        var files = Directory.GetFiles(directory, "questions_output_*.json")
+                             .OrderBy(f => f)
+                             .ToList();
+        Console.WriteLine("[DEBUG] Found files:");
+        foreach (var f in files) Console.WriteLine(f);
+
+        QuestionsFileComboBox.ItemsSource = files;
+        if (files.Count > 0)
+        {
+            QuestionsFileComboBox.SelectedIndex = 0;
+            selectedQuestionsFile = files[0];
+        }
+    }
+    else
+    {
+        Console.WriteLine($"[DEBUG] Directory does not exist: {directory}");
+    }
+}
